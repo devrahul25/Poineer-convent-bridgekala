@@ -1,6 +1,6 @@
 @extends($layout, ['body_class' => 'page index-sc'])
 @section('content')
-    @include($header . 'header-sc')
+    @include($header . 'header-three')
 
     @include($elements . 'breadcrumb-sc', [
         'class' => 'sc__version sc__breadcrumb',

@@ -1,6 +1,6 @@
 @extends($layout)
 @section('content')
-    @include($header . 'transparent-header-v5')
+    @include($header . 'header-three')
     <!-- banner area -->
     <div class="banner v__5">
         <div class="banner__left__side__content">

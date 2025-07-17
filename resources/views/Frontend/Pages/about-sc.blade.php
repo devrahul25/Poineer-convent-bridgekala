@@ -1,6 +1,6 @@
 @extends($layout, ['body_class' => 'page index-sc'])
 @section('content')
-    @include($header . 'header-sc')
+    @include($header . 'header-three')
 
     <div class="container pt--90 pb--50">
         <div class="row">

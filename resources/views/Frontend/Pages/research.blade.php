@@ -6,7 +6,7 @@
 ?>
 @extends($layout)
 @section('content')
-    @include($header . 'transparent-header-v5', ['class' => 'rt-border-bottom'])
+    @include($header . 'header-three', ['class' => 'rt-border-bottom'])
 
         
     <!-- campus life -->

@@ -2,7 +2,7 @@
 
 @section('content')
 
-    @include($header . 'transparent-header')
+    @include($header . 'header-three')
 
     <!-- hero slider start -->
     <div class="rts-hero-slider rt-relative v_2">

@@ -53,4 +53,5 @@ Route::controller(PageController::class)->group(function (){
     Route::get('faculty-sub', 'facultySub')->name('faculty-sub');
     Route::get('faculty', 'faculty')->name('faculty');
     Route::get('tution-fee', 'tutionFee')->name('tution-fee');
+    Route::get('campus-life-sc', 'campusLife')->name('campus-life-sc');
 });

@@ -1,6 +1,6 @@
 @extends($layout)
 @section('content')
-    @include($header . 'transparent-header-v5')
+    @include($header . 'header-three')
     @include($elements . 'breadcrumb', [
         'class' => 'breadcrumb-height breadcumb-bg breadcrumb-height-full',
         'image' => 'breadcrumb-2.jpg')}}',

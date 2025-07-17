@@ -2,7 +2,7 @@
 
 @section('content')
 
-    @include($header . 'header-two')
+    @include($header . 'header-three')
 
     <!-- header banner -->
     <div class="banner v__2">

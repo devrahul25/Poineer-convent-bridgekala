@@ -43,7 +43,7 @@
                                                     </ul>
                                                 </li> --}}
                                                 <li><a href="{{ route('index-three') }}">Principal's Desk</a></li>
-                                                <li><a href="{{ route('index-three') }}">School Overview</a></li>
+                                                <li><a href="{{ route('campus-life') }}">School Overview</a></li>
                                             </ul>
                                         </li>
                                         <li class="navigation__menu--item has-child has-arrow">
@@ -84,7 +84,7 @@
                         </div>
                         <!-- menu left side end -->
                         <div style="display:flex; align-item:center; justify-content:center" class="header__logo">
-                            <a style="width:50%;" href="{{ route('index') }}" class="header__logo--link">
+                            <a style="width:50%;" href="{{ route('index-three') }}" class="header__logo--link">
                                 <img src="{{ asset('assets/images/logo/logo.png') }}" alt="unipix">
                             </a>
                         </div>

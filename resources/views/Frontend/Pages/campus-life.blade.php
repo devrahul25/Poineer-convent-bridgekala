@@ -1,7 +1,7 @@
 @extends($layout)
 @section('content')
-    @include($header . 'transparent-header-v5', ['class' => 'rt-border-bottom'])
-        
+    @include($header . 'header-three', ['class' => 'rt-border-bottom'])
+
     <!-- campus life -->
     <div class="rts-campus-life rts-section-padding">
         <div class="container">
@@ -14,7 +14,7 @@
                             accomplished people from around the world.
                         </p>
                         <div class="campus-video">
-                            <img src="{{asset('assets/images/campus/video-bg.jpg')}}" alt="">
+                            <img src="{{ asset('assets/images/campus/video-bg.jpg') }}" alt="">
                         </div>
                     </div>
                 </div>
@@ -62,11 +62,12 @@
                     <div class="single-item">
                         <div class="single-item__content">
                             <div class="single-item__image">
-                                <img src="{{asset('assets/images/campus/01.jpg')}}" alt="item-image">
+                                <img src="{{ asset('assets/images/campus/01.jpg') }}" alt="item-image">
                             </div>
                             <div class="single-item__meta">
                                 <h5 class="item-title"><a href="#">Student Affairs</a></h5>
-                                <p class="item-description">Comprising more than 25 offices &amp; centers, Student Affairs provides a broad of this services.</p>
+                                <p class="item-description">Comprising more than 25 offices &amp; centers, Student Affairs
+                                    provides a broad of this services.</p>
                             </div>
                         </div>
                     </div>
@@ -77,11 +78,12 @@
                     <div class="single-item">
                         <div class="single-item__content">
                             <div class="single-item__image">
-                                <img src="{{asset('assets/images/campus/02.jpg')}}" alt="item-image">
+                                <img src="{{ asset('assets/images/campus/02.jpg') }}" alt="item-image">
                             </div>
                             <div class="single-item__meta">
                                 <h5 class="item-title"><a href="#">Housing &amp; Dining</a></h5>
-                                <p class="item-description">Nearly all undergraduates and more than 65% graduate students reside in 81 merit undergraduate</p>
+                                <p class="item-description">Nearly all undergraduates and more than 65% graduate students
+                                    reside in 81 merit undergraduate</p>
                             </div>
                         </div>
                     </div>
@@ -92,11 +94,12 @@
                     <div class="single-item">
                         <div class="single-item__content">
                             <div class="single-item__image">
-                                <img src="{{asset('assets/images/campus/03.jpg')}}" alt="item-image">
+                                <img src="{{ asset('assets/images/campus/03.jpg') }}" alt="item-image">
                             </div>
                             <div class="single-item__meta">
                                 <h5 class="item-title"><a href="#">Engagement &amp; Diversity</a></h5>
-                                <p class="item-description">Growing up in the Chicago suburbs, Jess found video games to be a rich portal to alternative.</p>
+                                <p class="item-description">Growing up in the Chicago suburbs, Jess found video games to be
+                                    a rich portal to alternative.</p>
                             </div>
                         </div>
                     </div>
@@ -119,11 +122,12 @@
                     <div class="single-item">
                         <div class="single-item__content">
                             <div class="single-item__image">
-                                <img src="{{asset('assets/images/campus/04.jpg')}}" alt="item-image">
+                                <img src="{{ asset('assets/images/campus/04.jpg') }}" alt="item-image">
                             </div>
                             <div class="single-item__meta">
                                 <h5 class="item-title"><a href="#">The Arts at Unipix</a></h5>
-                                <p class="item-description">Stanford has a rich tradition of fostering creativity and the arts, A vibrant campus</p>
+                                <p class="item-description">Stanford has a rich tradition of fostering creativity and the
+                                    arts, A vibrant campus</p>
                             </div>
                         </div>
                     </div>
@@ -134,7 +138,7 @@
                     <div class="single-item">
                         <div class="single-item__content">
                             <div class="single-item__image">
-                                <img src="{{asset('assets/images/campus/05.jpg')}}" alt="item-image">
+                                <img src="{{ asset('assets/images/campus/05.jpg') }}" alt="item-image">
                             </div>
                             <div class="single-item__meta">
                                 <h5 class="item-title"><a href="#">Museums</a></h5>
@@ -149,11 +153,12 @@
                     <div class="single-item">
                         <div class="single-item__content">
                             <div class="single-item__image">
-                                <img src="{{asset('assets/images/campus/06.jpg')}}" alt="item-image">
+                                <img src="{{ asset('assets/images/campus/06.jpg') }}" alt="item-image">
                             </div>
                             <div class="single-item__meta">
                                 <h5 class="item-title"><a href="#">Performing Arts</a></h5>
-                                <p class="item-description">Presents range performances and distinctive performing arts experiences.</p>
+                                <p class="item-description">Presents range performances and distinctive performing arts
+                                    experiences.</p>
                             </div>
                         </div>
                     </div>
@@ -177,11 +182,12 @@
                     <div class="single-item">
                         <div class="single-item__content">
                             <div class="single-item__image">
-                                <img src="{{asset('assets/images/campus/07.jpg')}}" alt="item-image">
+                                <img src="{{ asset('assets/images/campus/07.jpg') }}" alt="item-image">
                             </div>
                             <div class="single-item__meta">
                                 <h5 class="item-title"><a href="#">Recreation and Wellness</a></h5>
-                                <p class="item-description">Students, faculty, recreational facilities and wellness programs.</p>
+                                <p class="item-description">Students, faculty, recreational facilities and wellness
+                                    programs.</p>
                             </div>
                         </div>
                     </div>
@@ -192,11 +198,12 @@
                     <div class="single-item">
                         <div class="single-item__content">
                             <div class="single-item__image">
-                                <img src="{{asset('assets/images/campus/08.jpg')}}" alt="item-image">
+                                <img src="{{ asset('assets/images/campus/08.jpg') }}" alt="item-image">
                             </div>
                             <div class="single-item__meta">
                                 <h5 class="item-title"><a href="#">Cardinal Athletics</a></h5>
-                                <p class="item-description">Stanford students compete in 36 varsity sports and 43 club sports.</p>
+                                <p class="item-description">Stanford students compete in 36 varsity sports and 43 club
+                                    sports.</p>
                             </div>
                         </div>
                     </div>
@@ -207,11 +214,12 @@
                     <div class="single-item">
                         <div class="single-item__content">
                             <div class="single-item__image">
-                                <img src="{{asset('assets/images/campus/09.jpg')}}" alt="item-image">
+                                <img src="{{ asset('assets/images/campus/09.jpg') }}" alt="item-image">
                             </div>
                             <div class="single-item__meta">
                                 <h5 class="item-title"><a href="#">BeWell</a></h5>
-                                <p class="item-description">Offers incentives, programs, and activities that promote health and wellness.</p>
+                                <p class="item-description">Offers incentives, programs, and activities that promote health
+                                    and wellness.</p>
                             </div>
                         </div>
                     </div>
@@ -220,6 +228,6 @@
             </div>
         </div>
     </div>
-    
+
     @include($footer . 'footer__default', ['class' => 'v__1'])
 @endsection

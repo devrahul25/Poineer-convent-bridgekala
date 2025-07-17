@@ -3,7 +3,7 @@
 @php $body_class = 'page'; @endphp
 @section('content')
 
-    @include($header . 'transparent-header')
+    @include($header . 'header-three')
     <!-- header banner -->
     <div class="banner v__1">
         <div class="container">

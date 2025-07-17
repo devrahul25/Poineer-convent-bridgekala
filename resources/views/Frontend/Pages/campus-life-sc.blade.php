@@ -1,7 +1,7 @@
 
 @extends($layout, ['body_class' => 'page index-sc'])
 @section('content')
-    @include($header . 'header-sc', ['class' => 'menu__with__bg'])
+    @include($header . 'header-three', ['class' => 'menu__with__bg'])
 
     <!-- campus life -->
     <div class="rts-campus-life rts-section-padding">

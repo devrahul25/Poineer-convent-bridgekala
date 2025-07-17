@@ -1,6 +1,6 @@
 @extends($layout, ['body_class' => 'page index-sc'])
 @section('content')
-    @include($header . 'header-sc')
+    @include($header . 'header-three')
 
     <!-- hero slider start -->
     <div class="rts-hero-slider rt-relative sc">
