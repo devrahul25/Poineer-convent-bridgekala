@@ -67,9 +67,9 @@
                             </div>
                         </div>
                         <!-- menu left side end -->
-                        <div class="header__logo">
-                            <a href="{{ route('index') }}" class="header__logo--link">
-                                <img src="{{asset('assets/images/logo/logo__five.svg')}}" alt="unipix">
+                        <div style="display:flex; align-item:center; justify-content:center" class="header__logo">
+                            <a style="width:50%;"  href="{{ route('index') }}" class="header__logo--link">
+                                <img  src="{{asset('assets/images/logo/logo.png')}}" alt="unipix">
                             </a>
                         </div>
 
