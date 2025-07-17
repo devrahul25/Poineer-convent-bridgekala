@@ -36,7 +36,11 @@
                                                         <li><a class="mobile-menu-link"
                                                                 href="{{ route('faculty-sub-details') }}">Faculty
                                                                 Details</a></li>
+                                                                href="{{ route('faculty-sub-details') }}">Faculty
+                                                                Details</a></li>
                                                         <li><a href="{{ route('faculty') }}">Faculty Staff</a></li>
+                                                        <li class="has-child"><a
+                                                                href="{{ route('faculty-details') }}">Faculty Staff
                                                         <li class="has-child"><a
                                                                 href="{{ route('faculty-details') }}">Faculty Staff
                                                                 details</a></li>
@@ -161,6 +165,7 @@
                             </div>
                             <div id="menu-btn" class="menu__trigger">
                                 <img src="{{ asset('assets/images/icon/menu__bar-3.svg') }}" alt="bar">
+                                <img src="{{ asset('assets/images/icon/menu__bar-3.svg') }}" alt="bar">
                             </div>
                         </div>
                     </div>
@@ -170,3 +175,4 @@
     </div>
 </header>
 <!-- header area end -->
+
