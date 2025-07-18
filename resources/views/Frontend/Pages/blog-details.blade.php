@@ -209,5 +209,6 @@
     </div>
     <!-- blog details end -->
      
-    @include($footer . 'footer-v3', ['class' => 'v__1'])
+   @include($components . 'newsletter', ['class' => 'rts-cta-background'])
+    @include($footer . 'footer-v3', ['class' => 'v_2 pt--100 pb--100', 'cclass' => 'v_1'])
 @endsection
