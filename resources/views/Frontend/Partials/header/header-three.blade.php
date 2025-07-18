@@ -19,7 +19,7 @@
 
                                         <li class="navigation__menu--item has-child">
                                             <a href="{{ route('about') }}"
-                                                class="navigation__menu--item__link">About</a>
+                                                class="navigation__menu--item__link">About Us</a>
                                             <ul class="submenu sub__style">
                                                 <li><a href="{{ route('about') }}">Vision/Mission</a></li>
                                                 <li><a href="{{ route('athletics') }}">Manager's Desk</a></li>
