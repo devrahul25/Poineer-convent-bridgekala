@@ -429,5 +429,5 @@
     <!-- notice details end -->
 
     @include($components . 'newsletter', ['class' => 'rts-cta-background'])
-    @include($footer . 'footer-one', ['class' => 'pt--100 pb--80', 'cclass' => 'v_1'])
+    @include($footer . 'footer-v3', ['class' => 'pt--100 pb--80', 'cclass' => 'v_1'])
 @endsection

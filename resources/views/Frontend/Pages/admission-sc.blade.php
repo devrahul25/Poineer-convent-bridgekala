@@ -268,6 +268,6 @@
     </div>
     <!-- admission page content end -->
 
-    @include($footer . 'footer__v6', ['class' => 'sc'])
+    @include($footer . 'footer-v3', ['class' => 'sc'])
     @include($components . 'offcanvase-sc')
 @endsection

@@ -327,5 +327,5 @@
         </div>
     </div>
 
-    @include($footer . 'footer__default', ['class' => 'v__1'])
+    @include($footer . 'footer-v3', ['class' => 'v__1'])
 @endsection

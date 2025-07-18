@@ -721,5 +721,5 @@
     <!-- blog end -->
 
     @include($components . 'brand-slider', ['class' => 'pb--85 pt--85'])
-    @include($footer . 'footer-v2', ['class' => 'rts-footer-padding v_2', 'cclass' => 'v_1'])
+    @include($footer . 'footer-v3', ['class' => 'rts-footer-padding v_2', 'cclass' => 'v_1'])
 @endsection
