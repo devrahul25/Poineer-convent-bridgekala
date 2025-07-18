@@ -230,6 +230,6 @@
     </div>
     <!-- single section end -->
      
-    @include($footer . 'footer__v6', ['class' => 'sc'])
+     @include($footer . 'footer-v3', ['class' => 'v__1'])
     @include($components . 'offcanvase-sc')
 @endsection

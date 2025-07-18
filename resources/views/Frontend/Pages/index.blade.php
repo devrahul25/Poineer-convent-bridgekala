@@ -610,5 +610,5 @@
 
     @include($components . 'blog-v1', ['class' => 'v_1 rts__light rts-section-padding'])
     <!-- footer -->
-    @include($footer . 'footer__default', ['class' => 'v__1'])
+     @include($footer . 'footer-v3', ['class' => 'v__1'])
 @endsection

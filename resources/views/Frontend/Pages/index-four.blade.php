@@ -1050,5 +1050,5 @@ rt-white before-white">Visit Program <span><i class="fa-sharp fa-regular fa-arro
 
     @include($components . 'brand-slider', ['class' => 'pb--120'])
     @include($components . 'newsletter', ['class' => 'rts-cta-background rts__white'])
-    @include($footer . 'footer-v3', ['class' => 'v_2 pt--100 pb--100', 'cclass' => 'v_1'])
+     @include($footer . 'footer-v3', ['class' => 'v__1'])
 @endsection

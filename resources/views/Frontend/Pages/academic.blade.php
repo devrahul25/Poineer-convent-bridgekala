@@ -130,5 +130,5 @@
     <!-- multi row item end -->
     @include($components . 'campus-tour', ['class' => 'rts-section-padding'])
     @include($components . 'testimonial-v3', ['class' => 'pb--120'])
-    @include($footer . 'footer__default', ['class' => 'v__1'])
+    @include($footer . 'footer-v3', ['class' => 'v__1'])
 @endsection

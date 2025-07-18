@@ -369,6 +369,6 @@
     <!-- student feedback end -->
 
     @include($components . 'blog-sc', ['class' => 'v_1 rts-section-padding'])
-    @include($footer . 'footer__v6', ['class' => 'sc'])
+     @include($footer . 'footer-v3', ['class' => 'v__1'])
     @include($components . 'offcanvase-sc')
 @endsection

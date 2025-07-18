@@ -172,5 +172,5 @@
 
     @include($components . 'campus-tour', ['class' => 'rts-section-padding'])
     @include($components . 'testimonial-v3', ['class' => 'rts-section-padding'])
-    @include($footer . 'footer__default', ['class' => 'v__1'])
+    @include($footer . 'footer-v3', ['class' => 'v__1'])
 @endsection
