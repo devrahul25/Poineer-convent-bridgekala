@@ -4,8 +4,8 @@
     &__menu {
         ul {
             display: flex;
-            max-width: max-content;
-            gap: 60px;
+            width: 100% !important;
+            gap: 20px;
             position: relative;
             padding: 0;
             margin: 0;
@@ -24,7 +24,7 @@
                 font-family: var(--font-primary);
                 font-weight: 500;
                 text-transform: uppercase;
-                padding: 37px 0;
+                padding: 20px 0;
                 display: block;
                 color: var(--rt-heading);
             }

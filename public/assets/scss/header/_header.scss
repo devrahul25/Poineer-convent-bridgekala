@@ -129,14 +129,17 @@
         }
         .header__wrapper{
             margin-top: 0;
-            padding: 0 100px;
+            padding: 0 !important;
+            display: flex;
+            align-items: center;
+            justify-content: center;
             @include mq($lg){
                 padding: 0 15px;
             }
         }
         .header__center__content{
             display: flex;
-            gap: 100px;
+            gap: 50px;
             align-items: center;
         }
         .header__social__link{
