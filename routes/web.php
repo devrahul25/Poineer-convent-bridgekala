@@ -49,6 +49,7 @@ Route::controller(PageController::class)->group(function (){
     Route::get('event-details', 'eventDetails')->name('event-details');
     Route::get('event', 'event')->name('event');
     Route::get('faculty-details', 'facultyDetails')->name('faculty-details');
+    Route::get('principal-desk', 'principalDesk')->name('principal-desk');
     Route::get('faculty-sub-details', 'facultySubDetails')->name('faculty-sub-details');
     Route::get('faculty-sub', 'facultySub')->name('faculty-sub');
     Route::get('faculty', 'faculty')->name('faculty');

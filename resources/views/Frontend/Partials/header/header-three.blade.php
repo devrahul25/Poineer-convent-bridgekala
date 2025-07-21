@@ -22,8 +22,8 @@
                                                 class="navigation__menu--item__link">About Us</a>
                                             <ul class="submenu sub__style">
                                                 <li><a href="{{ route('about') }}">Vision/Mission</a></li>
-                                                <li><a href="{{ route('athletics') }}">Manager's Desk</a></li>
-                                                <li><a href="{{ route('index-three') }}">Principal's Desk</a></li>
+                                                <li><a href="{{ route('faculty-details') }}">Manager's Desk</a></li>
+                                                <li><a href="{{ route('principal-desk') }}">Principal's Desk</a></li>
                                                 <li><a href="{{ route('campus-life') }}">School Overview</a></li>
                                             </ul>
                                         </li>

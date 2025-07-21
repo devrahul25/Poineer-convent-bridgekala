@@ -266,6 +266,17 @@ class PageController extends BaseController
         ]);
     }
 
+
+    // principal
+    public function principalDesk()
+    {
+        return $this->view('principal-desk', [
+            'page_title' => 'Principal Desk Page Template'
+        ]);
+    }
+
+
+
     // tution fee
     public function tutionFee(){
         return $this->view('tution-fee',[

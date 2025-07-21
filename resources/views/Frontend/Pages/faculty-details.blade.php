@@ -4,8 +4,8 @@
     @include($elements . 'breadcrumb', [
         'class' => 'breadcrumb-height breadcumb-bg',
         'image' => 'breadcrumb.jpg',
-        'title' => 'Faculty Details',
-        'page' => 'Faculty Details'    
+        'title' => "Manager's Desk",
+        'page' => "Manager's Desk"    
     ])
     
     <!-- faculty directory -->
