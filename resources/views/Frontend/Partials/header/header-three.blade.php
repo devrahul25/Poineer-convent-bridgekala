@@ -13,13 +13,12 @@
                                 <nav class="navigation__menu">
                                     <ul>
                                         <li class="navigation__menu--item has-child">
-                                            <a href="{{ route('index-three') }}"
-                                                class="navigation__menu--item__link">Home</a>
+                                            <a href="{{ route('index') }}" class="navigation__menu--item__link">Home</a>
                                         </li>
 
                                         <li class="navigation__menu--item has-child">
-                                            <a href="{{ route('about') }}"
-                                                class="navigation__menu--item__link">About Us</a>
+                                            <a href="{{ route('about') }}" class="navigation__menu--item__link">About
+                                                Us</a>
                                             <ul class="submenu sub__style">
                                                 <li><a href="{{ route('about') }}">Vision/Mission</a></li>
                                                 <li><a href="{{ route('faculty-details') }}">Manager's Desk</a></li>
@@ -59,7 +58,7 @@
 
                         <!-- LOGO CENTER -->
                         <div style="display: flex; align-item:center; justify-content:center;" class="header__logo">
-                            <a style="width: 50%;" href="{{ route('index-three') }}" class="header__logo--link">
+                            <a style="width: 50%;" href="{{ route('index') }}" class="header__logo--link">
                                 <img src="{{ asset('assets/images/logo/logo.png') }}" alt="unipix">
                             </a>
                         </div>

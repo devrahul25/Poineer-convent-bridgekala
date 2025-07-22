@@ -1,510 +1,423 @@
 @extends($layout)
-@section('page_title', 'Lms and University Laravel 12 Template')
-@php $body_class = 'page'; @endphp
 @section('content')
-
     @include($header . 'header-three')
-    <!-- header banner -->
-    <div class="banner v__1">
-        <div class="container">
-            <div class="col-sm-12">
-                <div class="banner__wrapper">
-                    <div class="banner__wrapper--left">
-                        <img src="{{asset('assets/images/banner/image__1.jpg')}}" alt="">
-                    </div>
-                    <div class="banner__wrapper--middle">
-                        <div class="banner__content">
-                            <h6 class="banner__content--sub">
-                               <img src="{{asset('assets/images/icon/e-cap.svg')}}" alt="cap"> knowledge meets innovation
-                            </h6>
-                            <h1 class="banner__content--title">
-                                University
-                                <span> Of Unipix</span>
-                            </h1>
-                            <div class="banner__content--circle rts__circle v__2">
-                                <svg class="spinner" viewBox="0 0 100 100">
-             <defs>
-                                        <path id="circle" d="M50,50 m-37,0a37,37 0 1,1 74,0a37,37 0 1,1 -74,0"></path>
-                                    </defs>
-                                    <text>
-                                        <textPath xlink:href="#circle">Unipix University * Estd. 1971 * Explore Future *</textPath>
-                                    </text>
-                                </svg>
-                                <div class="rts__circle--icon save-from-hidden">
-                                    <a href="https://www.youtube.com/watch?v=7ahgosTZJHg" class="video-play  rts-video-btn popup-video">
-                                        <i class="fa-sharp fa-solid fa-play"></i>
-                                    </a>
+    <div class="banner v__3">
+        <div class="banner__wrapper">
+            <div class="swiper swiper-data"
+                data-swiper='{
+                    "slidesPerView":1,
+                    "effect": "fade",
+                    "loop": false,
+                    "speed": 1000,
+                    "autoplay":{
+                        "delay":"7000"
+                    }}'>
+
+                <div class="swiper-wrapper">
+                    <!-- single slide -->
+                    <div class="swiper-slide">
+                        <div class="banner__wrapper--bg"
+                            style="background-image: url({{ asset('assets/images/banner/slider__3.jpg') }});">
+                            <div class="container">
+                                <div class="row justify-content-center">
+                                    <div class="col-lg-6 col-md-10 col-sm-10">
+                                        <div class="banner__slides--container banner__height">
+                                            <div class="banner__slides--content">
+                                                <div class="banner__slides--content--icon">
+                                                    <img src="{{ asset('assets/images/banner/banner__3--icon.svg') }}"
+                                                        alt="cap">
+                                                </div>
+                                                <h2 class="banner__slides--content--title">
+                                                    Pioneer Convent Sr. Sec. School
+                                                </h2>
+                                                <p class="banner__slides--content--description">
+                                                    Where Excellence Meets Values
+                                                </p>
+                                                <div class="banner__slides--content--btn">
+                                                    <a href="{{ route('program-single') }}"
+                                                        class="rts-theme-btn btn-arrow">Explore Campus
+                                                        <span><i class="fa-regular fa-arrow-right"></i></span>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="banner__content--description">
-                                <p>Remember to tailor the section names to fit the specific needs and
-                                    structure of your university website.
-                                </p>
-                                <a href="{{ route('program-single') }}" class="rts-theme-btn btn-arrow">View Our Program 
-                                    <span><i class="fa-regular fa-arrow-right"></i></span>
-                                </a>
                             </div>
                         </div>
                     </div>
-                    <div class="banner__wrapper--right">
-                        <img src="{{asset('assets/images/banner/image__2.jpg')}}" alt="banner right">
+                    <!-- single slide -->
+
+                    <!-- single slides -->
+                    <div class="swiper-slide">
+                        <div class="banner__wrapper--bg"
+                            style="background-image: url({{ asset('assets/images/banner/slider__3-2.jpg') }});">
+                            <div class="container">
+                                <div class="row justify-content-center">
+                                    <div class="col-lg-6 col-md-10 col-sm-10">
+                                        <div class="banner__slides--container banner__height">
+                                            <div class="banner__slides--content">
+                                                <div class="banner__slides--content--icon">
+                                                    <img src="{{ asset('assets/images/banner/banner__3--icon.svg') }}"
+                                                        alt="cap">
+                                                </div>
+                                                <h2 class="banner__slides--content--title">
+                                                    Academic Journey
+                                                    Begins Unipix
+                                                </h2>
+                                                <p class="banner__slides--content--description">
+                                                    Remember to tailor the section names to fit the specific needs and
+                                                    structure of your university website.
+                                                </p>
+                                                <div class="banner__slides--content--btn">
+                                                    <a href="{{ route('program-single') }}"
+                                                        class="rts-theme-btn btn-arrow">View Our Program
+                                                        <span><i class="fa-regular fa-arrow-right"></i></span>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
                     </div>
+                    <!-- single slides -->
                 </div>
-                <!-- banner animated shape -->
-                <div class="banner__wrapper--shape">
-                    <img src="{{asset('assets/images/banner/banner-svg.svg')}}" alt="banner">
-                </div>
-            </div>
-        </div>
-        <div class="grid-line">
-            <div class="grid-lines">
-                <div class="line"></div>
-                <div class="line"></div>
-                <div class="line"></div>
             </div>
         </div>
     </div>
     <!-- header banner end -->
-    @include($components . 'about__h1')
-    <!-- program -->
-    <section class="rts__section rts__light rts-section-padding">
+    <!-- our program -->
+    <section class="program rts-section-padding">
         <div class="container">
-            <div class="row">
-                <div class="rts__section--wrapper">
-                    <h2 class="rts__section--title">Our Programs</h2>
-                    <div class="rts__section--link">
-                        <a href="{{ route('program-single') }}" class="rts-nbg-btn btn-arrow">more program<span><i class="fa-sharp fa-regular fa-arrow-right"></i>
-                        </span></a>
-                    </div>
-                </div>
-            </div>
-            <div class="row g-5">
-                <div class="col-lg-3 col-md-6 col-sm-6 ">
-                    <div class="rts__program--item" style="background-image: url({{asset('assets/images/program/program__1.jpg')}});">
-                        <h5 class="rts__program--item--title">Graduation Program</h5>
-                        <p class="rts__program--item--description">Embark on a journey of knowledge discovery, and growth at  Unipix University.</p>
-                        <a href="{{ route('program-single') }}" class="rts-nbg-btn btn-arrow">Learn More<span><i class="fa-sharp fa-regular fa-arrow-right"></i>
-                        </span></a>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-6 ">
-                    <div class="rts__program--item" style="background-image: url({{asset('assets/images/program/program__2.jpg')}});">
-                        <h5 class="rts__program--item--title">Summer Program</h5>
-                        <p class="rts__program--item--description">Embark on a journey of knowledge discovery, and growth at  Unipix University.</p>
-                        <a href="{{ route('program-single') }}" class="rts-nbg-btn btn-arrow">Learn More<span><i class="fa-sharp fa-regular fa-arrow-right"></i>
-                        </span></a>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-6 ">
-                    <div class="rts__program--item" style="background-image: url({{asset('assets/images/program/program__3.jpg')}});">
-                        <h5 class="rts__program--item--title">Undergraduate</h5>
-                        <p class="rts__program--item--description">Embark on a journey of knowledge discovery, and growth at  Unipix University.</p>
-                        <a href="{{ route('program-single') }}" class="rts-nbg-btn btn-arrow">Learn More<span><i class="fa-sharp fa-regular fa-arrow-right"></i>
-                        </span></a>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-6 ">
-                    <div class="rts__program--item" style="background-image: url({{asset('assets/images/program/program__4.jpg')}});">
-                        <h5 class="rts__program--item--title">Online Program</h5>
-                        <p class="rts__program--item--description">Embark on a journey of knowledge discovery, and growth at  Unipix University.</p>
-                        <a href="{{ route('program-single') }}" class="rts-nbg-btn btn-arrow">Learn More<span><i class="fa-sharp fa-regular fa-arrow-right"></i>
-                        </span></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        
-    </section>
-    <!-- program end -->
-    <!-- campus life -->
-    <section class="rts__section rts-section-padding">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-5 col-md-6">
-                    <div class="rts__section--wrapper v__2">
-                        <h2 class="rts__section--title">Campus Life</h2>
-                        <p class="rts__section--description">Embark on a journey of knowledge, discovery, and growth at  Unipix University. Our admissions process is designed identify bright, motivated individuals who are eager contribute to our dynamic academic community.</p>
-                        <div class="campus__vector">
-                            <img src="{{asset('assets/images/campus/campus__vector.svg')}}" alt="">
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-7 col-md-6">
-                    <div class="campus__life">
-                        <!-- single campus -->
-                        <div class="campus__life--single">
-                            <div class="campus__life--single--bg">
-                                <img src="{{asset('assets/images/campus/campus__life__bg__1.jpg')}}" alt="">
-                            </div>
-                            <div class="campus__life--single--flex">
-                                <div class="campus__life--single--content">
-                                    <h4 class="campus__life--single--title"><a href="{{ route('campus-life') }}">Student Life</a></h4>
-                                    <p class="campus__life--single--description">Building a vibrant community of creative and accomplished people from around.</p>
-                                </div>
-                                <div class="campus__life--single--button">
-                                    <a href="{{ route('campus-life') }}"><i class="fa-sharp fa-regular fa-arrow-right"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- single campus end -->
-                        <!-- single campus -->
-                        <div class="campus__life--single">
-                            <div class="campus__life--single--bg">
-                                <img src="{{asset('assets/images/campus/campus__life__bg__2.jpg')}}" alt="">
-                            </div>
-                            <div class="campus__life--single--flex">
-                                <div class="campus__life--single--content">
-                                    <h4 class="campus__life--single--title"><a href="{{ route('campus-life') }}">Arts & Culture</a></h4>
-                                    <p class="campus__life--single--description">Building a vibrant community of creative and accomplished people from around.</p>
-                                </div>
-                                <div class="campus__life--single--button">
-                                    <a href="{{ route('campus-life') }}"><i class="fa-sharp fa-regular fa-arrow-right"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- single campus end -->
-                        <!-- single campus -->
-                        <div class="campus__life--single">
-                            <div class="campus__life--single--bg">
-                                <img src="{{asset('assets/images/campus/campus__life__bg__3.jpg')}}" alt="">
-                            </div>
-                            <div class="campus__life--single--flex">
-                                <div class="campus__life--single--content">
-                                    <h4 class="campus__life--single--title"><a href="{{ route('athletics') }}">Athletics</a></h4>
-                                    <p class="campus__life--single--description">Building a vibrant community of creative and accomplished people from around.</p>
-                                </div>
-                                <div class="campus__life--single--button">
-                                    <a href="{{ route('athletics') }}"><i class="fa-sharp fa-regular fa-arrow-right"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- single campus end -->
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- campus life end -->
-    <!-- team -->
-    <section class="rts__section rts__light rts-section-padding">
-        <div class="container">
-            <div class="row">
-                <div class="rts__section--wrapper">
-                    <h2 class="rts__section--title">University Professors</h2>
-                    <div class="rts__section--link">
-                        <a href="{{ route('faculty') }}" class="rts-nbg-btn btn-arrow">Find More Professor<span><i class="fa-sharp fa-regular fa-arrow-right"></i>
-                        </span></a>
-                    </div>
-                </div>
-            </div>
-            <!-- team member area -->
-            <div class="row g-5">
-                <!-- single team -->
-                <div class="col-lg-3 col-md-6 col-sm-6">
-                    <div class="rts__single--member">
-                        <div class="rts__single--member--thumb">
-                            <a href="{{ route('faculty-details') }}">
-                                <img src="{{asset('assets/images/speaker/teacher__1.jpg')}}" alt="">
-                            </a>
-                        </div>
-                        <div class="rts__single--member--meta">
-                            <h5 class="rts__single--member--meta--title">
-                                <a href="{{ route('faculty-details') }}">C. Hannah Ueno</a>
-                            </h5>
-                            <span class="rts__single--member--meta--designation">
-                                Assistant Professor
-                            </span>
-                        </div>
-                    </div>
-                </div>
-                <!-- single team end -->
-                <!-- single team -->
-                <div class="col-lg-3 col-md-6 col-sm-6">
-                    <div class="rts__single--member">
-                        <div class="rts__single--member--thumb">
-                            <a href="{{ route('faculty-details') }}">
-                                <img src="{{asset('assets/images/speaker/teacher__2.jpg')}}" alt="">
-                            </a>
-                        </div>
-                        <div class="rts__single--member--meta">
-                            <h5 class="rts__single--member--meta--title">
-                                <a href="{{ route('faculty-details') }}">Thomas Fred</a>
-                            </h5>
-                            <span class="rts__single--member--meta--designation">
-                                Associate Professor of History
-                            </span>
-                        </div>
-                    </div>
-                </div>
-                <!-- single team end -->
-                <!-- single team -->
-                <div class="col-lg-3 col-md-6 col-sm-6">
-                    <div class="rts__single--member">
-                        <div class="rts__single--member--thumb">
-                            <a href="{{ route('faculty-details') }}">
-                                <img src="{{asset('assets/images/speaker/teacher__3.jpg')}}" alt="">
-                            </a>
-                        </div>
-                        <div class="rts__single--member--meta">
-                            <h5 class="rts__single--member--meta--title">
-                                <a href="{{ route('faculty-details') }}">Jennifer Aarons</a>
-                            </h5>
-                            <span class="rts__single--member--meta--designation">
-                                Professor of Art
-                            </span>
-                        </div>
-                    </div>
-                </div>
-                <!-- single team end -->
-                <!-- single team -->
-                <div class="col-lg-3 col-md-6 col-sm-6">
-                    <div class="rts__single--member">
-                        <div class="rts__single--member--thumb">
-                            <a href="{{ route('faculty-details') }}">
-                                <img src="{{asset('assets/images/speaker/teacher__4.jpg')}}" alt="">
-                            </a>
-                        </div>
-                        <div class="rts__single--member--meta">
-                            <h5 class="rts__single--member--meta--title">
-                                <a href="{{ route('faculty-details') }}">Michael McGarvey</a>
-                            </h5>
-                            <span class="rts__single--member--meta--designation">
-                                Professor of Literature
-                            </span>
-                        </div>
-                    </div>
-                </div>
-                <!-- single team end -->
-            </div>
-            <!-- team member area end -->
-        </div>
-    </section>
-    <!-- team end -->
-    <!-- research -->
-    <section class="rts__section rts-section-padding">
-        <div class="container">
-            <div class="row">
-                <div class="rts__section--wrapper v__3">
-                    <h2 class="rts__section--title">PUBLICATION & <br>
-                        RESEARCH </h2>
-                    <div class="rts__section--details">
-                        <p class="rts__description">
-                            Dive into the vast array of courses offered at our university, spanning across 10+ specializations. Embrace an educational journey that ignites intellectual curiosity and nurtures intuitive learning among our students.
-                        </p>
-                        <a href="{{ route('research') }}" class="rts-nbg-btn btn-arrow">Learn More<span><i class="fa-sharp fa-regular fa-arrow-right"></i>
-                        </span></a>
-                    </div>
-                </div>
-            </div>
-            <!-- research content -->
-            <div class="row g-5">
-                <!-- single item -->
-                <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="rts__research--single">
-                        <div class="rts__research--single--thumb">
-                            <a href="{{ route('research') }}">
-                                <img src="{{asset('assets/images/research/01.jpg')}}" alt="">
-                            </a>
-                        </div>
-                        <div class="rts__research--single--meta">
-                            <a class="rts__research--single--meta--title" href="{{ route('research') }}">Are Social Net Work Beneficial for our Society?</a>
-                            <p class="rts__research--single--meta--excerpt">
-                                The American Journal of Applied Scientific Research (AJASR): A Rigorous Peer-Reviewed Platform.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <!-- single item end -->
-                <!-- single item -->
-                <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="rts__research--single">
-                        <div class="rts__research--single--thumb">
-                            <a href="{{ route('research') }}">
-                                <img src="{{asset('assets/images/research/02.jpg')}}" alt="">
-                            </a>
-                        </div>
-                        <div class="rts__research--single--meta">
-                            <a class="rts__research--single--meta--title" href="{{ route('research') }}">Unveiling the Frontiers Discovery and Innovation</a>
-                            <p class="rts__research--single--meta--excerpt">
-                                The American Journal of Applied Scientific Research (AJASR): A Rigorous Peer-Reviewed Platform.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <!-- single item end -->
-                <!-- single item -->
-                <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="rts__research--single">
-                        <div class="rts__research--single--thumb">
-                            <a href="{{ route('research') }}">
-                                <img src="{{asset('assets/images/research/03.jpg')}}" alt="">
-                            </a>
-                        </div>
-                        <div class="rts__research--single--meta">
-                            <a class="rts__research--single--meta--title" href="{{ route('research') }}">Exploring Environmental Frontiers Unveiling Insights Labs Research</a>
-                            <p class="rts__research--single--meta--excerpt">
-                                Our commitment extends beyond the confines of the laboratory walls; we aim to bridge the gap
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <!-- single item end -->
-            </div>
-        </div>
-    </section>
-    <!-- research end -->
-    <!-- student feedback -->
-    <section class="rts__section rts-section-padding rts__primary__bg">
-        <div class="container">
-            <div class="row">
+            <div class="row justify-content-center align-items-center">
                 <div class="col-lg-5">
-                    <div class="rts__section--wrapper v__4">
-                        <h2 class="rts__section--title">Student Feedback</h2>
-                        <p class="rts__section--description">Your opinion matters, and by providing feedback, you contribute to the continuous enhancement of our academic programs, support services, and campus life</p>
-                        <div class="rts__slider--arrow">
-                            <div class="rts__prev slider__btn"><i class="fa-light fa-arrow-left"></i></div>
-                            <div class="rts__next slider__btn"><i class="fa-light fa-arrow-right"></i></div>
+                    <div class="rts__section--wrapper v__2">
+                        <h2 class="rts__section--title text-capitalize">Why Choose Pioneer</h2>
+                        <p class="rts__section--description">Step into a world of knowledge, innovation, and values-driven
+                            education. At Pioneer Convent Sr. Sec. School, we go beyond traditional learning to nurture
+                            curious minds, confident leaders, and compassionate citizens. With our Multiple
+                            Intelligence-Based Curriculum, a CBSE-affiliated program up to Class 12, and a strong emphasis
+                            on sports, arts, and co-curricular excellence, we ensure every child thrives academically,
+                            socially, and emotionally.
+
+                        </p>
+                        <div class="campus__vector">
+                            <img src="{{ asset('assets/images/campus/campus__vector.svg') }}" alt="">
                         </div>
+                        <a href="{{ route('academic') }}" class="rts-theme-btn btn-arrow">View All Program
+                            <span><i class="fa-regular fa-arrow-right"></i></span>
+                        </a>
                     </div>
                 </div>
-                <!-- student feedback testimonial -->
-                <div class="col-lg-7">
-                    <div class="rts__testimonial--active swiper swiper-data" data-swiper='{
-                        "slidesPerView":2,
-                        "loop": true,
-                        "speed": 1000,
-                        "navigation":{
-                            "nextEl":".rts__next",
-                            "prevEl":".rts__prev"
-                        },
-                        "autoplay":{
-                            "delay":"7000"
-                        },
-                        "breakpoints":{
-                            "320":{
-                                "slidesPerView": 1
-                            },
-                            "575":{
-                                "slidesPerView": 1.5
-                            },
-                            "768":{
-                                "slidesPerView": 2
-                            },
-                            "991":{
-                                "slidesPerView": 2
-                            },
-                            "1201":{
-                                "slidesPerView": 2
-                            }
-                        }
-                    }'>
-                        <div class="swiper-wrapper">
-                            <!-- single slide -->
-                            <div class="swiper-slide">
-                                <div class="rts__single--testimonial">
-                                    <div class="rts__rating--star">
-                                        <i class="fa-sharp fa-solid fa-star"></i>
-                                        <i class="fa-sharp fa-solid fa-star"></i>
-                                        <i class="fa-sharp fa-solid fa-star"></i>
-                                        <i class="fa-sharp fa-solid fa-star"></i>
-                                        <i class="fa-sharp fa-light fa-star"></i>
-                                    </div>
-                                    <p class="rts__single--testimonial--text">
-                                        I can't recommend The Gourmet Haven enough. It's a place for special date in nights, or whenever you're in the mood for a culinary.
-                                    </p>
-                                    <div class="rts__single--testimonial--author">
-                                        <div class="rts__single--testimonial--author--meta">
-                                            <div class="rts__author--img">
-                                                <img src="{{asset('assets/images/testimonial/author-1.png')}}" alt="author">
-                                            </div>
-                                            <div class="rts__author--info">
-                                                <h5 class="mb-0">Emma Elizabeth</h5>
-                                                <span class="designation">Assistant Teacher</span>
-                                            </div>
-                                        </div>
-                                        <div class="rts__single--testimonial--quote">
-                                            <img src="{{asset('assets/images/testimonial/quote.svg')}}" alt="quote">
-                                        </div>
-                                    </div>
+                <div class="col-lg-6 col-md-12 col-sm-10 mt-5 mt-md-0">
+                    <div class="row g-5">
+                        <div class="col-lg-6 col-md-6">
+                            <div class="program__content">
+                                <div class="rts__program--item v__2"
+                                    style="background-image: url({{ asset('assets/images/program/program__1.jpg') }});">
+                                    <h5 class="rts__program--item--title">2-Acre Green Campus</h5>
+                                    <p class="rts__program--item--description">A serene and eco-friendly environment for
+                                        holistic learning.</p>
+                                    <a href="{{ route('program-single') }}" class="rts-nbg-btn btn-arrow">Learn More<span><i
+                                                class="fa-sharp fa-regular fa-arrow-right"></i>
+                                        </span></a>
+                                    <h5 class="rts__program--item--title--show">2-Acre Green Campus</h5>
+                                </div>
+                                <!-- second one -->
+                                <div class="rts__program--item v__2"
+                                    style="background-image: url({{ asset('assets/images/program/program__2.jpg') }});">
+                                    <h5 class="rts__program--item--title">CBSE Affiliated till Class 12</h5>
+                                    <p class="rts__program--item--description">All streams available with excellent academic
+                                        performance.</p>
+                                    <a href="{{ route('program-single') }}" class="rts-nbg-btn btn-arrow">Learn
+                                        More<span><i class="fa-sharp fa-regular fa-arrow-right"></i>
+                                        </span></a>
+                                    <h5 class="rts__program--item--title--show">CBSE Affiliated till Class 12</h5>
                                 </div>
                             </div>
-                            <!-- single slide end -->
-                            <!-- single slide -->
-                            <div class="swiper-slide">
-                                <div class="rts__single--testimonial">
-                                    <div class="rts__rating--star">
-                                        <i class="fa-sharp fa-solid fa-star"></i>
-                                        <i class="fa-sharp fa-solid fa-star"></i>
-                                        <i class="fa-sharp fa-solid fa-star"></i>
-                                        <i class="fa-sharp fa-solid fa-star"></i>
-                                        <i class="fa-sharp fa-light fa-star"></i>
-                                    </div>
-                                    <p class="rts__single--testimonial--text">
-                                        I can't recommend The Gourmet Haven enough. It's a place for special date in nights, or whenever you're in the mood for a culinary.
-                                    </p>
-                                    <div class="rts__single--testimonial--author">
-                                        <div class="rts__single--testimonial--author--meta">
-                                            <div class="rts__author--img">
-                                                <img src="{{asset('assets/images/testimonial/author-1.png')}}" alt="author">
-                                            </div>
-                                            <div class="rts__author--info">
-                                                <h5 class="mb-0">Emma Elizabeth</h5>
-                                                <span class="designation">Assistant Teacher</span>
-                                            </div>
-                                        </div>
-                                        <div class="rts__single--testimonial--quote">
-                                            <img src="{{asset('assets/images/testimonial/quote.svg')}}" alt="quote">
-                                        </div>
-                                    </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6">
+                            <div class="program__content mt--85">
+                                <div class="rts__program--item v__2"
+                                    style="background-image: url({{ asset('assets/images/program/program__3.jpg') }});">
+                                    <h5 class="rts__program--item--title">Multiple Intelligence Based Curriculum</h5>
+                                    <p class="rts__program--item--description">Tailored to uncover each child's hidden
+                                        potential.</p>
+                                    <a href="{{ route('program-single') }}" class="rts-nbg-btn btn-arrow">Learn
+                                        More<span><i class="fa-sharp fa-regular fa-arrow-right"></i>
+                                        </span></a>
+                                    <h5 class="rts__program--item--title--show">Multiple Intelligence Based Curriculum</h5>
+                                </div>
+                                <!-- second one -->
+                                <div class="rts__program--item v__2"
+                                    style="background-image: url({{ asset('assets/images/program/program__4.jpg') }});">
+                                    <h5 class="rts__program--item--title"> World-Class Sports & Activities</h5>
+                                    <p class="rts__program--item--description">From cricket to karate and robotics to
+                                        music—balanced development.</p>
+                                    <a href="{{ route('program-single') }}" class="rts-nbg-btn btn-arrow">Learn
+                                        More<span><i class="fa-sharp fa-regular fa-arrow-right"></i>
+                                        </span></a>
+                                    <h5 class="rts__program--item--title--show"> World-Class Sports & Activities</h5>
                                 </div>
                             </div>
-                            <!-- single slide end -->
-                            <!-- single slide -->
-                            <div class="swiper-slide">
-                                <div class="rts__single--testimonial">
-                                    <div class="rts__rating--star">
-                                        <i class="fa-sharp fa-solid fa-star"></i>
-                                        <i class="fa-sharp fa-solid fa-star"></i>
-                                        <i class="fa-sharp fa-solid fa-star"></i>
-                                        <i class="fa-sharp fa-solid fa-star"></i>
-                                        <i class="fa-sharp fa-light fa-star"></i>
-                                    </div>
-                                    <p class="rts__single--testimonial--text">
-                                        I can't recommend The Gourmet Haven enough. It's a place for special date in nights, or whenever you're in the mood for a culinary.
-                                    </p>
-                                    <div class="rts__single--testimonial--author">
-                                        <div class="rts__single--testimonial--author--meta">
-                                            <div class="rts__author--img">
-                                                <img src="{{asset('assets/images/testimonial/author-1.png')}}" alt="author">
-                                            </div>
-                                            <div class="rts__author--info">
-                                                <h5 class="mb-0">Emma Elizabeth</h5>
-                                                <span class="designation">Assistant Teacher</span>
-                                            </div>
-                                        </div>
-                                        <div class="rts__single--testimonial--quote">
-                                            <img src="{{asset('assets/images/testimonial/quote.svg')}}" alt="quote">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- single slide end -->
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <!-- student feedback end -->
+    <!-- our program end -->
+
+    <!-- campus life start -->
+    <div class="rts-campus pt--100 rts-campus-bg mobile-padding moving">
+        <div class="container">
+            <div class="row justify-content-sm-center justify-content-lg-start">
+                <div class="col-lg-6 col-xl-5 col-md-10 col-sm-11">
+                    <div class="rts-left-section">
+                        <h2 class="section-title rt-white mb--55">
+                            A Glimpse of Pioneer
+                        </h2>
+                        <a href="{{ route('about') }}"
+                            class="about-btn rts-nbg-btn btn-arrow 
+                    rt-white">Know More About Us<span><i
+                                    class="fa-sharp fa-regular fa-arrow-right"></i></span></a>
+
+                    </div>
+                </div>
+                <div class="col-lg-6 col-xl-7 col-md-10 col-sm-11">
+                    <div class="rts-right-section rt-relative">
+                        <p class="rt-white mb--40">Welcome to Pioneer Convent Sr. Sec. School
+                            Pioneer Convent is among Delhi’s premier educational institutions, where we blend strong Indian
+                            values with global learning methodologies. Our mission is to prepare young minds to be
+                            innovative, compassionate, and future-ready leaders.</p>
+                        <img class="round" src="{{ asset('assets/images/feature/01.jpg') }}" alt="campus images">
+                        <div class="rts-round-shape"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="bottom-text rt-clip-text">About University</div>
+            <div class="rt-shape">
+                <img class="rt-shape__1" data-speed="0.04" src="{{ asset('assets/images/feature/shape/01.png') }}"
+                    alt="">
+                <img class="shape rt-shape__2" data-speed="0.04" src="{{ asset('assets/images/feature/shape/02.png') }}"
+                    alt="">
+                <img class="shape rt-shape__3" data-speed="0.04" src="{{ asset('assets/images/feature/shape/03.png') }}"
+                    alt="">
+                <img class="shape rt-shape__4" data-speed="0.04" src="{{ asset('assets/images/feature/shape/04.png') }}"
+                    alt="">
+            </div>
+        </div>
+    </div>
+    <!-- campus life end -->
+
+    <!-- tution fee -->
+    <section class="tution v__2 rts-section-padding">
+        <div class="container">
+            <div class="row justify-content-sm-center justify-content-md-start align-items-center g-5">
+                <div class="col-lg-4 col-md-6 col-sm-10">
+                    <div class="rts__section--wrapper v__7">
+                        <h2 class="rts__section--title">Fee Structure at Pioneer Convent Sr. Sec. School</h2>
+                        <p class="rts__section--description">
+                            At Pioneer Convent, we are committed to providing high-quality, value-based education at an
+                            affordable cost. Our fee structure is designed to remain transparent and accessible, ensuring
+                            every child can benefit from holistic learning.
+                        </p>
+                        <a href="{{ route('tution-fee') }}" class="rts-theme-btn btn-arrow">Plan Details
+                            <span><i class="fa-regular fa-arrow-right"></i></span>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-10">
+                    <div class="tution__single--box v__1">
+                        <h5 class="tution__single--box--title">Class-Wise Fee Structure</h5>
+                        <h6 class="tution__single--box--faculty">College of Arts and Sciences</h6>
+                        <ul class="tution__single--box--feature">
+                            <li>Admission Fee (one-time): ₹X,XXX</li>
+                            <li>Monthly Tuition Fee: ₹X,XXX</li>
+                            <li>Annual Activity & Development Fee: ₹X,XXX</li>
+                        </ul>
+                        <h6 class="tution__single--box--faculty">Middle & Secondary School (Class 6 to 10)</h6>
+                        <ul class="tution__single--box--feature">
+                            <li>Admission Fee (one-time): ₹X,XXX</li>
+                            <li>Monthly Tuition Fee: ₹X,XXX</li>
+                            <li>Annual Activity & Development Fee: ₹X,XXX</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-10">
+                    <div class="tution__single--box">
+                        <h5 class="tution__single--box--title">Extra Charges & Facilities</h5>
+                        <h6 class="tution__single--box--faculty">Senior Secondary (Class 11 & 12)</h6>
+                        <ul class="tution__single--box--feature">
+                            <li>Science Stream: ₹X,XXX per month</li>
+                            <li>Commerce Stream: ₹X,XXX per month</li>
+                            <li>Humanities Stream: ₹X,XXX per month</li>
+                            <li>Laboratory & Practical Fees (Science): ₹X,XXX per year</li>
+                        </ul>
+                        <h6 class="tution__single--box--faculty">Additional Fees</h6>
+                        <ul class="tution__single--box--feature">
+                            <li>Transport (Optional): Based on Route</li>
+                            <li>Uniform & Books: As per actuals</li>
+                            <li>Extracurricular Clubs & Activities: Nominal charges</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- tution fee end -->
+    <!-- campus life -->
+    <div class="campus v__2 pt--120 pb--60">
+        <div class="container">
+            <div class="campus__wrapper">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="campus__link">
+                            <a href="{{ route('campus-life') }}" class="campus__link--btn">
+                                Campus Life
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="campus__right--text">
+                            <h2 class="campus__right--text--title">
+                                Thriving Beyond Classrooms – Life at Pioneer
+                            </h2>
+                            <p class="campus__right--text--description">
+                                Step into a world of learning, creativity, and discovery. Campus life at Pioneer Convent is
+                                more than just academics—it’s about nurturing talents, building friendships, and shaping
+                                character. From sports and cultural activities to clubs, workshops, and community events,
+                                every day is filled with opportunities to grow, explore, and excel.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="campus__paralax--image"
+        style="background-image: url('{{ asset('assets/images/campus/paralax__image.jpg') }}');">
+    </div>
+
+    <!-- apply start -->
+    <section class="rts-application-area moving rts-section-padding v_1">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-sm-12">
+                    <div class="rts__section--wrapper v__9">
+                        <h2 class="rts__section--title">Apply for Admission</h2>
+                        <p class="rts__section--description">Welcome to the gateway of possibilities your admission to
+                            Unipix University. At Unipix, we understand.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- application form -->
+            <div class="row justify-content-md-center">
+                <div class="col-md-11 col-lg-6 col-xl-7">
+                    <div class="rts-admission-form-image">
+                        <img src="{{ asset('assets/images/feature/admission-form.jpg') }}" alt="">
+                    </div>
+                    <div class="rts-section-big-text">
+                        Admission Now
+                    </div>
+                </div>
+                <div class="col-md-11 col-lg-6 col-xl-5">
+                    <div class="rts-application-form">
+                        <div class="rts-application-form-content">
+                            <h5 class="heading-title  mb--25">Application Form</h5>
+                            <form action="#" class="rts-form">
+                                <div class="rts-input rt-flex">
+                                    <div class="single-input">
+                                        <input type="text" name="fname" id="fname" placeholder="First Name"
+                                            required>
+                                    </div>
+                                    <div class="single-input">
+                                        <input type="text" name="lname" id="lname" placeholder="Last Name"
+                                            required>
+                                    </div>
+                                </div>
+                                <div class="rts-input rt-flex">
+                                    <div class="single-input">
+                                        <input type="email" name="email" id="email2" placeholder="Email.."
+                                            required>
+                                    </div>
+                                    <div class="single-input">
+                                        <input type="number" name="Phone" id="Phone" placeholder="Phone"
+                                            required>
+                                    </div>
+                                </div>
+
+                                <div class="rts-input rt-flex">
+                                    <div class="single-input">
+                                        <input type="text" name="address" id="address" placeholder="address"
+                                            required>
+                                    </div>
+                                    <div class="single-input">
+                                        <input type="text" name="city" id="city" placeholder="City" required>
+                                    </div>
+                                </div>
+
+                                <div class="rts-input rt-flex">
+                                    <div class="single-input">
+                                        <input type="text" name="country" id="country" placeholder="Country"
+                                            required>
+                                    </div>
+                                    <div class="single-input">
+                                        <input type="number" name="zip" id="zip" placeholder="Zip Code"
+                                            required>
+                                    </div>
+                                </div>
+                                <div class="rts-input w-full">
+                                    <div class="single-input">
+                                        <input type="text" name="data" id="datepicker" placeholder="dd/mm/yy"
+                                            required>
+                                    </div>
+                                </div>
+                                <div class="rts-input w-full">
+                                    <div class="single-input">
+                                        <textarea name="msg" id="msg" placeholder="Enter Your Comments"></textarea>
+                                    </div>
+                                </div>
+                                <button type="submit" class="rts-theme-btn rts-nbg-btn btn-arrow v2 full-btn">Apply Now
+                                    <span><i class="fa-sharp fa-regular fa-arrow-right"></i></span></button>
+
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="rt-shape">
+                <img src="{{ asset('assets/images/feature/shape/01.svg') }}" data-speed="0.04" alt="shape"
+                    class="rt-shape__1">
+                <img src="{{ asset('assets/images/feature/shape/02.svg') }}" data-speed="0.04" alt="shape"
+                    class="shape rt-shape__2">
+                <img src="{{ asset('assets/images/feature/shape/03.svg') }}" data-speed="0.04" alt="shape"
+                    class="shape rt-shape__3">
+                <img src="{{ asset('assets/images/feature/shape/04.svg') }}" data-speed="0.04" alt="shape"
+                    class="shape rt-shape__4">
+                <img src="{{ asset('assets/images/feature/shape/05.svg') }}" data-speed="0.04" alt="shape"
+                    class="shape rt-shape__5">
+            </div>
+        </div>
+    </section>
+    <!-- apply end -->
+
+
     <!-- UPCOMING EVENT -->
-    <section class="rts__section rts-section-padding">
+    <section class="rts__section rts__light pt--120">
         <div class="container">
             <div class="row">
-                <div class="rts__section--wrapper">
+                <div class="rts__section--wrapper rt__lowercase">
                     <h2 class="rts__section--title">Upcoming event</h2>
                     <div class="rts__section--link">
-                        <a href="{{ route('event') }}" class="rts-nbg-btn btn-arrow">View All<span><i class="fa-sharp fa-regular fa-arrow-right"></i>
-                        </span></a>
+                        <a href="{{ route('event') }}" class="rts-nbg-btn btn-arrow">View All<span><i
+                                    class="fa-sharp fa-regular fa-arrow-right"></i>
+                            </span></a>
                     </div>
                 </div>
             </div>
@@ -512,16 +425,16 @@
             <div class="row g-5">
                 <!-- single event item -->
                 <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="rts__single--event">
+                    <div class="rts__single--event v__2">
                         <div class="rts__single--event--thumb">
                             <a href="{{ route('event-details') }}">
-                                <img src="{{asset('assets/images/event/01.jpg')}}" alt="event">
+                                <img src="{{ asset('assets/images/event/01.jpg') }}" alt="event">
                             </a>
                         </div>
                         <div class="rts__single--event--meta">
                             <div class="rts__single--event--meta--dl">
                                 <span class="date">
-                                    <img src="{{asset('assets/images/icon/calendar.svg')}}" alt="">
+                                    <img src="{{ asset('assets/images/icon/calendar.svg') }}" alt="">
                                     <span>Nov 11, 2023</span>
                                 </span>
                                 <span class="location">
@@ -531,8 +444,8 @@
                             </div>
                             <h5 class="rts__single--event--meta--title">
                                 <a href="{{ route('event-details') }}">
-                                Edu Fest 2023: Igniting Minds Off on
-                                Transforming Lives </a>
+                                    Edu Fest 2023: Igniting Minds Off on
+                                    Transforming Lives </a>
                             </h5>
                             <a href="{{ route('event-details') }}" class="rts__round--btn">
                                 <i class="fa-light fa-arrow-right"></i>
@@ -543,16 +456,16 @@
                 <!-- single event item -->
                 <!-- single event item -->
                 <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="rts__single--event">
+                    <div class="rts__single--event v__2">
                         <div class="rts__single--event--thumb">
                             <a href="{{ route('event-details') }}">
-                                <img src="{{asset('assets/images/event/02.jpg')}}" alt="event">
+                                <img src="{{ asset('assets/images/event/02.jpg') }}" alt="event">
                             </a>
                         </div>
                         <div class="rts__single--event--meta">
                             <div class="rts__single--event--meta--dl">
                                 <span class="date">
-                                    <img src="{{asset('assets/images/icon/calendar.svg')}}" alt="">
+                                    <img src="{{ asset('assets/images/icon/calendar.svg') }}" alt="">
                                     <span>Nov 11, 2023</span>
                                 </span>
                                 <span class="location">
@@ -562,7 +475,7 @@
                             </div>
                             <h5 class="rts__single--event--meta--title">
                                 <a href="{{ route('event-details') }}">
-                                    Sustainability & Development Showcase: Green
+                                    Sustainability Showcase: Green
                                     Living at Unipix </a>
                             </h5>
                             <a href="{{ route('event-details') }}" class="rts__round--btn">
@@ -574,16 +487,16 @@
                 <!-- single event item -->
                 <!-- single event item -->
                 <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="rts__single--event">
+                    <div class="rts__single--event v__2">
                         <div class="rts__single--event--thumb">
                             <a href="{{ route('event-details') }}">
-                                <img src="{{asset('assets/images/event/03.jpg')}}" alt="event">
+                                <img src="{{ asset('assets/images/event/03.jpg') }}" alt="event">
                             </a>
                         </div>
                         <div class="rts__single--event--meta">
                             <div class="rts__single--event--meta--dl">
                                 <span class="date">
-                                    <img src="{{asset('assets/images/icon/calendar.svg')}}" alt="">
+                                    <img src="{{ asset('assets/images/icon/calendar.svg') }}" alt="">
                                     <span>Nov 11, 2023</span>
                                 </span>
                                 <span class="location">
@@ -608,8 +521,7 @@
     </section>
     <!-- UPCOMING EVENT END -->
 
-    @include($components . 'blog-v1', ['class' => 'v_1 rts__light rts-section-padding'])
-    <!-- footer -->
-   @include($components . 'newsletter', ['class' => 'rts-cta-background'])
+    @include($components . 'brand-slider', ['class' => 'rts__light rts-section-padding'])
+    @include($components . 'newsletter', ['class' => 'rts-cta-background'])
     @include($footer . 'footer-v3', ['class' => 'v_2 pt--100 pb--100', 'cclass' => 'v_1'])
 @endsection
