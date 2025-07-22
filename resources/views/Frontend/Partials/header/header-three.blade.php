@@ -34,7 +34,7 @@
                                                 <li><a href="{{ route('academic') }}">Campus Tour</a></li>
                                                 <li><a href="{{ route('admission') }}">Library</a></li>
                                                 <li><a href="{{ route('academic-area') }}">Computer Lab</a></li>
-                                                <li><a href="{{ route('academic-area') }}">Healthy Bay</a></li>
+                                                {{-- <li><a href="{{ route('academic-area') }}">Healthy Bay</a></li> --}}
                                                 <li><a href="{{ route('academic-area') }}">Physics Lab</a></li>
                                                 <li><a href="{{ route('academic-area') }}">Chemistry Lab</a></li>
                                                 <li><a href="{{ route('academic-area') }}">Biology Lab</a></li>
