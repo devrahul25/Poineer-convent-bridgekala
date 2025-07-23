@@ -62,12 +62,11 @@
                                                         alt="cap">
                                                 </div>
                                                 <h2 class="banner__slides--content--title">
-                                                    Academic Journey
-                                                    Begins Unipix
+                                                    Shaping Minds, Building Futures
                                                 </h2>
                                                 <p class="banner__slides--content--description">
-                                                    Remember to tailor the section names to fit the specific needs and
-                                                    structure of your university website.
+                                                    Empowering students with knowledge, discipline, and a deep sense of
+                                                    purpose.
                                                 </p>
                                                 <div class="banner__slides--content--btn">
                                                     <a href="{{ route('program-single') }}"
