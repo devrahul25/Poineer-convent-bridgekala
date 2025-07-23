@@ -24,7 +24,7 @@
                                         <div class="banner__slides--container banner__height">
                                             <div class="banner__slides--content">
                                                 <div class="banner__slides--content--icon">
-                                                    <img src="{{ asset('assets/images/banner/banner__3--icon.svg') }}"
+                                                    <img src="{{ asset('assets/images/banner/banner__3--icon.png') }}"
                                                         alt="cap">
                                                 </div>
                                                 <h2 class="banner__slides--content--title">
@@ -58,7 +58,7 @@
                                         <div class="banner__slides--container banner__height">
                                             <div class="banner__slides--content">
                                                 <div class="banner__slides--content--icon">
-                                                    <img src="{{ asset('assets/images/banner/banner__3--icon.svg') }}"
+                                                    <img src="{{ asset('assets/images/banner/banner__3--icon.png') }}"
                                                         alt="cap">
                                                 </div>
                                                 <h2 class="banner__slides--content--title">
