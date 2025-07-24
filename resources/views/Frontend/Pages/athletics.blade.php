@@ -17,7 +17,7 @@
                     <div class="col-lg-6">
                         <div class="left-content">
                             <div class="athletics-image">
-                                <img src="{{ asset('assets/images/campus/10.jpg') }}" alt="campus-single">
+                                <img src="{{ asset('assets/images/sports/1.jpg') }}" alt="campus-single">
                             </div>
                             <p class="athletics-description mt--35">
                                 Our comprehensive sports program is designed to instill values such as patience,
@@ -40,7 +40,7 @@
                                     students discover and harness their innate talents.
                                 </p>
                                 <div class="athletics-image mt--45">
-                                    <img src="{{ asset('assets/images/campus/11.jpg') }}" alt="campus-single">
+                                    <img src="{{ asset('assets/images/sports/2.jpg') }}" alt="campus-single">
                                 </div>
                             </div>
                         </div>
