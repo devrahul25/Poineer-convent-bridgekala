@@ -4,7 +4,7 @@
     @include($elements . 'breadcrumb', [
         'class' => 'breadcrumb-height breadcumb-bg',
         'image' => 'breadcrumb.jpg',
-        'title' => 'Tution Fees',
+        'title' => 'Tution',
         'page' => 'Tuition and Fees',
     ])
 

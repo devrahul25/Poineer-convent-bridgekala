@@ -324,7 +324,7 @@ class PageController extends BaseController
     // examinations
     public function Examinations()
     {
-        return $this->view('co-curricular', [
+        return $this->view('examinations', [
             'page_title' => 'examinations Page Template'
         ]);
     }
