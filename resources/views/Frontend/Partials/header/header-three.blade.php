@@ -82,7 +82,8 @@
                                         <li class="navigation__menu--item has-child">
                                             <a href="#" class="navigation__menu--item__link">Admission</a>
                                             <ul class="submenu sub__style">
-                                                <li><a href="{{ route('blog') }}">Information</a></li>
+                                                <li><a href="{{ route('blog') }}">Adm. Information</a></li>
+                                                <li><a href="{{ route('blog') }}">Fee Structure</a></li>
                                             </ul>
                                         </li>
 
