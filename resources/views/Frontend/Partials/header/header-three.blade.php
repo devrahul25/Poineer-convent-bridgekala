@@ -72,18 +72,18 @@
                                         <li class="navigation__menu--item has-child">
                                             <a href="#" class="navigation__menu--item__link">Activities</a>
                                             <ul class="submenu sub__style">
-                                                <li><a href="{{ route('event') }}">Sports</a></li>
+                                                <li><a href="{{ route('athletics') }}">Sports</a></li>
                                                 <li><a href="{{ route('event-details') }}">Co-Curricular</a></li>
-                                                <li><a href="{{ route('event-details') }}">House System</a></li>
-                                                <li><a href="{{ route('event-details') }}">Club</a></li>
+                                                {{-- <li><a href="{{ route('event-details') }}">House System</a></li>
+                                                <li><a href="{{ route('event-details') }}">Club</a></li> --}}
                                             </ul>
                                         </li>
 
                                         <li class="navigation__menu--item has-child">
                                             <a href="#" class="navigation__menu--item__link">Admission</a>
                                             <ul class="submenu sub__style">
-                                                <li><a href="{{ route('blog') }}">Adm. Information</a></li>
-                                                <li><a href="{{ route('blog') }}">Fee Structure</a></li>
+                                                <li><a href="{{ route('admission') }}">Adm. Information</a></li>
+                                                <li><a href="{{ route('tution-fee') }}">Fee Structure</a></li>
                                             </ul>
                                         </li>
 
