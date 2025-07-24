@@ -335,6 +335,21 @@ class PageController extends BaseController
             'page_title' => 'academic-calender Page Template'
         ]);
     }
+    // image gallery
+    public function Gallery()
+    {
+        return $this->view('image-gallery', [
+            'page_title' => 'image-gallery Page Template'
+        ]);
+    }
+    
+    // video gallery
+    public function Video()
+    {
+        return $this->view('video-gallery', [
+            'page_title' => 'video-gallery Page Template'
+        ]);
+    }
 
 
 

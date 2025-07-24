@@ -59,4 +59,6 @@ Route::controller(PageController::class)->group(function () {
     Route::get('co-curricular', 'coCurricular')->name('co-curricular');
     Route::get('examinations', 'Examinations')->name('examinations');
     Route::get('academic-calender', 'Academicc')->name('academic-calender');
+    Route::get('image-gallery', 'Gallery')->name('image-gallery');
+    Route::get('video-gallery', 'Video')->name('video-gallery');
 });

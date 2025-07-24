@@ -99,8 +99,8 @@
                                         <li class="navigation__menu--item has-child">
                                             <a href="#" class="navigation__menu--item__link">Gallery</a>
                                             <ul class="submenu sub__style">
-                                                <li><a href="{{ route('blog') }}">Photo Gallery</a></li>
-                                                <li><a href="{{ route('blog-grid') }}">Video Gallery</a></li>
+                                                <li><a href="{{ route('image-gallery') }}">Photo Gallery</a></li>
+                                                <li><a href="{{ route('video-gallery') }}">Video Gallery</a></li>
                                             </ul>
                                         </li>
                                     </ul>
