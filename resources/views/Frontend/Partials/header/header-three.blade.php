@@ -116,6 +116,7 @@
                         <div class="header__right--item">
                             <div id="menu-btn" class="menu__trigger">
                                 <img src="{{ asset('assets/images/icon/menu__bar-3.svg') }}" alt="bar">
+                                <img src="{{ asset('assets/images/icon/menu__bar-3.svg') }}" alt="bar">
                             </div>
                         </div>
                     </div> --}}
@@ -126,3 +127,4 @@
     </div>
 </header>
 <!-- header area end -->
+
