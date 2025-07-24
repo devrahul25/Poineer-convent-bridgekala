@@ -45,9 +45,9 @@
                                         <li class="navigation__menu--item has-child ">
                                             <a href="#" class="navigation__menu--item__link">Academics</a>
                                             <ul class="submenu sub__style">
-                                                <li><a href="{{ route('academic') }}">Examinations</a></li>
-                                                <li><a href="{{ route('admission') }}">School Calendar</a></li>
-                                                <li><a href="{{ route('academic-area') }}">Faculty</a></li>
+                                                <li><a href="{{ route('examinations') }}">Examinations</a></li>
+                                                <li><a href="{{ route('academic-calender') }}">School Calendar</a></li>
+                                            <li><a href="{{ route('academic-area') }}">Faculty</a></li>
                                             </ul>
                                         </li>
                                     </ul>
