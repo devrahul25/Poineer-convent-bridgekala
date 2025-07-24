@@ -73,7 +73,7 @@
                                             <a href="#" class="navigation__menu--item__link">Activities</a>
                                             <ul class="submenu sub__style">
                                                 <li><a href="{{ route('athletics') }}">Sports</a></li>
-                                                <li><a href="{{ route('event-details') }}">Co-Curricular</a></li>
+                                                <li><a href="{{ route('co-curricular') }}">Co-Curricular</a></li>
                                                 {{-- <li><a href="{{ route('event-details') }}">House System</a></li>
                                                 <li><a href="{{ route('event-details') }}">Club</a></li> --}}
                                             </ul>
