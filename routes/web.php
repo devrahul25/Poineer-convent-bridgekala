@@ -13,7 +13,8 @@ use App\Http\Controllers\PageController;
 | contains the "web" middleware group. Now create something great!
 |
 */
-Route::controller(PageController::class)->group(function (){
+
+Route::controller(PageController::class)->group(function () {
     Route::get('/', 'index')->name('index');
     Route::get('index-two', 'indexTwo')->name('index-two');
     Route::get('index-three', 'indexThree')->name('index-three');
@@ -55,4 +56,5 @@ Route::controller(PageController::class)->group(function (){
     Route::get('faculty', 'faculty')->name('faculty');
     Route::get('tution-fee', 'tutionFee')->name('tution-fee');
     Route::get('campus-life-sc', 'campusLife')->name('campus-life-sc');
+    Route::get('co-curricular', 'coCurricular')->name('co-curricular');
 });
