@@ -4,8 +4,8 @@
     @include($elements . 'breadcrumb', [
         'class' => 'breadcrumb-height breadcumb-bg',
         'image' => 'breadcrumb.jpg',
-        'title' => 'Tution Fees',
-        'page' => 'Tuition and Fees',
+        'title' => 'Fee Structure for the Academic Year 2025–2026',
+        'page' => 'Fee Structure',
     ])
 
     <!-- tution fee -->
@@ -13,18 +13,16 @@
         <div class="container">
             <div class="row">
                 <h3 class="rts-section-title">About Tuition & Fees</h3>
-                <p class="desc">Tuition rates for the Fall and Spring semesters are approved at the Board of Trustees
-                    meeting in July prior to the beginning of the academic year. Summer tuition rates are approved at the
-                    Board of Trustees meeting in February before the term begins. Course registration dates can be found on
-                    the . See Important Dates for payment due dates and other deadlines.
+                <p class="desc">The fee structure for the academic year 2025–2026 is designed to offer quality education at
+                    a fair cost. Monthly fees, annual charges, and admission fees vary by class level, ensuring that
+                    students across grades have access to structured learning at reasonable rates.
+                    All tuition details are reviewed and proposed in advance to allow parents and guardians sufficient time
+                    for planning.
+
+                    Additional development charges at 15% of the total fee may apply, and these are utilized strictly under
+                    designated educational development heads.
                 </p>
-                <h5>Undergraduate Students</h5>
-                <p class="desc">Part-time undergraduate students (registered for less than 12 credits) or undergraduate
-                    students registered for credits over 20 in the Fall or Spring semester are charged the per credit rate
-                    based on residency. Undergraduate students taking between 12 and 20 credits in the Fall or Spring term
-                    are charged a flat rate tuition. Flat rate tuition is not available in the Summer. Undergraduate
-                    students registering for courses in the Summer term are charged a discounted per credit rate based on
-                    residency.</p>
+                </li>
             </div>
         </div>
     </div>
@@ -33,169 +31,38 @@
         <div class="container">
             <div class="row">
                 <div class="semister-fee__content">
-                    <h5 class="rts-section-title">Flat Rate (Undergraduate)</h5>
-                    <p class="rt-regular">FALL 2023 - SPPING 2024</p>
+                    <h5 class="rts-section-title">Pre-Primary</h5>
+
                     <!-- tab item -->
                     <div class="rts-fee-chart">
-                        <div class="rts-fee-chart__tab">
-                            <nav>
-                                <div class="nav nav-tabs" id="nav-tab" role="tablist">
-                                    <button class="nav-link active" id="undergrade-1-tab" data-bs-toggle="tab"
-                                        data-bs-target="#undergrade-1" type="button" role="tab"
-                                        aria-controls="undergrade-1" aria-selected="true">Undergraduate Tuition </button>
-                                    <button class="nav-link" id="grade-tution-2-tab" data-bs-toggle="tab"
-                                        data-bs-target="#grade-tution-2" type="button" role="tab"
-                                        aria-controls="grade-tution-2" aria-selected="false">Graduate Tuition </button>
-                                </div>
-                            </nav>
-                        </div>
+
                         <div class="rts-fee-chart__content" id="nav-tabContent">
                             <div class="tab-pane fade show active" id="undergrade-1" role="tabpanel"
                                 aria-labelledby="undergrade-1-tab">
                                 <table class="table">
                                     <thead class="table-theme">
                                         <tr>
-                                            <th>UNDERGRADUATE - Faculties </th>
-                                            <th> Flat Rate Tuition (Credits)</th>
-                                            <th>IN-STATE (Per Semester)</th>
-                                            <th>OUT-STATE (Per Semester)</th>
+                                            <th>Class</th>
+                                            <th>Monthly Fee (₹)</th>
+                                            <th> Annual Charges (₹)</th>
+                                            <th> Admission Fee (₹)</th>
                                         </tr>
                                     </thead>
                                     <tbody>
                                         <tr>
-                                            <td rowspan="3">Business & Administration</td>
-                                            <td><span>12-20 Credits (Full-Time)</span></td>
-                                            <td>$7,245.00
+                                            <td>Pre-Primary – I</td>
+                                            <td>5,570</td>
+                                            <td>11,190
                                             </td>
-                                            <td>$12,475.00
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>Education & General Fees
-                                                <span>(12-20 Credits)</span>
-                                            </td>
-                                            <td>$845.00</td>
-                                            <td>$845.00</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Facilities Fee <span>(12-20 credits)</span></td>
-                                            <td>$845.00</td>
-                                            <td>$245.00</td>
-                                        </tr>
-
-                                        <tr class="table-theme">
-                                            <td>Total: </td>
-                                            <td></td>
-                                            <td>$8,335.00</td>
-                                            <td>$13,565.00</td>
-                                        </tr>
-                                        <tr>
-                                            <td rowspan="3">Computer Science</td>
-                                            <td><span>12-20 Credits (Full-Time)</span></td>
-                                            <td>$7,245.00
-                                            </td>
-                                            <td>$12,475.00
+                                            <td>200
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td>Education & General Fees
-                                                <span>(12-20 Credits)</span>
+                                            <td>Pre-Primary – II</td>
+                                            <td>5,570</td>
+                                            <td>11,190
                                             </td>
-                                            <td>$845.00</td>
-                                            <td>$845.00</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Facilities Fee <span>(12-20 credits)</span></td>
-                                            <td>$845.00</td>
-                                            <td>$245.00</td>
-                                        </tr>
-                                        <tr class="table-theme border-none">
-                                            <td>Total: </td>
-                                            <td></td>
-                                            <td>$8,335.00</td>
-                                            <td>$13,565.00</td>
-                                        </tr>
-                                        <tr class="table-theme-theme">
-                                            <td>Other Fees Per Semester</td>
-                                            <td>Non-Matriculated Student <br>
-                                                Fee (if applicable)</td>
-                                            <td>$65.00</td>
-                                            <td></td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                            </div>
-                            <div class="tab-pane fade" id="grade-tution-2" role="tabpanel"
-                                aria-labelledby="grade-tution-2-tab">
-                                <table class="table">
-                                    <thead class="table-theme">
-                                        <tr>
-                                            <th>UNDERGRADUATE - Faculties </th>
-                                            <th> Flat Rate Tuition (Credits)</th>
-                                            <th>IN-STATE (Per Semester)</th>
-                                            <th>OUT-STATE (Per Semester)</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr>
-                                            <td rowspan="3">Business & Administration</td>
-                                            <td><span>12-20 Credits (Full-Time)</span></td>
-                                            <td>$7,245.00
-                                            </td>
-                                            <td>$12,475.00
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>Education & General Fees
-                                                <span>(12-20 Credits)</span>
-                                            </td>
-                                            <td>$845.00</td>
-                                            <td>$845.00</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Facilities Fee <span>(12-20 credits)</span></td>
-                                            <td>$845.00</td>
-                                            <td>$245.00</td>
-                                        </tr>
-
-                                        <tr class="table-theme">
-                                            <td>Total: </td>
-                                            <td></td>
-                                            <td>$8,335.00</td>
-                                            <td>$13,565.00</td>
-                                        </tr>
-                                        <tr>
-                                            <td rowspan="3">Computer Science</td>
-                                            <td><span>12-20 Credits (Full-Time)</span></td>
-                                            <td>$7,245.00
-                                            </td>
-                                            <td>$12,475.00
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>Education & General Fees
-                                                <span>(12-20 Credits)</span>
-                                            </td>
-                                            <td>$845.00</td>
-                                            <td>$845.00</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Facilities Fee <span>(12-20 credits)</span></td>
-                                            <td>$845.00</td>
-                                            <td>$245.00</td>
-                                        </tr>
-                                        <tr class="table-theme border-none">
-                                            <td>Total: </td>
-                                            <td></td>
-                                            <td>$8,335.00</td>
-                                            <td>$13,565.00</td>
-                                        </tr>
-                                        <tr class="table-theme-theme">
-                                            <td>Other Fees Per Semester</td>
-                                            <td>Non-Matriculated Student <br>
-                                                Fee (if applicable)</td>
-                                            <td>$65.00</td>
-                                            <td></td>
+                                            <td>200 </td>
                                         </tr>
                                     </tbody>
                                 </table>
@@ -205,107 +72,182 @@
                 </div>
                 <!-- second part -->
                 <div class="semister-fee__content mt--80 v_2">
-                    <h5 class="rts-section-title">Per Credit Rate (Undergraduate)</h5>
+                    <h5 class="rts-section-title">Primary (Class I – V)</h5>
                     <!-- tab item -->
                     <div class="rts-fee-chart">
-                        <div class="rts-fee-chart__tab">
-                            <nav>
-                                <div class="nav nav-tabs" id="nav-tab2" role="tablist">
-                                    <button class="nav-link active" id="undergrade-tab" data-bs-toggle="tab"
-                                        data-bs-target="#undergrade" type="button" role="tab"
-                                        aria-controls="undergrade" aria-selected="true">FALL 2023 - SPPING 2024</button>
-                                    <button class="nav-link" id="grade-tution-tab" data-bs-toggle="tab"
-                                        data-bs-target="#grade-tution" type="button" role="tab"
-                                        aria-controls="grade-tution" aria-selected="false">Summer 2023</button>
-                                </div>
-                            </nav>
-                        </div>
+
                         <div class="rts-fee-chart__content" id="nav-tabContent2">
                             <div class="tab-pane fade show active" id="undergrade" role="tabpanel"
                                 aria-labelledby="undergrade-tab">
                                 <table class="table">
                                     <thead class="table-theme">
                                         <tr>
-                                            <td>UNDERGRADUATE - Per Credit Rate</td>
-                                            <td> IN-STATE (Per Semester)</td>
-                                            <td>OUT-STATE (Per Semester)</td>
+                                            <td>Class</td>
+                                            <td>Monthly Fee (₹)</td>
+                                            <td>Annual Charges (₹)</td>
+                                            <td>Admission Fee (₹)</td>
                                         </tr>
                                     </thead>
                                     <tbody>
                                         <tr>
-                                            <td>Tuition Per Credit</td>
-                                            <td>$645.00</td>
-                                            <td>$975.00</td>
+                                            <td>I</td>
+                                            <td>4,380</td>
+                                            <td>13,525</td>
+                                            <td>200</td>
                                         </tr>
                                         <tr>
-                                            <td>Education & General Fees
-                                                <span>(Per Credits)</span>
-                                            </td>
-                                            <td>$845.00</td>
-                                            <td>$845.00</td>
+                                        <tr>
+                                            <td>II</td>
+                                            <td>4,380</td>
+                                            <td>13,525</td>
+                                            <td>200</td>
+                                        </tr>
                                         </tr>
                                         <tr>
-                                            <td>Facilities Fee <span>(12-20 credits)</span></td>
-                                            <td>$845.00</td>
-                                            <td>$245.00</td>
-                                        </tr>
-                                        <tr class="table-theme">
-                                            <td>Total: </td>
-                                            <td>$8,335.00</td>
-                                            <td>$13,565.00</td>
-                                        </tr>
-                                        <tr class="table-theme-theme">
-                                            <td>Other Fees Per Semester</td>
-                                            <td>Non-Matriculated Student <br>
-                                                Fee (if applicable)</td>
-                                            <td>$65.00</td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                            </div>
-                            <div class="tab-pane fade" id="grade-tution" role="tabpanel" aria-labelledby="grade-tution-tab">
-                                <table class="table">
-                                    <thead class="table-theme">
-                                        <tr>
-                                            <td>UNDERGRADUATE - Per Credit Rate</td>
-                                            <td> IN-STATE (Per Semester)</td>
-                                            <td>OUT-STATE (Per Semester)</td>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr>
-                                            <td>Tuition Per Credit</td>
-                                            <td>$645.00</td>
-                                            <td>$975.00</td>
+                                            <td>III</td>
+                                            <td>4,770</td>
+                                            <td>13,525</td>
+                                            <td>200</td>
                                         </tr>
                                         <tr>
-                                            <td>Education & General Fees
-                                                <span>(Per Credits)</span>
-                                            </td>
-                                            <td>$845.00</td>
-                                            <td>$845.00</td>
+                                            <td>IV</td>
+                                            <td>4,770</td>
+                                            <td>13,525</td>
+                                            <td>200</td>
                                         </tr>
                                         <tr>
-                                            <td>Facilities Fee <span>(12-20 credits)</span></td>
-                                            <td>$845.00</td>
-                                            <td>$245.00</td>
-                                        </tr>
-                                        <tr class="table-theme">
-                                            <td>Total: </td>
-                                            <td>$8,335.00</td>
-                                            <td>$13,565.00</td>
-                                        </tr>
-                                        <tr class="table-theme-theme">
-                                            <td>Other Fees Per Semester</td>
-                                            <td>Non-Matriculated Student <br>
-                                                Fee (if applicable)</td>
-                                            <td>$65.00</td>
+                                            <td>V</td>
+                                            <td>5,240</td>
+                                            <td>13,525</td>
+                                            <td>200</td>
                                         </tr>
                                     </tbody>
                                 </table>
                             </div>
                         </div>
+                    </div>
+                </div>
+                {{-- Third part --}}
+                <div class="semister-fee__content mt--80 v_2">
+                    <h5 class="rts-section-title">Middle (Class VI – VIII)</h5>
+                    <!-- tab item -->
+                    <div class="rts-fee-chart">
 
+                        <div class="rts-fee-chart__content" id="nav-tabContent2">
+                            <div class="tab-pane fade show active" id="undergrade" role="tabpanel"
+                                aria-labelledby="undergrade-tab">
+                                <table class="table">
+                                    <thead class="table-theme">
+                                        <tr>
+                                            <td>Class</td>
+                                            <td>Monthly Fee (₹)</td>
+                                            <td>Annual Charges (₹)</td>
+                                            <td>Admission Fee (₹)</td>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>VI</td>
+                                            <td>5,240</td>
+                                            <td>15,890</td>
+                                            <td>200</td>
+                                        </tr>
+                                        <tr>
+                                        <tr>
+                                            <td>VII</td>
+                                            <td>5,240</td>
+                                            <td>15,890</td>
+                                            <td>200</td>
+                                        </tr>
+                                        </tr>
+                                        <tr>
+                                            <td>VIII</td>
+                                            <td>5,240</td>
+                                            <td>15,890</td>
+                                            <td>200</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                {{-- fourth part --}}
+                <div class="semister-fee__content mt--80 v_2">
+                    <h5 class="rts-section-title">Secondary (Class IX – X)</h5>
+                    <!-- tab item -->
+                    <div class="rts-fee-chart">
+
+                        <div class="rts-fee-chart__content" id="nav-tabContent2">
+                            <div class="tab-pane fade show active" id="undergrade" role="tabpanel"
+                                aria-labelledby="undergrade-tab">
+                                <table class="table">
+                                    <thead class="table-theme">
+                                        <tr>
+                                            <td>Class</td>
+                                            <td>Monthly Fee (₹)</td>
+                                            <td>Annual Charges (₹)</td>
+                                            <td>Admission Fee (₹)</td>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>IX</td>
+                                            <td>6,030</td>
+                                            <td>15,890</td>
+                                            <td>200</td>
+                                        </tr>
+                                        <tr>
+                                        <tr>
+                                            <td>X</td>
+                                            <td>6,630</td>
+                                            <td>15,890</td>
+                                            <td>200</td>
+                                        </tr>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                {{-- fifth part --}}
+                <div class="semister-fee__content mt--80 v_2">
+                    <h5 class="rts-section-title">Senior Secondary (Class XI – XII)</h5>
+                    <!-- tab item -->
+                    <div class="rts-fee-chart">
+
+                        <div class="rts-fee-chart__content" id="nav-tabContent2">
+                            <div class="tab-pane fade show active" id="undergrade" role="tabpanel"
+                                aria-labelledby="undergrade-tab">
+                                <table class="table">
+                                    <thead class="table-theme">
+                                        <tr>
+                                            <td>Class</td>
+                                            <td>Monthly Fee (₹)</td>
+                                            <td>Annual Charges (₹)</td>
+                                            <td>Admission Fee (₹)</td>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>XI</td>
+                                            <td>7,370</td>
+                                            <td>18,860</td>
+                                            <td>200</td>
+                                        </tr>
+                                        <tr>
+                                        <tr>
+                                            <td>XII</td>
+                                            <td>7,370</td>
+                                            <td>18,860</td>
+                                            <td>200</td>
+                                        </tr>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
