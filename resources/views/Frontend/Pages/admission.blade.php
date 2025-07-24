@@ -1,4 +1,3 @@
-
 @extends($layout)
 @section('content')
     @include($header . 'header-three')
@@ -6,91 +5,23 @@
     @include($elements . 'breadcrumb', [
         'class' => 'breadcrumb-height breadcumb-bg',
         'image' => 'breadcrumb.jpg',
-        'title' => 'Apply to Unipix University',
-        'page' => 'Apply Admission'    
+        'title' => 'Admission Process & Guidelines',
+        'page' => 'Apply Admission',
     ])
     <!-- admission page content -->
     <div class="rts-page-content rts-section-padding">
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <div class="admission-content-top">
-                        <h3 class="rts-section-title">
-                            First-Year Applicants
-                        </h3>
-
-                        <div class="admission-big-thumb">
-                            <img src="{{asset('assets/images/course/admission-bg.jpg')}}" alt="admission">
-                        </div>
-
-                        <div class="requirement-deadline">
-                            <h3 class="rts-section-title">Requirements and Deadlines</h3>
-                            <div class="requirement-deadline__content">
-                                <ul>
-                                    <li class="single-requirement">$90 nonrefundable application fee or fee waiver request</li>
-                                    <li class="single-requirement">ACT or SAT test scores (test optional)</li>
-                                    <li class="single-requirement">School Report form and counselor letter of recommendation </li>
-                                    <li class="single-requirement">Official transcript(s) or academic results</li>
-                                    <li class="single-requirement">Letters of recommendation from two teachers</li>
-                                    <li class="single-requirement">Midyear transcript (due by February 15)</li>
-                                    <li class="single-requirement">$90 nonrefundable application fee or fee waiver request</li>
-                                    <li class="single-requirement">ACT or SAT test scores (test optional)</li>
-                                    <li class="single-requirement">School Report form and counselor letter of recommendation </li>
-                                    <li class="single-requirement">Official transcript(s) or academic results</li>
-                                    <li class="single-requirement">Letters of recommendation from two teachers</li>
-                                    <li class="single-requirement">Midyear transcript (due by February 15)</li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="application-deadline">
-                            <h3 class="rts-section-title">Application Deadlines</h3>
-                            <div class="application-deadline__content">
-                                <div class="application-deadline__content--table">
-                                    <table class="table">
-                                        <thead class="table-theme">
-                                            <tr>
-                                                <td>Event</td>
-                                                <td>Restrictive Early Action</td>
-                                                <td>Regular Decision</td>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                            <tr>
-                                                <td>Standard Application Deadline</td>
-                                                <td>November 1</td>
-                                                <td>January 10</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Notification of Missing Documents</td>
-                                                <td>Mid-November</td>
-                                                <td>Mid-February</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Decision Released By</td>
-                                                <td>Mid-December</td>
-                                                <td>Early April</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Student Reply Date</td>
-                                                <td>May 1</td>
-                                                <td>May 1</td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
-                                </div>
-                                <p> Unipix reserves the right to evaluate an application and render a final decision even if all pieces of the application have not been received.</p>
-                                <p class="w-95 mx-0">Applicants are limited to a total of three applications for undergraduate admission, whether for first-year admission, transfer admission or a <br>combination of both. If you have submitted fewer than three applications to Unipix, you may reapply.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row sticky-coloum-wrap g-5 mt--45">
-                <div class="col-lg-8">
-                    <div class="rts-ap-section">
-                        <h3 class="rts-section-title mb--30">Application Details</h3>
-                        <div class="rts-application-form">
+                    <div class="row sticky-coloum-wrap g-5 ">
+                        <div class="col-lg-8">
+                            <div class="rts-ap-section">
+                                <h3 class="rts-section-title mb--30">Admission Form</h3>
+                                <p style="font-size: 20px; margin-bottom:50px; color:#890C25;">Admission forms are available
+                                    offline at the school reception for
+                                    a fee of ₹25/-.
+                                    Please bring the required documents for verification.</p>
+                                {{-- <div class="rts-application-form">
                             <form action="#">
                                 <div class="single-form-part">
                                     <h5 class="form-title">Personal Information</h5>
@@ -181,7 +112,8 @@
                                 </div>
                                 <div class="single-form-part">
                                     <h5 class="form-title">Agreement and Submission</h5>
-                                    <p>By submitting this application, I confirm that all information provided is accurate and complete. I understand that any false
+                                    <p>By submitting this application, I confirm that all information provided is accurate
+                                        and complete. I understand that any false
                                         information may result in the disqualification of my application.
                                     </p>
                                     <div class="single-input-item">
@@ -191,83 +123,163 @@
 
                                     <div class="d-flex align-items-center single-checkbox mt--20">
                                         <input type="checkbox" id="exampleCheck1">
-                                        <label for="exampleCheck1">By submitting this form, you agree to the Unipix University Privacy Notice</label>
+                                        <label for="exampleCheck1">By submitting this form, you agree to the Unipix
+                                            University Privacy Notice</label>
                                     </div>
                                 </div>
-                                <button type="submit" class="rts-theme-btn primary with-arrow">Submit Application<span><i class="fa-thin fa-arrow-right"></i></span></button>
+                                <button type="submit" class="rts-theme-btn primary with-arrow">Submit Application<span><i
+                                            class="fa-thin fa-arrow-right"></i></span></button>
                             </form>
-                            
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 sticky-coloum-item">
-                    <div class="program-sidebar">
-                        <!-- curriculum -->
-                        <div class="program-curriculum">
-                            <h6 class="heading-title">B.A In African Studies</h6>
-                            <div class="program-menu">
-                                <ul class="list-unstyled">
-                                    <li><a href="#"><span><i class="fa-light fa-arrow-right"></i></span>Course Curriculum</a></li>
-                                    <li><a href="#"><span><i class="fa-light fa-arrow-right"></i></span>Program Faculty</a></li>
-                                    <li><a href="#"><span><i class="fa-light fa-arrow-right"></i></span>Apply Admission</a></li>
-                                    <li><a href="#"><span><i class="fa-light fa-arrow-right"></i></span>Scholarship </a></li>
-                                    <li><a href="#"><span><i class="fa-light fa-arrow-right"></i></span>Joint Event</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <!-- contact info -->
-                        <div class="program-info">
-                            <h5>Department Contact Info</h5>
-                            <p>B.A. in Africana Studies</p>
-                            <div class="contact-info">
-                                <h5>Contact:</h5>
-                                <a href="mailto:barry.Unipix@info.com">barry.Unipix@info.com</a>
-                                <a href="callto:121">664-254-251</a>
-                            </div>
-                            <div class="social-info">
-                                <h5>Social Info:</h5>
-                                <div class="social-info-link">
-                                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
-                                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-                                    <a href="#"><i class="fa-brands fa-pinterest"></i></a>
-                                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
-                                </div>
+
+                        </div> --}}
                             </div>
                         </div>
 
-                        <!-- join event -->
-                        <div class="program-event">
-                            <div class="program-event-content">
-                                <p>Joint New Event About
-                                    African History
-                                </p>
-                               <h4 class="event-title">B.A. in Africana
-                                Studies</h4> 
-                                <div class="single-event-content-meta">
-                                    <div class="event-time">
-                                        <span><i class="fa-sharp fa-thin fa-clock"></i></span>
-                                        <span>10:30 am</span>
-                                    </div>
-                                    <div class="event-place">
-                                        <span><i class="fa-sharp fa-thin fa-location-dot"></i></span>
-                                        <span>Yarra Park, UK</span>
-                                    </div>
-                                    <div class="event-date">
-                                        <span><i class="fal fa-calendar"></i></span>
-                                        <span>November 28, 2023</span>
-                                    </div>
+                    </div>
+                    <div class="admission-content-top">
+                        <h3 class="rts-section-title">
+                            Session 2025–2026 | Registration Guidelines & Schedule
+                        </h3>
+
+                        <div class="admission-big-thumb">
+                            <img src="{{ asset('assets/images/course/admission-bg.jpg') }}" alt="admission">
+                        </div>
+
+                        <div class="requirement-deadline">
+                            <h3 class="rts-section-title">Eligibility & Required Documents</h3>
+                            <div class="requirement-deadline__content">
+                                <ul>
+                                    <li class="single-requirement"> Pre-School applicants must be 3 years old as on March
+                                        31, 2025
+                                    </li>
+                                    <li class="single-requirement"> Pre-Primary applicants must be 4 years old as on March
+                                        31, 2025</li>
+                                    <li class="single-requirement"> Birth certificate issued by Municipal Authority is
+                                        mandatory
+                                    </li>
+                                    <li class="single-requirement">Provide any one valid residence proof</li>
+                                    <li class="single-requirement">Accepted proofs: Aadhar Card / Voter ID / Passport /
+                                        Driving License / Electricity Bill / Ration Card</li>
+                                    <li class="single-requirement">Registration does not guarantee admission to the applied
+                                        class</li>
+
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="application-deadline">
+                            <h3 class="rts-section-title">Seat Matrix – Pre-School (Entry Level)</h3>
+                            <div class="application-deadline__content">
+                                <div class="application-deadline__content--table">
+                                    <table class="table">
+                                        <thead class="table-theme">
+                                            <tr>
+                                                <td>Category</td>
+                                                <td>Total Seats</td>
+                                                <td> EWS Seats</td>
+                                                <td> General Seats</td>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>Pre School</td>
+                                                <td>60</td>
+                                                <td>15</td>
+                                                <td>45</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
                                 </div>
-                                <a href="#" class="rts-theme-btn with-arrow btn-white lh-100">Joint Now <span><i class="fa-thin fa-arrow-right"></i></span></a>
+                                {{-- <p> Unipix reserves the right to evaluate an application and render a final decision even if
+                                    all pieces of the application have not been received.</p>
+                                <p class="w-95 mx-0">Applicants are limited to a total of three applications for
+                                    undergraduate admission, whether for first-year admission, transfer admission or a
+                                    <br>combination of both. If you have submitted fewer than three applications to Unipix,
+                                    you may reapply.
+                                </p> --}}
+                            </div>
+                        </div>
+                        {{-- New Table Starts --}}
+                        <div class="application-deadline">
+                            <h3 class="rts-section-title">Admission Timeline (2025–2026 – General Category)</h3>
+                            <div class="application-deadline__content">
+                                <div class="application-deadline__content--table">
+                                    <table class="table">
+                                        <thead class="table-theme">
+                                            <tr>
+                                                <td>Event</td>
+                                                <td>Date</td>
+
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>Registration Opens</td>
+                                                <td>28 November 2024</td>
+
+                                            </tr>
+                                            <tr>
+                                                <td>Last Date to Submit Form</td>
+                                                <td>20 December 2024</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Applicants List Displayed</td>
+                                                <td>03 January 2025</td>
+
+                                            </tr>
+                                            <tr>
+                                                <td>Marks (Point System) Displayed</td>
+                                                <td>10 January 2025</td>
+
+                                            </tr>
+                                            <tr>
+                                                <td>Draw of Lots (if required)</td>
+                                                <td>11 January 2025</td>
+                                            </tr>
+                                            <tr>
+                                                <td>First List of Selected Candidates</td>
+                                                <td>17 January 2025</td>
+                                            </tr>
+                                            <tr>
+                                                <td>First List Query Resolution</td>
+                                                <td>18–27 January 2025</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Fee Submission (First List)</td>
+                                                <td>27 January 2025</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Second List (if required)</td>
+                                                <td>03 February 2025</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Fee Submission (Second List)</td>
+                                                <td>13 February 2025</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Admission Process Closes</td>
+                                                <td>14 March 2025</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                {{-- <p> Unipix reserves the right to evaluate an application and render a final decision even if
+                                    all pieces of the application have not been received.</p>
+                                <p class="w-95 mx-0">Applicants are limited to a total of three applications for
+                                    undergraduate admission, whether for first-year admission, transfer admission or a
+                                    <br>combination of both. If you have submitted fewer than three applications to Unipix,
+                                    you may reapply.
+                                </p> --}}
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+
         </div>
     </div>
     <!-- admission page content end -->
-     
+
     @include($components . 'newsletter', ['class' => 'rts-cta-background'])
     @include($footer . 'footer-v3', ['class' => 'v_2 pt--100 pb--100', 'cclass' => 'v_1'])
 @endsection
