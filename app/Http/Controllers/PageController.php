@@ -321,6 +321,21 @@ class PageController extends BaseController
         ]);
     }
 
+    // examinations
+    public function Examinations()
+    {
+        return $this->view('co-curricular', [
+            'page_title' => 'examinations Page Template'
+        ]);
+    }
+    // academic-calender
+    public function Academicc()
+    {
+        return $this->view('academic-calender', [
+            'page_title' => 'academic-calender Page Template'
+        ]);
+    }
+
 
 
     // tution fee

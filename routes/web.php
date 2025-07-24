@@ -57,4 +57,6 @@ Route::controller(PageController::class)->group(function () {
     Route::get('tution-fee', 'tutionFee')->name('tution-fee');
     Route::get('campus-life-sc', 'campusLife')->name('campus-life-sc');
     Route::get('co-curricular', 'coCurricular')->name('co-curricular');
+    Route::get('examinations', 'Examinations')->name('examinations');
+    Route::get('academic-calender', 'Academicc')->name('academic-calender');
 });
