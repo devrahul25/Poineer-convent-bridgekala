@@ -4,314 +4,222 @@
     @include($elements . 'breadcrumb', [
         'class' => 'breadcrumb-height breadcumb-bg',
         'image' => 'breadcrumb.jpg',
-        'title' => 'Tution Fees',
-        'page' => 'Tuition and Fees',
+        'title' => 'Academic Calendar (2025-26)',
+        'page' => 'Academic Calendar',
     ])
 
     <!-- tution fee -->
     <div class="page-content-top pt--120 pt__md--80">
         <div class="container">
-            <div class="row">
-                <h3 class="rts-section-title">About Tuition & Fees</h3>
-                <p class="desc">Tuition rates for the Fall and Spring semesters are approved at the Board of Trustees
-                    meeting in July prior to the beginning of the academic year. Summer tuition rates are approved at the
-                    Board of Trustees meeting in February before the term begins. Course registration dates can be found on
-                    the . See Important Dates for payment due dates and other deadlines.
+            <div class="row">   
+                <div class="semister-fee pb--60">
+                    <div class="container">
+                        <div class="row">
+                            <div class="semister-fee__content">
+                                <h5 class="rts-section-title">School Timings</h5>
+                                <div class="rts-fee-chart">
+                                    <div class="rts-fee-chart__content" id="nav-tabContent">
+                                        <div class="tab-pane fade show active" id="vacation-schedule" role="tabpanel"
+                                            aria-labelledby="vacation-schedule-tab">
+                                            <table class="table">
+                                                <thead class="table-theme">
+                                                    <tr>
+                                                        <th colspan="3">School Timings (Summer & Winter)</th>
+                                                    </tr>
+                                                </thead>
+                                                <thead class="table-theme">
+                                                    <tr>
+                                                        <th>Section</th>
+                                                        <th>Timings</th>
+                                                        <th>Remarks</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <td rowspan="2">Pre-School & Pre-Primary</td>
+                                                        <td>8:00 a.m. to 12:00 Noon</td>
+                                                        <td>Summer (April to October)</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>8:30 a.m. to 12:30 p.m.</td>
+                                                        <td>Winter (November to March)</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td colspan="3">Every Saturday will be a holiday for Pre-School &
+                                                            Pre-Primary
+                                                            students.</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Classes I & II</td>
+                                                        <td>7:40 a.m. to 1:15 p.m.</td>
+                                                        <td></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Classes III to X</td>
+                                                        <td>7:40 a.m. to 1:30 p.m.</td>
+                                                        <td></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>School Office</td>
+                                                        <td>7:30 a.m. to 12:00 Noon</td>
+                                                        <td></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td colspan="3">Every Second Saturday will be a holiday for all
+                                                            the students.
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <h3 class="rts-section-title">Visiting Time for Parents</h3>
+                <p class="desc">Principal will be available to parents on all working days from 9.00 a.m. to 10.00 a.m.
+                    except, when she is busy in some other important official work. Prior appointment for meeting will
+                    always be desirable.
                 </p>
-                <h5>Undergraduate Students</h5>
-                <p class="desc">Part-time undergraduate students (registered for less than 12 credits) or undergraduate
-                    students registered for credits over 20 in the Fall or Spring semester are charged the per credit rate
-                    based on residency. Undergraduate students taking between 12 and 20 credits in the Fall or Spring term
-                    are charged a flat rate tuition. Flat rate tuition is not available in the Summer. Undergraduate
-                    students registering for courses in the Summer term are charged a discounted per credit rate based on
-                    residency.</p>
+
+                <p class="desc">Parents are requested to maintain effective communication through the diary pages. However
+                    parents of all the students can meet the respective teachers on every Second Saturday from 8.00 a.m. to
+                    11.00 a.m. Students should not be brought for the P.T.M. For other working days parents can write in the
+                    Almanac to the class teacher for an appointment with the concerned teacher. The class teacher will do
+                    the needful.</p>
+                <p>Parents are not permitted to go to the class-room to meet teachers during regular teaching periods.</p>
             </div>
         </div>
     </div>
+
+
     <!-- semister fee chart -->
     <div class="semister-fee pb--120 pb__md--80">
         <div class="container">
             <div class="row">
                 <div class="semister-fee__content">
-                    <h5 class="rts-section-title">Flat Rate (Undergraduate)</h5>
-                    <p class="rt-regular">FALL 2023 - SPPING 2024</p>
+                    <h5 class="rts-section-title">School Calendar 2025-26</h5>
                     <!-- tab item -->
                     <div class="rts-fee-chart">
-                        <div class="rts-fee-chart__tab">
-                            <nav>
-                                <div class="nav nav-tabs" id="nav-tab" role="tablist">
-                                    <button class="nav-link active" id="undergrade-1-tab" data-bs-toggle="tab"
-                                        data-bs-target="#undergrade-1" type="button" role="tab"
-                                        aria-controls="undergrade-1" aria-selected="true">Undergraduate Tuition </button>
-                                    <button class="nav-link" id="grade-tution-2-tab" data-bs-toggle="tab"
-                                        data-bs-target="#grade-tution-2" type="button" role="tab"
-                                        aria-controls="grade-tution-2" aria-selected="false">Graduate Tuition </button>
-                                </div>
-                            </nav>
-                        </div>
                         <div class="rts-fee-chart__content" id="nav-tabContent">
                             <div class="tab-pane fade show active" id="undergrade-1" role="tabpanel"
                                 aria-labelledby="undergrade-1-tab">
                                 <table class="table">
                                     <thead class="table-theme">
                                         <tr>
-                                            <th>UNDERGRADUATE - Faculties </th>
-                                            <th> Flat Rate Tuition (Credits)</th>
-                                            <th>IN-STATE (Per Semester)</th>
-                                            <th>OUT-STATE (Per Semester)</th>
+                                            <th colspan="4">List of Holidays (2025–2026)</th>
                                         </tr>
                                     </thead>
-                                    <tbody>
-                                        <tr>
-                                            <td rowspan="3">Business & Administration</td>
-                                            <td><span>12-20 Credits (Full-Time)</span></td>
-                                            <td>$7,245.00
-                                            </td>
-                                            <td>$12,475.00
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>Education & General Fees
-                                                <span>(12-20 Credits)</span>
-                                            </td>
-                                            <td>$845.00</td>
-                                            <td>$845.00</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Facilities Fee <span>(12-20 credits)</span></td>
-                                            <td>$845.00</td>
-                                            <td>$245.00</td>
-                                        </tr>
-
-                                        <tr class="table-theme">
-                                            <td>Total: </td>
-                                            <td></td>
-                                            <td>$8,335.00</td>
-                                            <td>$13,565.00</td>
-                                        </tr>
-                                        <tr>
-                                            <td rowspan="3">Computer Science</td>
-                                            <td><span>12-20 Credits (Full-Time)</span></td>
-                                            <td>$7,245.00
-                                            </td>
-                                            <td>$12,475.00
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>Education & General Fees
-                                                <span>(12-20 Credits)</span>
-                                            </td>
-                                            <td>$845.00</td>
-                                            <td>$845.00</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Facilities Fee <span>(12-20 credits)</span></td>
-                                            <td>$845.00</td>
-                                            <td>$245.00</td>
-                                        </tr>
-                                        <tr class="table-theme border-none">
-                                            <td>Total: </td>
-                                            <td></td>
-                                            <td>$8,335.00</td>
-                                            <td>$13,565.00</td>
-                                        </tr>
-                                        <tr class="table-theme-theme">
-                                            <td>Other Fees Per Semester</td>
-                                            <td>Non-Matriculated Student <br>
-                                                Fee (if applicable)</td>
-                                            <td>$65.00</td>
-                                            <td></td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                            </div>
-                            <div class="tab-pane fade" id="grade-tution-2" role="tabpanel"
-                                aria-labelledby="grade-tution-2-tab">
-                                <table class="table">
                                     <thead class="table-theme">
                                         <tr>
-                                            <th>UNDERGRADUATE - Faculties </th>
-                                            <th> Flat Rate Tuition (Credits)</th>
-                                            <th>IN-STATE (Per Semester)</th>
-                                            <th>OUT-STATE (Per Semester)</th>
+                                            <th>Occasion</th>
+                                            <th>Date</th>
+                                            <th>Day</th>
+                                            <th>Notes</th>
                                         </tr>
                                     </thead>
                                     <tbody>
                                         <tr>
-                                            <td rowspan="3">Business & Administration</td>
-                                            <td><span>12-20 Credits (Full-Time)</span></td>
-                                            <td>$7,245.00
-                                            </td>
-                                            <td>$12,475.00
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>Education & General Fees
-                                                <span>(12-20 Credits)</span>
-                                            </td>
-                                            <td>$845.00</td>
-                                            <td>$845.00</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Facilities Fee <span>(12-20 credits)</span></td>
-                                            <td>$845.00</td>
-                                            <td>$245.00</td>
-                                        </tr>
-
-                                        <tr class="table-theme">
-                                            <td>Total: </td>
+                                            <td>Mahavir Jayanti</td>
+                                            <td>10.04.2025</td>
+                                            <td>Thursday</td>
                                             <td></td>
-                                            <td>$8,335.00</td>
-                                            <td>$13,565.00</td>
                                         </tr>
                                         <tr>
-                                            <td rowspan="3">Computer Science</td>
-                                            <td><span>12-20 Credits (Full-Time)</span></td>
-                                            <td>$7,245.00
-                                            </td>
-                                            <td>$12,475.00
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>Education & General Fees
-                                                <span>(12-20 Credits)</span>
-                                            </td>
-                                            <td>$845.00</td>
-                                            <td>$845.00</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Facilities Fee <span>(12-20 credits)</span></td>
-                                            <td>$845.00</td>
-                                            <td>$245.00</td>
-                                        </tr>
-                                        <tr class="table-theme border-none">
-                                            <td>Total: </td>
+                                            <td>Good Friday</td>
+                                            <td>18.04.2025</td>
+                                            <td>Friday</td>
                                             <td></td>
-                                            <td>$8,335.00</td>
-                                            <td>$13,565.00</td>
                                         </tr>
-                                        <tr class="table-theme-theme">
-                                            <td>Other Fees Per Semester</td>
-                                            <td>Non-Matriculated Student <br>
-                                                Fee (if applicable)</td>
-                                            <td>$65.00</td>
+                                        <tr>
+                                            <td>Buddha Purnima</td>
+                                            <td>12.05.2025</td>
+                                            <td>Monday</td>
+                                            <td></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Raksha Bandhan</td>
+                                            <td>09.08.2025</td>
+                                            <td>Saturday</td>
+                                            <td></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Independence Day</td>
+                                            <td>15.08.2025</td>
+                                            <td>Friday</td>
+                                            <td></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Janmashtami</td>
+                                            <td>16.08.2025</td>
+                                            <td>Saturday</td>
+                                            <td></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Milad-Un-Nabi</td>
+                                            <td>05.09.2025</td>
+                                            <td>Friday</td>
+                                            <td></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Autumn Break</td>
+                                            <td>29.09.2025 & 02.10.2025</td>
+                                            <td>Monday & Thursday</td>
+                                            <td>Includes Gandhi Jayanti</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Gandhi Jayanti</td>
+                                            <td>02.10.2025</td>
+                                            <td>Thursday</td>
+                                            <td></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Karvachauth</td>
+                                            <td>10.10.2025</td>
+                                            <td>Friday</td>
+                                            <td></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Maharishi Valmiki Jayanti</td>
+                                            <td>15.10.2025</td>
+                                            <td>Wednesday</td>
+                                            <td></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Diwali Holidays</td>
+                                            <td>20.10.2025 – 23.10.2025</td>
+                                            <td>Monday – Thursday</td>
+                                            <td></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Guru Nanak's Jayanti</td>
+                                            <td>05.11.2025</td>
+                                            <td>Wednesday</td>
+                                            <td></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Christmas</td>
+                                            <td>25.12.2025</td>
+                                            <td>Thursday</td>
+                                            <td></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Republic Day</td>
+                                            <td>26.01.2026</td>
+                                            <td>Monday</td>
                                             <td></td>
                                         </tr>
                                     </tbody>
                                 </table>
                             </div>
                         </div>
-                    </div>
-                </div>
-                <!-- second part -->
-                <div class="semister-fee__content mt--80 v_2">
-                    <h5 class="rts-section-title">Per Credit Rate (Undergraduate)</h5>
-                    <!-- tab item -->
-                    <div class="rts-fee-chart">
-                        <div class="rts-fee-chart__tab">
-                            <nav>
-                                <div class="nav nav-tabs" id="nav-tab2" role="tablist">
-                                    <button class="nav-link active" id="undergrade-tab" data-bs-toggle="tab"
-                                        data-bs-target="#undergrade" type="button" role="tab"
-                                        aria-controls="undergrade" aria-selected="true">FALL 2023 - SPPING 2024</button>
-                                    <button class="nav-link" id="grade-tution-tab" data-bs-toggle="tab"
-                                        data-bs-target="#grade-tution" type="button" role="tab"
-                                        aria-controls="grade-tution" aria-selected="false">Summer 2023</button>
-                                </div>
-                            </nav>
-                        </div>
-                        <div class="rts-fee-chart__content" id="nav-tabContent2">
-                            <div class="tab-pane fade show active" id="undergrade" role="tabpanel"
-                                aria-labelledby="undergrade-tab">
-                                <table class="table">
-                                    <thead class="table-theme">
-                                        <tr>
-                                            <td>UNDERGRADUATE - Per Credit Rate</td>
-                                            <td> IN-STATE (Per Semester)</td>
-                                            <td>OUT-STATE (Per Semester)</td>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr>
-                                            <td>Tuition Per Credit</td>
-                                            <td>$645.00</td>
-                                            <td>$975.00</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Education & General Fees
-                                                <span>(Per Credits)</span>
-                                            </td>
-                                            <td>$845.00</td>
-                                            <td>$845.00</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Facilities Fee <span>(12-20 credits)</span></td>
-                                            <td>$845.00</td>
-                                            <td>$245.00</td>
-                                        </tr>
-                                        <tr class="table-theme">
-                                            <td>Total: </td>
-                                            <td>$8,335.00</td>
-                                            <td>$13,565.00</td>
-                                        </tr>
-                                        <tr class="table-theme-theme">
-                                            <td>Other Fees Per Semester</td>
-                                            <td>Non-Matriculated Student <br>
-                                                Fee (if applicable)</td>
-                                            <td>$65.00</td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                            </div>
-                            <div class="tab-pane fade" id="grade-tution" role="tabpanel" aria-labelledby="grade-tution-tab">
-                                <table class="table">
-                                    <thead class="table-theme">
-                                        <tr>
-                                            <td>UNDERGRADUATE - Per Credit Rate</td>
-                                            <td> IN-STATE (Per Semester)</td>
-                                            <td>OUT-STATE (Per Semester)</td>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr>
-                                            <td>Tuition Per Credit</td>
-                                            <td>$645.00</td>
-                                            <td>$975.00</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Education & General Fees
-                                                <span>(Per Credits)</span>
-                                            </td>
-                                            <td>$845.00</td>
-                                            <td>$845.00</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Facilities Fee <span>(12-20 credits)</span></td>
-                                            <td>$845.00</td>
-                                            <td>$245.00</td>
-                                        </tr>
-                                        <tr class="table-theme">
-                                            <td>Total: </td>
-                                            <td>$8,335.00</td>
-                                            <td>$13,565.00</td>
-                                        </tr>
-                                        <tr class="table-theme-theme">
-                                            <td>Other Fees Per Semester</td>
-                                            <td>Non-Matriculated Student <br>
-                                                Fee (if applicable)</td>
-                                            <td>$65.00</td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                            </div>
-                        </div>
-
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <!-- tution fee end -->
 
     @include($components . 'newsletter', ['class' => 'rts-cta-background'])
     @include($footer . 'footer-v3', ['class' => 'v_2 pt--100 pb--100', 'cclass' => 'v_1'])
