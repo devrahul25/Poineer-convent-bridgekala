@@ -6,7 +6,7 @@
         'class' => 'breadcrumb-height breadcumb-bg',
         'image' => 'breadcrumb.jpg',
         'title' => 'Video Gallery',
-        'page' => 'Gallery'
+        'page' => 'Gallery',
     ])
 
     @php
@@ -14,29 +14,29 @@
         $videoGallery = [
             [
                 'thumbnail' => 'assets/images/gallery/video-thumb1.jpg',
-                'video' => 'https://www.youtube.com/watch?v=abcd1234'
+                'video' => 'https://www.youtube.com/watch?v=abcd1234',
             ],
             [
                 'thumbnail' => 'assets/images/gallery/video-thumb2.jpg',
-                'video' => 'https://www.youtube.com/watch?v=wxyz5678'
+                'video' => 'https://www.youtube.com/watch?v=wxyz5678',
             ],
             [
                 'thumbnail' => 'assets/images/gallery/video-thumb3.jpg',
-                'video' => 'https://www.youtube.com/watch?v=lmno9012'
+                'video' => 'https://www.youtube.com/watch?v=lmno9012',
             ],
             [
                 'thumbnail' => 'assets/images/gallery/video-thumb4.jpg',
-                'video' => 'https://www.youtube.com/watch?v=qrst3456'
+                'video' => 'https://www.youtube.com/watch?v=qrst3456',
             ],
         ];
     @endphp
 
     <!-- Video Gallery Grid -->
-    <div class="rts-gallery v_3 rts-section-padding">
+    {{-- <div class="rts-gallery v_3 rts-section-padding">
         <div class="container">
             <div class="row justify-content-md-start justify-content-sm-center g-4">
-                
-                @foreach($videoGallery as $video)
+
+                @foreach ($videoGallery as $video)
                     <div class="col-6 col-md-4 col-lg-3">
                         <div class="single-blog video-card">
                             <div class="blog__thumb position-relative">
@@ -54,8 +54,21 @@
 
             </div>
         </div>
-    </div>
+    </div> --}}
     <!-- Video Gallery Grid End -->
+
+    <section class="rts-application-area moving rts-section-padding v_1">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-sm-12">
+                    <div class="rts__section--wrapper v__9">
+                        <h3 class="rts__section--title">Content coming soon! This section is being updated to serve you
+                            better.</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
     @include($components . 'newsletter', ['class' => 'rts-cta-background'])
     @include($footer . 'footer-v3', ['class' => 'v_2 pt--100 pb--100', 'cclass' => 'v_1'])
@@ -68,12 +81,13 @@
         .video-card {
             position: relative;
         }
+
         .play-btn {
             position: absolute;
             top: 50%;
             left: 50%;
             transform: translate(-50%, -50%);
-            background: rgba(0,0,0,0.6);
+            background: rgba(0, 0, 0, 0.6);
             color: #fff;
             padding: 15px;
             border-radius: 50%;
@@ -87,7 +101,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
     <script>
-        $(document).ready(function () {
+        $(document).ready(function() {
             $('.popup-video').magnificPopup({
                 type: 'iframe',
                 mainClass: 'mfp-fade',
