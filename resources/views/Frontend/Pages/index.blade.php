@@ -197,7 +197,7 @@
                     </div>
                 </div>
             </div>
-            <div class="bottom-text rt-clip-text">About University</div>
+            <div class="bottom-text rt-clip-text">About School</div>
             <div class="rt-shape">
                 <img class="rt-shape__1" data-speed="0.04" src="{{ asset('assets/images/feature/shape/01.png') }}"
                     alt="">
@@ -230,7 +230,7 @@
                     </div>
                 </div>
                <div class="col-lg-4 col-md-6 col-sm-10">
-    <div class="tution__single--box v__1">
+    <div class="tution__single--box v__1" style="height: 700px">
         <h5 class="tution__single--box--title">Class-Wise Fee Structure</h5>
         <h6 class="tution__single--box--faculty">Pre-Primary & Primary School (Class Pre-I to V)</h6>
         <ul class="tution__single--box--feature">
@@ -248,7 +248,7 @@
 </div>
 
 <div class="col-lg-4 col-md-6 col-sm-10">
-    <div class="tution__single--box">
+    <div class="tution__single--box" style="height: 700px">
         <h5 class="tution__single--box--title">Extra Charges & Facilities</h5>
         <h6 class="tution__single--box--faculty">Senior Secondary School (Class XI & XII)</h6>
         <ul class="tution__single--box--feature">
