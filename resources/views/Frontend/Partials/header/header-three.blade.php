@@ -48,7 +48,7 @@
                                             <ul class="submenu sub__style">
                                                 <li><a href="{{ route('examinations') }}">Examinations</a></li>
                                                 <li><a href="{{ route('academic-calender') }}">School Calendar</a></li>
-                                                <li><a href="{{ route('academic-area') }}">Faculty</a></li>
+                                                <li><a href="{{ route('faculty') }}">Faculty</a></li>
                                             </ul>
                                         </li>
                                     </ul>
