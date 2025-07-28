@@ -5,8 +5,8 @@
         'class' => 'breadcrumb-height breadcumb-bg',
         'image' => 'breadcrumb.jpg',
         'title' => 'Fitness Athletics',
-        'page' => 'Athletics',
-        'parent' => 'Campus Life',
+        'page' => 'Sports',
+        'parent' => 'Activities',
     ])
 
     <!-- single athletics content -->

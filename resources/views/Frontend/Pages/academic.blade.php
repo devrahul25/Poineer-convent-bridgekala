@@ -4,8 +4,8 @@
     @include($elements . 'breadcrumb', [
         'class' => 'breadcrumb-height breadcumb-bg',
         'image' => 'breadcrumb.jpg',
-        'title' => 'Academics',
-        'page' => 'academic',
+        'title' => 'Our Infrastructure',
+        'page' => 'Infrastructure',
     ])
 
     @include($components . 'campus-tour', ['class' => 'rts-section-padding'])

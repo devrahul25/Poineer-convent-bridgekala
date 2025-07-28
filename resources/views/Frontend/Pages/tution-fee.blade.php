@@ -5,7 +5,7 @@
         'class' => 'breadcrumb-height breadcumb-bg',
         'image' => 'breadcrumb.jpg',
         'title' => 'Fee Structure for the Academic Year 2025–2026',
-        'page' => 'Fee Structure',
+        'page' => 'Admission',
     ])
 
     <!-- tution fee -->

@@ -15,7 +15,6 @@
             'assets/images/photoGallery/1.jpg',
             'assets/images/photoGallery/2.png',
             'assets/images/photoGallery/3.jpg',
-            'assets/images/photoGallery/4.jpg',
             'assets/images/photoGallery/5.jpg',
             'assets/images/photoGallery/6.jpg',
             'assets/images/photoGallery/7.jpg',

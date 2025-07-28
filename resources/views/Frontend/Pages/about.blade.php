@@ -5,7 +5,7 @@
         'class' => 'breadcrumb-height breadcumb-bg',
         'image' => 'breadcrumb.jpg',
         'title' => 'About Pioneer Convent',
-        'page' => 'about',
+        'page' => 'about Us',
     ])
 
     <!-- about university -->

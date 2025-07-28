@@ -5,14 +5,14 @@
         'class' => 'breadcrumb-height breadcumb-bg',
         'image' => 'breadcrumb.jpg',
         'title' => 'Examinations',
-        'page' => 'Examinations',
+        'page' => 'Academics',
     ])
 
     <!-- tution fee -->
     <div class="page-content-top pt--120 pt__md--80">
         <div class="container">
-            <div class="row d-flex align-item-center justify-content-center"  > 
-                <div class="col-lg-6" >
+            <div class="row d-flex align-item-center justify-content-center">
+                <div class="col-lg-6">
                     <p class="desc">At Pioneer, academic excellence is consistently emphasized. Students are encouraged to
                         cultivate clear thinking, logical reasoning, and strong analytical and interpretative skills,
                         equipping
@@ -36,13 +36,13 @@
                         advised to repeat the class for better foundational learning.
                     </p>
                     <h4>Honouring Academic Excellence</h4>
-                    <ol>
+                    <ol style="margin-bottom: 100px">
                         <li>Scholar badges are awarded to the meritorious students.</li>
                         <li>Awards are presented to the toppers of classes VI to IX.</li>
                         <li>For class X toppers subject-wise highest marks scorers are awarded.</li>
 
                     </ol>
-                </div> 
+                </div>
                 <div class="col-lg-6 ">
                     <img style="height: 400px; width:600px" src="/assets/images/exam.jpg" alt="">
                 </div>

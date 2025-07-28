@@ -6,7 +6,7 @@
         'class' => 'breadcrumb-height breadcumb-bg',
         'image' => 'breadcrumb.jpg',
         'title' => 'Admission Process & Guidelines',
-        'page' => 'Apply Admission',
+        'page' => 'Admission',
     ])
     <!-- admission page content -->
     <div class="rts-page-content rts-section-padding">

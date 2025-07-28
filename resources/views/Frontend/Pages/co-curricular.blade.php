@@ -5,7 +5,7 @@
         'class' => 'breadcrumb-height breadcumb-bg',
         'image' => 'breadcrumb.jpg',
         'title' => 'Co-Curricular and Cultural Activities at Pioneer',
-        'page' => 'about',
+        'page' => 'Activities',
     ])
 
     <!-- about university -->

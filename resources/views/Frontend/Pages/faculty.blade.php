@@ -5,7 +5,7 @@
         'class' => 'breadcrumb-height breadcumb-bg',
         'image' => 'breadcrumb.jpg',
         'title' => 'Our Faculty',
-        'page' => 'Faculty',
+        'page' => 'Academics',
     ])
 
     <!-- faculty directory -->

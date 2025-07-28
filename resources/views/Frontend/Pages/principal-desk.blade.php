@@ -5,7 +5,7 @@
         'class' => 'breadcrumb-height breadcumb-bg',
         'image' => 'breadcrumb.jpg',
         'title' => "Principal's Desk",
-        'page' => "Principal's Desk",
+        'page' => "About Us",
     ])
 
     <!-- faculty directory -->
@@ -26,7 +26,7 @@
                                     <a href="#"><i class="fa-brands fa-youtube"></i></a>
                                 </div>
                                 <a href="mailto:jenni@Unipixuni.edu" class="email-contact"><span><i
-                                            class="fa-light fa-envelope"></i></span>principal@pioneerconvent.edu.in</a>
+                                            class="fa-light fa-envelope"></i></span>------------</a>
                                 <a href="calltto:121" class="phone-contact"><span><i
                                             class="fa-light fa-phone"></i></span>+91-XXXXXXXXXX</a>
                             </div>

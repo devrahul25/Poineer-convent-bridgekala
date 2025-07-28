@@ -13,7 +13,7 @@
         <div class="container">
             <div class="row d-flex align-item-center justify-content-center">
                 <div class="col-lg-6 ">
-                    <img style="height: 400px; width:600px" src="/assets/images/exam.jpg" alt="">
+                    <img style="height: 400px; width:600px" src="/assets/images/school.jpg" alt="">
                 </div>
                 <div  class="col-lg-6">
                     <h4>About Our School</h4>

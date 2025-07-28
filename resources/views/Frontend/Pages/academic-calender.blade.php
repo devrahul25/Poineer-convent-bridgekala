@@ -5,7 +5,7 @@
         'class' => 'breadcrumb-height breadcumb-bg',
         'image' => 'breadcrumb.jpg',
         'title' => 'Academic Calendar (2025-26)',
-        'page' => 'Academic Calendar',
+        'page' => 'Academics',
     ])
 
     <!-- tution fee -->
