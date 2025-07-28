@@ -14960,6 +14960,13 @@ body.index-sc h6 {
     padding-right: 15px;
 }
 
+.containers {
+    max-width: 1440px;
+    margin: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
 .rt-primary-bg {
     background: var(--rt-primary) !important;
 }

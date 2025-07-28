@@ -1,66 +1,77 @@
 <div class="navigation">
     <nav class="navigation__menu">
         <ul>
-            <li class="navigation__menu--item has-child has-arrow">
-                <a href="javascript:void(0);" class="navigation__menu--item__link">Home</a>
+            <li class="navigation__menu--item has-child">
+                <a href="{{ route('index') }}" class="navigation__menu--item__link">Home</a>
+            </li>
+
+            <li class="navigation__menu--item has-child">
+                <a href="{{ route('about') }}" class="navigation__menu--item__link">About Us</a>
                 <ul class="submenu sub__style">
-                    <li><a href="{{ route('index') }}">Home Style One</a></li>
-                    <li><a href="{{ route('index-two') }}">Home Style Two</a></li>
-                    <li><a href="{{ route('index-three') }}">Home Style three</a></li>
-                    <li><a href="{{ route('index-four') }}">Home Style four</a></li>
-                    <li><a href="{{ route('index-five') }}">Home Style five</a></li>
+                    <li><a href="{{ route('about') }}">Vision/Mission</a></li>
+                    <li><a href="{{ route('faculty-details') }}">Manager's Desk</a></li>
+                    <li><a href="{{ route('principal-desk') }}">Principal's Desk</a></li>
+                    <li><a href="{{ route('campus-life') }}">School Overview</a></li>
+                </ul>
+            </li>
+            <li class="navigation__menu--item has-child">
+                <a href="#" class="navigation__menu--item__link">Infrastructure</a>
+                <ul class="submenu sub__style">
+                    <li><a href="{{ route('academic') }}#campus-tour">Campus Tour</a></li>
+                    <li><a href="{{ route('academic') }}#library">Library</a></li>
+                    <li><a href="{{ route('academic') }}#computer-lab">Computer Lab</a></li>
+                    <li><a href="{{ route('academic') }}#physics-lab">Physics Lab</a></li>
+                    <li><a href="{{ route('academic') }}#chemistry-lab">Chemistry Lab</a>
+                    </li>
+                    <li><a href="{{ route('academic') }}#biology-lab">Biology Lab</a></li>
+                    <li><a href="{{ route('academic') }}#music-room">Music Room</a></li>
+                    <li><a href="{{ route('academic') }}#sports-room">Sports Room</a></li>
+                </ul>
+            </li>
+            <li class="navigation__menu--item has-child">
+                <a href="#" class="navigation__menu--item__link">Academics</a>
+                <ul class="submenu sub__style">
+                    <li><a href="{{ route('examinations') }}">Examinations</a></li>
+                    <li><a href="{{ route('academic-calender') }}">School Calendar</a></li>
+                    <li><a href="{{ route('faculty') }}">Faculty</a></li>
+                </ul>
+            </li>
+            <li class="navigation__menu--item has-child">
+                <div style="display: flex; align-item:center; justify-content:center;" class="header__logo">
+                            <a style="width: 100%;" href="{{ route('index') }}" class="header__logo--link">
+                                <img style="width: 100%;" src="{{ asset('assets/images/logo/logo.png') }}" alt="unipix">
+                            </a>
+                        </div>
+            </li>
+            <li class="navigation__menu--item has-child">
+                <a href="#" class="navigation__menu--item__link">Activities</a>
+                <ul class="submenu sub__style">
+                    <li><a href="{{ route('athletics') }}">Sports</a></li>
+                    <li><a href="{{ route('co-curricular') }}">Co-Curricular</a></li>
+                </ul>
+            </li>
+            <li class="navigation__menu--item has-child">
+                <a href="#" class="navigation__menu--item__link">Admission</a>
+                <ul class="submenu sub__style">
+                    <li><a href="{{ route('admission') }}">Adm. Information</a></li>
+                    <li><a href="{{ route('tution-fee') }}">Fee Structure</a></li>
+                </ul>
+            </li>
+            <li class="navigation__menu--item has-child">
+                <a href="#" class="navigation__menu--item__link">Disclosure</a>
+                <ul class="submenu sub__style">
+                    <li><a href="{{ route('blog') }}">Mandatory Public Disclosure</a></li>
+                    <li><a href="{{ route('blog-grid') }}">SARAS-Mandatory Disclosure</a>
+                    </li>
                 </ul>
             </li>
 
-            <li class="navigation__menu--item has-child has-arrow">
-                <a href="javascript:void(0);" class="navigation__menu--item__link">Pages</a>
+            <li class="navigation__menu--item has-child">
+                <a href="#" class="navigation__menu--item__link">Gallery</a>
                 <ul class="submenu sub__style">
-                    <li><a href="{{ route('about') }}">About</a></li>
-                    <li><a href="{{ route('athletics') }}">Athletics</a></li>
-                    <li class="has-child has-arrow">
-                        <a href="#">Faculty</a>
-                        <ul class="sub__style">
-                            <li><a class="mobile-menu-link" href="{{ route('faculty-sub') }}">Faculty</a></li>
-                            <li><a class="mobile-menu-link" href="{{ route('faculty-sub-details') }}">Faculty Details</a></li>
-                            <li><a href="{{ route('faculty') }}">Faculty Staff</a></li>
-                            <li class="has-child"><a href="{{ route('faculty-details') }}">Faculty Staff details</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="{{ route('research') }}">Research</a></li>
+                    <li><a href="{{ route('image-gallery') }}">Photo Gallery</a></li>
+                    <li><a href="{{ route('video-gallery') }}">Video Gallery</a></li>
                 </ul>
-            </li>
-            <li class="navigation__menu--item has-child has-arrow">
-                <a href="#" class="navigation__menu--item__link">Academics</a>
-                <ul class="submenu sub__style">
-                    <li><a href="{{ route('academic') }}">Academic</a></li>
-                    <li><a href="{{ route('admission') }}">Admission</a></li>
-                    <li><a href="{{ route('academic-area') }}">Academic Area</a></li>
-                    <li><a href="{{ route('campus-life') }}">Campus Life</a></li>
-                    <li><a href="{{ route('scholarship') }}">Scholarship</a></li>
-                    <li><a href="{{ route('tution-fee') }}">Tution Fee</a></li>
-                    <li><a href="{{ route('alumni') }}">Alumni</a></li>
-                    <li><a href="{{ route('program-single') }}">Program Single</a></li>
-                    <li><a href="{{ route('department-details') }}">Department Details</a></li>
-                </ul>
-            </li>
-            <li class="navigation__menu--item has-child has-arrow">
-                <a href="#" class="navigation__menu--item__link">Event</a>
-                <ul class="submenu sub__style">
-                    <li><a href="{{ route('event') }}">Event</a></li>
-                    <li><a href="{{ route('event-details') }}">Event Details</a></li>
-                </ul>
-            </li>
-            <li class="navigation__menu--item has-child has-arrow">
-                <a href="#" class="navigation__menu--item__link">Blog</a>
-                <ul class="submenu sub__style">
-                    <li><a href="{{ route('blog') }}">Blog</a></li>
-                    <li><a href="{{ route('blog-grid') }}">Blog Grid</a></li>
-                    <li><a href="{{ route('blog-list') }}">Blog List</a></li>
-                    <li><a href="{{ route('blog-details') }}">Blog Details</a></li>
-                </ul>
-            </li>
-            <li class="navigation__menu--item">
-                <a href="{{ route('contact') }}" class="navigation__menu--item__link">Contact</a>
             </li>
         </ul>
     </nav>
