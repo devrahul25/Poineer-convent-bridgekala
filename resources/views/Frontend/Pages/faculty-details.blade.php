@@ -16,7 +16,7 @@
                     <div class="faculty-member">
                         <div class="faculty-member__details rt-center ">
                             <div class="faculty-member__image">
-                                <img src="{{ asset('assets/images/faculty/mem-1.jpg') }}" alt="member image">
+                                <img src="{{ asset('assets/images/faculty/manager.jpg') }}" alt="member image">
                             </div>
                             <div class="faculty-member__info">
                                 <div class="faculty-member__info--social">

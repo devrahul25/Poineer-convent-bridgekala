@@ -407,7 +407,7 @@
     <!-- apply end -->
 
 
-    <!-- UPCOMING EVENT -->
+    {{-- <!-- UPCOMING EVENT -->
     <section class="rts__section rts__light pt--120">
         <div class="container">
             <div class="row">
@@ -518,7 +518,7 @@
             </div>
         </div>
     </section>
-    <!-- UPCOMING EVENT END -->
+    <!-- UPCOMING EVENT END --> --}}
 
     @include($components . 'brand-slider', ['class' => 'rts__light rts-section-padding'])
     @include($components . 'newsletter', ['class' => 'rts-cta-background'])

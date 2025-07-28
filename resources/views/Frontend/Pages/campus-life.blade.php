@@ -1,233 +1,60 @@
 @extends($layout)
 @section('content')
-    @include($header . 'header-three', ['class' => 'rt-border-bottom'])
+    @include($header . 'header-three')
+    @include($elements . 'breadcrumb', [
+        'class' => 'breadcrumb-height breadcumb-bg',
+        'image' => 'breadcrumb.jpg',
+        'title' => 'School Overview',
+        'page' => 'About Us',
+    ])
 
-    <!-- campus life -->
-    <div class="rts-campus-life rts-section-padding">
+    <!-- tution fee -->
+    <div class="page-content-top pt--120 pt__md--80">
         <div class="container">
-            <div class="row">
-                <div class="campus-life">
-                    <div class="campus-life__content">
-                        <h1 class="section-title">Campus Life</h1>
-                        <p class="description w-680">
-                            Our thriving residential campus is home to a community of creative and
-                            accomplished people from around the world.
-                        </p>
-                        <div class="campus-video">
-                            <img src="{{ asset('assets/images/campus/video-bg.jpg') }}" alt="">
-                        </div>
-                    </div>
+            <div class="row d-flex align-item-center justify-content-center">
+                <div class="col-lg-6 ">
+                    <img style="height: 400px; width:600px" src="/assets/images/exam.jpg" alt="">
                 </div>
-            </div>
-        </div>
-    </div>
-    <!-- campus life end -->
+                <div  class="col-lg-6">
+                    <h4>About Our School</h4>
+                    <p class="desc">Pioneer Convent Sr. Sec. School, located in Lok Nayak Puram, Bakkarwala, New Delhi, is
+                        a distinguished institution committed to academic excellence and holistic development. Nestled
+                        within a lush green 2-acre campus, the school provides a nurturing environment enriched with
+                        state-of-the-art infrastructure, comprehensive sports facilities, and a wide array of co-curricular
+                        activities.
 
-    <!-- funfact -->
-    <div class="rts-funfact v_2 stroke">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-lg-10 ">
-                    <div class="rts-funfact-wrapper">
-                        <div class="single-cta-item">
-                            <h2 class="single-cta-item__title">1,623</h2>
-                            <p>Faculty Members</p>
-                        </div>
-                        <div class="single-cta-item">
-                            <h2 class="single-cta-item__title">6:1</h2>
-                            <p>Student-to-faculty Ratio</p>
-                        </div>
-                        <div class="single-cta-item">
-                            <h2 class="single-cta-item__title">Nearly 200</h2>
-                            <p>Graduate Fields of study</p>
-                        </div>
-                    </div>
+                        Affiliated with CBSE up to Class XII and offering all academic streams, Pioneer Convent believes in
+                        developing strong mind-body-soul coordination in students through a thoughtfully designed
+                        curriculum. From robotics and language labs to music, arts, and sports, every element of school life
+                        fosters creativity, critical thinking, and personal growth. With a dedicated faculty and a
+                        child-centric approach rooted in Multiple Intelligence Theory, we aim to nurture responsible,
+                        confident, and globally competent learners.
+                    </p>
                 </div>
+                <h4>Recognition and Affiliation</h4>
+                <p>Pioneer Convent School is affiliated to the Central Board of Secondary Education (CBSE), Delhi, with
+                    Affiliation Number 2730606 and School Code 85345. The school is recognized under the RTE Act, 2009, and
+                    adheres to all mandatory norms, including possession of valid Fire Safety and Building Safety
+                    Certificates, DEO Certification for Affiliation, and Water, Health, and Sanitation Certificates. Our
+                    unwavering commitment to educational excellence is reflected in our consistently outstanding academic
+                    performance, achieving a 100% pass rate in Class X and over 90% success in Class XII examinations in
+                    recent academic sessions.</p>
+                <h4>Aims and Objectives</h4>
+                <p style="margin-bottom: 100px">At Pioneer Convent, our mission is to educate young leaders equipped for global citizenship. We strive to
+                    deliver holistic education that seamlessly integrates academics, co-curricular activities, and essential
+                    life skills. By connecting students with nature and real-world challenges, we aim to inspire creativity,
+                    innovation, and resilience. Deeply rooted in Indian cultural values such as honesty, discipline,
+                    empathy, and truthfulness, our approach nurtures leadership, adaptability, and compassion. We are
+                    committed to empowering every child to realize their full potential through personalized learning
+                    strategies, supported by our dedicated educators. We firmly believe that true education cultivates both
+                    intellect and character, laying the foundation for a brighter and more compassionate world.</p>
             </div>
         </div>
     </div>
-    <!-- funfact end-->
-
-    <!-- section one -->
-    <div class="rts-campus-section rts-section-padding">
-        <div class="container">
-            <div class="row">
-                <div class="rts-section rt-center mb--45">
-                    <h3 class="rts-section-title">Student Life</h3>
-                </div>
-            </div>
-            <div class="row g-5">
-                <!-- single item -->
-                <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="single-item">
-                        <div class="single-item__content">
-                            <div class="single-item__image">
-                                <img src="{{ asset('assets/images/campus/01.jpg') }}" alt="item-image">
-                            </div>
-                            <div class="single-item__meta">
-                                <h5 class="item-title"><a href="#">Student Affairs</a></h5>
-                                <p class="item-description">Comprising more than 25 offices &amp; centers, Student Affairs
-                                    provides a broad of this services.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- single item end -->
-                <!-- single item -->
-                <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="single-item">
-                        <div class="single-item__content">
-                            <div class="single-item__image">
-                                <img src="{{ asset('assets/images/campus/02.jpg') }}" alt="item-image">
-                            </div>
-                            <div class="single-item__meta">
-                                <h5 class="item-title"><a href="#">Housing &amp; Dining</a></h5>
-                                <p class="item-description">Nearly all undergraduates and more than 65% graduate students
-                                    reside in 81 merit undergraduate</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- single item end -->
-                <!-- single item -->
-                <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="single-item">
-                        <div class="single-item__content">
-                            <div class="single-item__image">
-                                <img src="{{ asset('assets/images/campus/03.jpg') }}" alt="item-image">
-                            </div>
-                            <div class="single-item__meta">
-                                <h5 class="item-title"><a href="#">Engagement &amp; Diversity</a></h5>
-                                <p class="item-description">Growing up in the Chicago suburbs, Jess found video games to be
-                                    a rich portal to alternative.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- single item end -->
-            </div>
-        </div>
     </div>
-    <!-- section two -->
-    <div class="rts-campus-section rts-section-padding v_2">
-        <div class="container">
-            <div class="row">
-                <div class="rts-section rt-center mb--45">
-                    <h3 class="rts-section-title">Arts &amp; Culture</h3>
-                </div>
-            </div>
-            <div class="row g-5">
-                <!-- single item -->
-                <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="single-item">
-                        <div class="single-item__content">
-                            <div class="single-item__image">
-                                <img src="{{ asset('assets/images/campus/04.jpg') }}" alt="item-image">
-                            </div>
-                            <div class="single-item__meta">
-                                <h5 class="item-title"><a href="#">The Arts at Unipix</a></h5>
-                                <p class="item-description">Stanford has a rich tradition of fostering creativity and the
-                                    arts, A vibrant campus</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- single item end -->
-                <!-- single item -->
-                <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="single-item">
-                        <div class="single-item__content">
-                            <div class="single-item__image">
-                                <img src="{{ asset('assets/images/campus/05.jpg') }}" alt="item-image">
-                            </div>
-                            <div class="single-item__meta">
-                                <h5 class="item-title"><a href="#">Museums</a></h5>
-                                <p class="item-description">The Stanford campus is home to two world-class art museums.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- single item end -->
-                <!-- single item -->
-                <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="single-item">
-                        <div class="single-item__content">
-                            <div class="single-item__image">
-                                <img src="{{ asset('assets/images/campus/06.jpg') }}" alt="item-image">
-                            </div>
-                            <div class="single-item__meta">
-                                <h5 class="item-title"><a href="#">Performing Arts</a></h5>
-                                <p class="item-description">Presents range performances and distinctive performing arts
-                                    experiences.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- single item end -->
-            </div>
-        </div>
     </div>
-
-    <!-- section three -->
-    <div class="rts-campus-section rts-section-padding">
-        <div class="container">
-            <div class="row">
-                <div class="rts-section rt-center mb--45">
-                    <h3 class="rts-section-title">Athletics, Recreation, &amp; Wellness</h3>
-                </div>
-            </div>
-            <div class="row g-5">
-                <!-- single item -->
-                <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="single-item">
-                        <div class="single-item__content">
-                            <div class="single-item__image">
-                                <img src="{{ asset('assets/images/campus/07.jpg') }}" alt="item-image">
-                            </div>
-                            <div class="single-item__meta">
-                                <h5 class="item-title"><a href="#">Recreation and Wellness</a></h5>
-                                <p class="item-description">Students, faculty, recreational facilities and wellness
-                                    programs.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- single item end -->
-                <!-- single item -->
-                <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="single-item">
-                        <div class="single-item__content">
-                            <div class="single-item__image">
-                                <img src="{{ asset('assets/images/campus/08.jpg') }}" alt="item-image">
-                            </div>
-                            <div class="single-item__meta">
-                                <h5 class="item-title"><a href="#">Cardinal Athletics</a></h5>
-                                <p class="item-description">Stanford students compete in 36 varsity sports and 43 club
-                                    sports.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- single item end -->
-                <!-- single item -->
-                <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="single-item">
-                        <div class="single-item__content">
-                            <div class="single-item__image">
-                                <img src="{{ asset('assets/images/campus/09.jpg') }}" alt="item-image">
-                            </div>
-                            <div class="single-item__meta">
-                                <h5 class="item-title"><a href="#">BeWell</a></h5>
-                                <p class="item-description">Offers incentives, programs, and activities that promote health
-                                    and wellness.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- single item end -->
-            </div>
-        </div>
     </div>
+    <!-- tution fee end -->
 
     @include($components . 'newsletter', ['class' => 'rts-cta-background'])
     @include($footer . 'footer-v3', ['class' => 'v_2 pt--100 pb--100', 'cclass' => 'v_1'])
