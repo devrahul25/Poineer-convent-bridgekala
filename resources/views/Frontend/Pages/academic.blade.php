@@ -5,131 +5,166 @@
         'class' => 'breadcrumb-height breadcumb-bg',
         'image' => 'breadcrumb.jpg',
         'title' => 'Academics',
-        'page' => 'academic'    
+        'page' => 'academic',
     ])
 
-    <!-- about university -->
-    <section class="rts-about-university pt--100 pb--80">
-        <div class="container">
-            <div class="row">
-                <div class="rts-section">
-                    <div class="col-lg-4 col-md-3 col-sm-12">
-                        <h3 class="rts-section-title">Academics</h3>
-                    </div>
-                    <div class="col-lg-8 col-md-9 col-sm-12">
-                        <p class="rts-section-description">
-                            This distinguished university of arts, sciences and professional studies is noted for exceptional program offerings and an interdisciplinary approach to learning, while also providing students with a diverse, high-quality student, faculty and staff population.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-12">
-                    <div class="academic-picture">
-                        <img src="{{asset('assets/images/feature/academic-1.jpg')}}" alt="academic">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- about university end -->
-
-    <div class="rts-funfact ">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-lg-10 ">
-                    <div class="rts-funfact-wrapper">
-                        <div class="single-cta-item">
-                            <h2 class="single-cta-item__title">90%</h2>
-                            <p>post-graduation success rate</p>
-                        </div>
-                        <div class="single-cta-item">
-                            <h2 class="single-cta-item__title">Top 10</h2>
-                            <p>Colleges that Create Futures</p>
-                        </div>
-                        <div class="single-cta-item">
-                            <h2 class="single-cta-item__title">No. 1</h2>
-                            <p>in the nation for materials R&amp;D</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+    @include($components . 'campus-tour', ['class' => 'rts-section-padding'])
 
     <!-- multi row item -->
     <div class="rts-multi-row-section pt--100">
         <div class="container">
             <!-- first -->
-            <div class="row g-5 justify-content-center justify-content-start align-items-center">
+            <div id="library" class="row g-5 justify-content-center justify-content-start align-items-center">
                 <div class="col-lg-7 col-md-11">
                     <div class="rts-multi-row-image">
-                        <img src="{{asset('assets/images/feature/multi-1.jpg')}}" alt="undergraduate education">
+                        <img src="{{ asset('assets/images/feature/multi-1.jpg') }}" alt="undergraduate education">
                     </div>
                 </div>
                 <div class="col-lg-5 col-md-11">
                     <div class="rts-multi-row-content">
-                        <h4 class="row-title">Undergraduate Education</h4>
-                        <p>Unipix Undergrad is your guide to undergraduate academics and opportunities run by the Vice Provost for Undergraduate Education.</p>
-                         <div class="program-list">
-                            <a href="{{ route('program-single') }}" class="program-item"><span>Africana Studies <i class="fa-regular fa-chevron-right"></i></span> <span>A.B</span></a>
-                            <a href="{{ route('program-single') }}" class="program-item"><span>Accounting, BS <i class="fa-regular fa-chevron-right"></i></span> <span>A.B</span></a>
-                            <a href="{{ route('program-single') }}" class="program-item"><span>Applied Mathematics <i class="fa-regular fa-chevron-right"></i></span> <span>A.B</span></a>
-                            <a href="{{ route('program-single') }}" class="program-item"><span>Anthropology <i class="fa-regular fa-chevron-right"></i></span> <span>A.B</span></a>
-                            <a href="{{ route('program-single') }}" class="mt--15 about-btn rts-nbg-btn btn-arrow">View All Program <span><i class="fa-sharp fa-regular fa-arrow-right"></i></span></a>
-                         </div>
+                        <h4 class="row-title">Library</h4>
+                        <p>The school library is a sanctuary of learning, housing approximately 28,800 books, including
+                            reference materials like encyclopedias, yearbooks, dictionaries, almanacs, and atlases. It also
+                            offers a vibrant collection of biographies, magazines (educational, entertainment, religious,
+                            and sports), aiming to match every reader with the right book.</p>
                     </div>
                 </div>
             </div>
             <!-- second -->
-            <div class="row g-5 justify-content-center justify-content-start align-items-center">
+            <div id="computer-lab" class="row g-5 justify-content-center justify-content-start align-items-center">
                 <div class="col-lg-5 col-md-11">
                     <div class="rts-multi-row-content left-side">
-                        <h3 class="row-title">Graduate Education</h3>
-                        <p>The VPGE office works collaboratively across the University to ensure that every graduate student has the best possible education.</p>
-                         <div class="program-list">
-                            <a href="{{ route('program-single') }}" class="program-item"><span>M.A. in American Studies <i class="fa-regular fa-chevron-right"></i></span> <span>A.B</span></a>
-                            <a href="{{ route('program-single') }}" class="program-item"><span>Biomedical Engineering <i class="fa-regular fa-chevron-right"></i></span> <span>A.B</span></a>
-                            <a href="{{ route('program-single') }}" class="program-item"><span>Master of Public Health <i class="fa-regular fa-chevron-right"></i></span> <span>A.B</span></a>
-                            <a href="{{ route('program-single') }}" class="mt--15 about-btn rts-nbg-btn btn-arrow">View All Program <span><i class="fa-sharp fa-regular fa-arrow-right"></i></span></a>
-                         </div>
+                        <h3 class="row-title">Computer Lab</h3>
+                        <p>Equipped with three modern labs, the school provides hands-on learning with the latest hardware
+                            (i3 10th Gen, 1TB SSD, 8GB RAM, LED monitors) and software (word processors, spreadsheets, image
+                            editing, animation, etc.).
+                            Computer education is mandatory from Class I-XII as per NEP, and internet access is allowed
+                            under teacher supervision. Additional facilities include audio-visual labs and a collection of
+                            inspirational movies.
+                        </p>
                     </div>
                 </div>
                 <div class="col-lg-7 col-md-11">
                     <div class="rts-multi-row-image">
-                        <img src="{{asset('assets/images/feature/multi-2.jpg')}}" alt="undergraduate education">
+                        <img src="{{ asset('assets/images/feature/multi-2.jpg') }}" alt="undergraduate education">
                     </div>
                 </div>
             </div>
             <!-- third -->
-            <div class="row g-5 justify-content-center justify-content-start align-items-center">
+            <div id="physics-lab" class="row g-5 justify-content-center justify-content-start align-items-center">
                 <div class="col-lg-7 col-md-11">
                     <div class="rts-multi-row-image">
-                        <img src="{{asset('assets/images/feature/multi-3.jpg')}}" alt="undergraduate education">
+                        <img src="{{ asset('assets/images/feature/multi-3.jpg') }}" alt="undergraduate education">
                     </div>
                 </div>
                 <div class="col-lg-5 col-md-11">
                     <div class="rts-multi-row-content">
-                         <div class="program-list">
+                        <div class="program-list">
                             <div class="single-list">
-                                <h4 class="row-title">Lifelong Learning</h4>
-                                <p>Unipix offers a wide range of programs, classes, internships, and an entire online high school.</p>
-                                <a href="#" class="about-btn rts-nbg-btn btn-arrow">Unipix  Undergraduate <span><i class="fa-sharp fa-regular fa-arrow-right"></i></span></a>
+                                <h4 class="row-title">Physics Lab</h4>
+                                <p>A spacious, CBSE-compliant lab supporting theory through practical learning with
+                                    equipment ranging from magnets and pulleys to potentiometers and galvanometers.
+                                    Students from Classes IX–XII regularly attend lab sessions to gain a deeper
+                                    understanding of physics concepts. All equipment is well-maintained, and teachers ensure
+                                    engaging, hands-on learning experiences.
+                                </p>
                             </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- fourth -->
+            <div id="chemistry-lab" class="row g-5 justify-content-center justify-content-start align-items-center">
+                <div class="col-lg-5 col-md-11">
+                    <div class="rts-multi-row-content left-side">
+                        <h3 class="row-title">Chemistry Lab</h3>
+                        <p>A well-equipped lab providing individual workstations with burners, plug points, and modern
+                            apparatus like distillation units and electronic weighing machines.
+                            It emphasizes safety, with fire extinguishers and separate chemical storage. The lab focuses on
+                            developing scientific skills, teamwork, and inspiring future scientists.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-7 col-md-11">
+                    <div class="rts-multi-row-image">
+                        <img src="{{ asset('assets/images/feature/multi-2.jpg') }}" alt="undergraduate education">
+                    </div>
+                </div>
+            </div>
+            <!-- fifth -->
+            <div id="biology-lab" class="row g-5 justify-content-center justify-content-start align-items-center">
+                <div class="col-lg-7 col-md-11">
+                    <div class="rts-multi-row-image">
+                        <img src="{{ asset('assets/images/feature/multi-3.jpg') }}" alt="undergraduate education">
+                    </div>
+                </div>
+                <div class="col-lg-5 col-md-11">
+                    <div class="rts-multi-row-content">
+                        <div class="program-list">
                             <div class="single-list">
-                                <h4 class="row-title">Professional Development</h4>
-                                <p>Explore the 67 major fields of undergraduate study at Stanford.</p>
-                                <a href="#" class="about-btn rts-nbg-btn btn-arrow">Professional Development <span><i class="fa-sharp fa-regular fa-arrow-right"></i></span></a>
+                                <h4 class="row-title">Biology Lab</h4>
+                                <p>A well-equipped lab providing individual workstations with burners, plug points, and
+                                    modern apparatus like distillation units and electronic weighing machines.
+                                    It emphasizes safety, with fire extinguishers and separate chemical storage. The lab
+                                    focuses on developing scientific skills, teamwork, and inspiring future scientists.
+                                </p>
                             </div>
-                         </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- sixth -->
+            <div id="music-room" class="row g-5 justify-content-center justify-content-start align-items-center">
+                <div class="col-lg-5 col-md-11">
+                    <div class="rts-multi-row-content left-side">
+                        <h3 class="row-title">Music Room</h3>
+                        <p>Music education is offered through instruments like harmonium, casio, tabla, and dholak.
+                            The school features choir and instrumental groups that regularly win awards at various levels,
+                            nurturing both artistic expression and discipline.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-7 col-md-11">
+                    <div class="rts-multi-row-image">
+                        <img src="{{ asset('assets/images/feature/multi-2.jpg') }}" alt="undergraduate education">
+                    </div>
+                </div>
+            </div>
+            <!-- seventh -->
+            <div id="sports-room" style="margin-bottom: 100px; "  class="row g-5 justify-content-center justify-content-start align-items-center">
+                <div class="col-lg-7 col-md-11">
+                    <div class="rts-multi-row-image">
+                        <img src="{{ asset('assets/images/feature/multi-3.jpg') }}" alt="undergraduate education">
+                    </div>
+                </div>
+                <div class="col-lg-5 col-md-11">
+                    <div class="rts-multi-row-content">
+                        <div class="program-list">
+                            <div class="single-list">
+                                <h4 class="row-title">Sports Room</h4>
+                                <p>Promoting the philosophy of ‘Sport for All’, the school encourages student participation
+                                    across skill levels.Facilities include:
+                                <ul>
+                                    <li>Basketball court</li>
+                                    <li>Football field</li>
+                                    <li>Cricket ground</li>
+                                    <li>Volleyball court</li>
+                                    <li>Badminton court</li>
+                                    <li>Athletics field</li>
+                                    <li>Kho-Kho ground</li>
+                                    <li>Chess arena</li>
+                                </ul>
+                                Students achieve excellence at zonal, state, and national levels.
+                                </p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
     <!-- multi row item end -->
-    @include($components . 'campus-tour', ['class' => 'rts-section-padding'])
-    @include($components . 'testimonial-v3', ['class' => 'pb--120'])
-   @include($components . 'newsletter', ['class' => 'rts-cta-background'])
+
+    @include($components . 'newsletter', ['class' => 'rts-cta-background'])
     @include($footer . 'footer-v3', ['class' => 'v_2 pt--100 pb--100', 'cclass' => 'v_1'])
 @endsection
