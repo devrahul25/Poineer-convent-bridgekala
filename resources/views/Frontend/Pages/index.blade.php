@@ -520,7 +520,7 @@
     </section>
     <!-- UPCOMING EVENT END --> --}}
 
-    @include($components . 'brand-slider', ['class' => 'rts__light rts-section-padding'])
+    {{-- @include($components . 'brand-slider', ['class' => 'rts__light rts-section-padding']) --}}
     @include($components . 'newsletter', ['class' => 'rts-cta-background'])
     @include($footer . 'footer-v3', ['class' => 'v_2 pt--100 pb--100', 'cclass' => 'v_1'])
 @endsection

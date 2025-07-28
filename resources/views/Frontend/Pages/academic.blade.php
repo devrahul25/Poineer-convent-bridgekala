@@ -17,7 +17,7 @@
             <div id="library" class="row g-5 justify-content-center justify-content-start align-items-center">
                 <div class="col-lg-7 col-md-11">
                     <div class="rts-multi-row-image">
-                        <img src="{{ asset('assets/images/feature/multi-1.jpg') }}" alt="undergraduate education">
+                        <img src="{{ asset('assets/images/feature/library.jpg') }}" alt="undergraduate education">
                     </div>
                 </div>
                 <div class="col-lg-5 col-md-11">
@@ -46,7 +46,7 @@
                 </div>
                 <div class="col-lg-7 col-md-11">
                     <div class="rts-multi-row-image">
-                        <img src="{{ asset('assets/images/feature/multi-2.jpg') }}" alt="undergraduate education">
+                        <img src="{{ asset('assets/images/feature/computer-lab.jpg') }}" alt="undergraduate education">
                     </div>
                 </div>
             </div>
@@ -54,7 +54,7 @@
             <div id="physics-lab" class="row g-5 justify-content-center justify-content-start align-items-center">
                 <div class="col-lg-7 col-md-11">
                     <div class="rts-multi-row-image">
-                        <img src="{{ asset('assets/images/feature/multi-3.jpg') }}" alt="undergraduate education">
+                        <img src="{{ asset('assets/images/feature/physics-lab.jpg') }}" alt="undergraduate education">
                     </div>
                 </div>
                 <div class="col-lg-5 col-md-11">
@@ -87,7 +87,7 @@
                 </div>
                 <div class="col-lg-7 col-md-11">
                     <div class="rts-multi-row-image">
-                        <img src="{{ asset('assets/images/feature/multi-2.jpg') }}" alt="undergraduate education">
+                        <img src="{{ asset('assets/images/feature/chemistry-lab.jpg') }}" alt="undergraduate education">
                     </div>
                 </div>
             </div>
@@ -95,7 +95,7 @@
             <div id="biology-lab" class="row g-5 justify-content-center justify-content-start align-items-center">
                 <div class="col-lg-7 col-md-11">
                     <div class="rts-multi-row-image">
-                        <img src="{{ asset('assets/images/feature/multi-3.jpg') }}" alt="undergraduate education">
+                        <img src="{{ asset('assets/images/feature/bio-lab.jpg') }}" alt="undergraduate education">
                     </div>
                 </div>
                 <div class="col-lg-5 col-md-11">
@@ -126,7 +126,7 @@
                 </div>
                 <div class="col-lg-7 col-md-11">
                     <div class="rts-multi-row-image">
-                        <img src="{{ asset('assets/images/feature/multi-2.jpg') }}" alt="undergraduate education">
+                        <img src="{{ asset('assets/images/feature/music-room.jpg') }}" alt="undergraduate education">
                     </div>
                 </div>
             </div>
@@ -134,7 +134,7 @@
             <div id="sports-room" style="margin-bottom: 100px; "  class="row g-5 justify-content-center justify-content-start align-items-center">
                 <div class="col-lg-7 col-md-11">
                     <div class="rts-multi-row-image">
-                        <img src="{{ asset('assets/images/feature/multi-3.jpg') }}" alt="undergraduate education">
+                        <img src="{{ asset('assets/images/feature/sports-room.png') }}" alt="undergraduate education">
                     </div>
                 </div>
                 <div class="col-lg-5 col-md-11">

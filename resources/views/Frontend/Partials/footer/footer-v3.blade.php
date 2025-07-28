@@ -13,36 +13,35 @@
                         resources learners all backgrounds.
                     </p>
                     <div class="rts-contact-link">
-                        <a href="mailto:contact@reacthemes.com"><i class="fa-sharp fa-light fa-location-dot"></i> Park,
-                            Melbourne, Australia </a>
-                        <a href="callto:121"><i class="fa-thin fa-phone"></i> 485-826-710</a>
+                        <a href="mailto:contact@reacthemes.com"><i class="fa-sharp fa-light fa-location-dot"></i>
+                            Lok Nayak Puram, Bakkarwala, Delhi, 110041 </a>
+                        <a href="callto:121"><i class="fa-thin fa-phone"></i> xxx-xxx-xxx</a>
                     </div>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6 col-sm-6" style="text-align: center">
                 <div class="rts-footer-widget ">
-                    <h6 class="rt-semi">Our Campus</h6>
+                    <h6 class="rt-semi">Quick Links</h6>
                     <div class="rts-footer-menu">
                         <ul>
-                            <li><a href="{{ route('academic') }}">Academic</a></li>
-                            <li><a href="{{ route('athletics') }}">Athletics</a></li>
-                            <li><a href="{{ route('campus-life') }}">Campus life</a></li>
-                            <li><a href="reasearch.php">Research</a></li>
-                            <li><a href="{{ route('academic-area') }}">Academic Area</a></li>
+                            <li><a href="{{ route('index') }}">Home</a></li>
+                            <li><a href="{{ route('about') }}">About Us</a></li>
+                            <li><a href="{{ route('academic') }}">Infrastructure</a></li>
+                            <li><a href="examinations">Academics</a></li>
+                            <li><a href="{{ route('athletics') }}">Activities</a></li>
+                            <li><a href="{{ route('admission') }}">Admission</a></li>
+                            <li><a href="{{ route('blog') }}">Disclosure</a></li>
                         </ul>
                     </div>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6 col-sm-4" style="text-align: center">
                 <div class="rts-footer-widget ml--30">
-                    <h6 class="rt-semi">Our Campus</h6>
+                    <h6 class="rt-semi">Admission Process</h6>
                     <div class="rts-footer-menu">
                         <ul>
-                            <li><a href="{{ route('about') }}">About </a></li>
-                            <li><a href="{{ route('tution-fee') }}">Tution Fee</a></li>
-                            <li><a href="{{ route('alumni') }}">Alumni</a></li>
-                            <li><a href="{{ route('faculty') }}">Faculty Staff</a></li>
-                            <li><a href="{{ route('event') }}">Event</a></li>
+                            <li><a href="{{ route('admission') }}">Admission Information </a></li>
+                            <li><a href="{{ route('tution-fee') }}">Fee Structure</a></li>
                         </ul>
                     </div>
                 </div>
