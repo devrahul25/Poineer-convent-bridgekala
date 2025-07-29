@@ -42,77 +42,81 @@
         <nav class="nav-main mainmenu-nav mt--30">
             <ul class="mainmenu metismenu" id="mobile-menu-active">
 
+                <li>
+                    <a href="{{ route('index') }}" class="main">Home</a>
+                </li>
                 <li class="has-droupdown">
-                    <a href="#" class="main">Homepages</a>
+                    <a href="#" class="main">About Us</a>
                     <ul class="submenu mm-collapse">
-                        <li><a class="mobile-menu-link" href="{{ route('index') }}">Home Style One</a></li>
-                        <li><a class="mobile-menu-link" href="{{ route('index-two') }}">Home Style Two</a></li>
-                        <li><a class="mobile-menu-link" href="{{ route('index-three') }}">Home Style Three</a></li>
-                        <li><a class="mobile-menu-link" href="{{ route('index-four') }}">Home Style Four</a></li>
-                        <li><a class="mobile-menu-link" href="{{ route('index-five') }}">Home Style Five</a></li>
+                        <li><a class="mobile-menu-link" href="{{ route('about') }}">Vision/Mission</a></li>
+                        <li><a class="mobile-menu-link" href="{{ route('faculty-details') }}">Manager's Desk</a></li>
+                        <li><a class="mobile-menu-link" href="{{ route('principal-desk') }}">Principal's Desk</a></li>
+                        <li><a class="mobile-menu-link" href="{{ route('campus-life') }}">School Overview</a></li>
                     </ul>
                 </li>
                 <li class="has-droupdown">
-                    <a href="#" class="main">Pages</a>
+                    <a href="#" class="main">Infrastructure</a>
                     <ul class="submenu mm-collapse">
-                        <li><a class="mobile-menu-link" href="{{ route('about') }}">About Us</a></li>
-                        <li><a class="mobile-menu-link" href="{{ route('athletics') }}">Athletics</a></li>
-                        <li class="has-dropdown third-lvl">
-                            <a href="javascript:void(0);">Faculty</a>
-                            <ul class="submenu third-lvl base">
-                                <li><a class="mobile-menu-link" href="{{ route('faculty-sub') }}">Faculty</a></li>
-                                <li><a class="mobile-menu-link" href="{{ route('faculty-sub-details') }}">Faculty
-                                        Details</a></li>
-                                <li><a class="mobile-menu-link" href="{{ route('faculty') }}">Faculty</a></li>
-                                <li><a class="mobile-menu-link" href="{{ route('faculty-details') }}">Faculty Staff
-                                        details</a></li>
-                            </ul>
+                        <li><a class="mobile-menu-link" href="{{ route('academic') }}#campus-tour">Campus Tour</a></li>
+                        <li><a class="mobile-menu-link" href="{{ route('academic') }}#library">Library</a></li>
+                        <li><a class="mobile-menu-link" href="{{ route('academic') }}#computer-lab">Computer Lab</a>
                         </li>
-                        <li><a class="mobile-menu-link" href="{{ route('research') }}">Research</a></li>
-                    </ul>
-                </li>
-                <li class="has-droupdown">
-                    <a href="#" class="main">Academics</a>
-                    <ul class="submenu mm-collapse">
-                        <li><a class="mobile-menu-link" href="{{ route('academic') }}">Academic</a></li>
-                        <li><a class="mobile-menu-link" href="{{ route('admission') }}">Admission</a></li>
-                        <li><a class="mobile-menu-link" href="{{ route('academic-area') }}">Academic Area</a></li>
-                        <li><a class="mobile-menu-link" href="{{ route('campus-life') }}">Campus Life</a></li>
-                        <li><a class="mobile-menu-link" href="{{ route('scholarship') }}">Scholarship</a></li>
-                        <li><a class="mobile-menu-link" href="{{ route('tution-fee') }}">Tution Fee</a></li>
-                        <li><a class="mobile-menu-link" href="{{ route('alumni') }}">Alumni</a></li>
-                        <li><a class="mobile-menu-link" href="{{ route('program-single') }}">Program Single</a></li>
-                        <li><a class="mobile-menu-link" href="{{ route('department-details') }}">Department Details</a>
+                        <li><a class="mobile-menu-link" href="{{ route('academic') }}#physics-lab">Physics Lab</a>
                         </li>
+                        <li><a class="mobile-menu-link" href="{{ route('academic') }}#chemistry-lab">Chemistry Lab</a>
+                        </li>
+                        <li><a class="mobile-menu-link" href="{{ route('academic') }}#biology-lab">Biology Lab</a></li>
+                        <li><a class="mobile-menu-link" href="{{ route('academic') }}#music-room">Music Room</a></li>
+                        <li><a class="mobile-menu-link" href="{{ route('academic') }}#sports-room">Sports Room</a></li>
                     </ul>
                 </li>
 
                 <li class="has-droupdown">
-                    <a href="#" class="main">Events</a>
+                    <a href="#" class="main">Academics</a>
                     <ul class="submenu mm-collapse">
-                        <li><a class="mobile-menu-link" href="{{ route('event') }}">Event</a></li>
-                        <li><a class="mobile-menu-link" href="{{ route('event-details') }}">Event Details</a></li>
+                        <li><a class="mobile-menu-link" href="{{ route('examinations') }}">Examinations</a></li>
+                        <li><a class="mobile-menu-link" href="{{ route('academic-calender') }}">School Calender</a>
+                        </li>
+                        <li><a class="mobile-menu-link" href="{{ route('faculty') }}">Faculty</a></li>
                     </ul>
                 </li>
                 <li class="has-droupdown">
-                    <a href="#" class="main">Blog</a>
+                    <a href="#" class="main">Activities</a>
                     <ul class="submenu mm-collapse">
-                        <li><a class="mobile-menu-link" href="{{ route('blog') }}">Blog</a></li>
-                        <li><a class="mobile-menu-link" href="{{ route('blog-grid') }}">Blog Grid</a></li>
-                        <li><a class="mobile-menu-link" href="{{ route('blog-list') }}">Blog List</a></li>
-                        <li><a class="mobile-menu-link" href="{{ route('blog-details') }}">Blog Details</a></li>
+                        <li><a class="mobile-menu-link" href="{{ route('athletics') }}">Sports</a></li>
+                        <li><a class="mobile-menu-link" href="{{ route('co-curricular') }}">Co-Curricular</a></li>
                     </ul>
                 </li>
-                <li>
-                    <a href="{{ route('contact') }}" class="main">Contact Us</a>
+                <li class="has-droupdown">
+                    <a href="#" class="main">Admission</a>
+                    <ul class="submenu mm-collapse">
+                        <li><a class="mobile-menu-link" href="{{ route('admission') }}">Adm. Information</a></li>
+                        <li><a class="mobile-menu-link" href="{{ route('tution-fee') }}">Fee Structure</a></li>
+                    </ul>
+                </li>
+                <li class="has-droupdown">
+                    <a href="#" class="main">Disclosure</a>
+                    <ul class="submenu mm-collapse">
+                        <li><a class="mobile-menu-link" href="{{ route('blog') }}">Mandatory Public Disclosure</a>
+                        </li>
+                        <li><a class="mobile-menu-link" href="{{ route('blog-grid') }}">SARAS-Mandatory
+                                Disclosure</a></li>
+                    </ul>
+                </li>
+                <li class="has-droupdown">
+                    <a href="#" class="main">Gallery</a>
+                    <ul class="submenu mm-collapse">
+                        <li><a class="mobile-menu-link" href="{{ route('image-gallery') }}">Photo Gallery</a></li>
+                        <li><a class="mobile-menu-link" href="{{ route('video-gallery') }}">Video Gallery</a></li>
+                    </ul>
                 </li>
             </ul>
         </nav>
 
         <div class="offcanvase__info--content mt--30">
-            <a href="callto:+61485826710"><span><i class="fa-sharp fa-light fa-phone"></i></span>+(61) 485-826-710</a>
-            <a href="#"><span><i class="fa-sharp fa-light fa-location-dot"></i></span>Yarra Park, Melbourne,
-                Australia</a>
+            <a href="callto:+61485826710"><span><i class="fa-sharp fa-light fa-phone"></i></span>09555589555</a>
+            <a href="#"><span><i class="fa-sharp fa-light fa-location-dot"></i></span>Lok Nayak Puram,
+                Bakkarwala, Delhi, 110041</a>
             <div class="offcanvase__info--content--social">
                 <p class="title">Follow Us:</p>
                 <div class="social__links">
