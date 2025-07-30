@@ -16533,7 +16533,7 @@ body.index-sc h6 {
 }
 .header__wrapper {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     margin-top: 10px;
 }
@@ -16600,9 +16600,13 @@ body.index-sc h6 {
     justify-content: center;
     align-items: center;
 }
+
 @media screen and (max-width: 1200px) {
     .header.v__3 .header__wrapper {
         padding: 0 15px;
+        display:flex;
+        align-item:center;
+        justify-content:space-between;
     }
 }
 .header.v__3 .header__center__content {
