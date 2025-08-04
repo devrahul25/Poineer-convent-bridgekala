@@ -11,50 +11,50 @@ class PageController extends BaseController
     public function index()
     {
         return $this->view('index', [
-            'page_title' => 'Lms and University Laravel 12 Template'
+            'page_title' => 'Pioneer'
         ]);
     }
 
     // homepage two
-    public function indexTwo()
-    {
-        return $this->view('index-two', [
-            'page_title' => 'Lms and University Laravel 12 Template'
-        ]);
-    }
+    // public function indexTwo()
+    // {
+    //     return $this->view('index-two', [
+    //         'page_title' => 'Lms and University Laravel 12 Template'
+    //     ]);
+    // }
 
     // homepage three
-    public function indexThree()
-    {
-        return $this->view('index-three', [
-            'page_title' => 'Lms and University Laravel 12 Template'
-        ]);
-    }
+    // public function indexThree()
+    // {
+    //     return $this->view('index-three', [
+    //         'page_title' => 'Lms and University Laravel 12 Template'
+    //     ]);
+    // }
 
     // homepage four
 
-    public function indexFour()
-    {
-        return $this->view('index-four', [
-            'page_title' => 'Lms and University Laravel 12 Template'
-        ]);
-    }
+    // public function indexFour()
+    // {
+    //     return $this->view('index-four', [
+    //         'page_title' => 'Lms and University Laravel 12 Template'
+    //     ]);
+    // }
 
     // homepage five
-    public function indexFive()
-    {
-        return $this->view('index-five', [
-            'page_title' => 'Lms and University Laravel 12 Template'
-        ]);
-    }
+    // public function indexFive()
+    // {
+    //     return $this->view('index-five', [
+    //         'page_title' => 'Lms and University Laravel 12 Template'
+    //     ]);
+    // }
 
     // homepage school and college
-    public function indexSc()
-    {
-        return $this->view('index-sc', [
-            'page_title' => 'School and College Laravel 12 Template'
-        ]);
-    }
+    // public function indexSc()
+    // {
+    //     return $this->view('index-sc', [
+    //         'page_title' => 'School and College Laravel 12 Template'
+    //     ]);
+    // }
 
     // about school and college
     public function aboutSc()
