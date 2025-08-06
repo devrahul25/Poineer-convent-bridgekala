@@ -27,8 +27,11 @@
                     <div class="offcanvase__info--content--social">
                         <p class="title">Follow Us:</p>
                         <div class="social__links">
-                            <a href="#"><i class="fa-brands fa-facebook"></i></a>
-                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                            <a target="_blank" href="https://www.facebook.com/share/19VvqrUdGs/?mibextid=wwXIfr"><i
+                                    class="fa-brands fa-facebook"></i></a>
+                            <a target="_blank"
+                                href="https://www.instagram.com/pioneer_convent_loknayakpuram/profilecard/?igsh=ZnU5eHY3OTF0b3Ju"><i
+                                    class="fa-brands fa-instagram"></i></a>
                             <a href="#"><i class="fa-brands fa-linkedin"></i></a>
                             <a href="#"><i class="fa-brands fa-youtube"></i></a>
                         </div>
