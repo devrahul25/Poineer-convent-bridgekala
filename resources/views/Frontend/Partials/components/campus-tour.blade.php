@@ -20,7 +20,7 @@
                         co-curricular clubs, you’ll find an inspiring environment where students thrive. Join us for a
                         glimpse into a space where values meet vision and every child discovers their true potential.
                     </p>
-                    <a href="{{ route('campus-life') }}" class="mt--15 about-btn rts-nbg-btn btn-arrow">Visit Campus
+                    <a href="{{ route('about') }}" class="mt--15 about-btn rts-nbg-btn btn-arrow">Visit Campus
                         <span><i class="fa-sharp fa-regular fa-arrow-right"></i></span></a>
                 </div>
             </div>
