@@ -1,3 +1,63 @@
+// mobile header styles
+.header__mobile {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 15px 0;
+    
+    .header__mobile--logo {
+        flex: 1;
+        
+        .header__logo--link {
+            display: block;
+            
+            img {
+                max-width: 150px;
+                height: auto;
+            }
+        }
+    }
+    
+    .header__mobile--menu {
+        .menu__trigger {
+            cursor: pointer;
+            padding: 8px;
+            
+            img {
+                width: 24px;
+                height: 24px;
+            }
+        }
+    }
+}
+
+// Desktop header styles (keep original desktop structure)
+.header__desktop {
+    .header__menu {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+}
+
+// Ensure mobile menu is properly hidden on desktop
+@media (min-width: 992px) {
+    .header__mobile {
+        display: none !important;
+    }
+}
+
+// Ensure desktop elements are hidden on mobile
+@media (max-width: 991px) {
+    .header__logo.d-none.d-lg-block,
+    .header__menu.d-none.d-lg-block,
+    .header__right.d-none.d-lg-block {
+        display: none !important;
+    }
+}
+
 // mobile menu active
 
 #side-bar {

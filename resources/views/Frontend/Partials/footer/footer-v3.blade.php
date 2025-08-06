@@ -26,7 +26,7 @@
                         <ul>
                             <li><a href="{{ route('index') }}">Home</a></li>
                             <li><a href="{{ route('about') }}">About Us</a></li>
-                            <li><a href="{{ route('academic') }}">Infrastructure</a></li>
+                            <li><a href="{{ route('Infrastructure') }}">Infrastructure</a></li>
                             <li><a href="examinations">Academics</a></li>
                             <li><a href="{{ route('athletics') }}">Activities</a></li>
                             <li><a href="{{ route('admission') }}">Admission</a></li>

@@ -52,25 +52,25 @@
                     <a href="#" class="main">About Us</a>
                     <ul class="submenu mm-collapse">
                         <li><a class="mobile-menu-link" href="{{ route('about') }}">Vision/Mission</a></li>
-                        <li><a class="mobile-menu-link" href="{{ route('faculty-details') }}">Manager's Desk</a></li>
+                        <li><a class="mobile-menu-link" href="{{ route('manager-desk') }}">Manager's Desk</a></li>
                         <li><a class="mobile-menu-link" href="{{ route('principal-desk') }}">Principal's Desk</a></li>
-                        <li><a class="mobile-menu-link" href="{{ route('campus-life') }}">School Overview</a></li>
+                        <li><a class="mobile-menu-link" href="{{ route('school-overview') }}">School Overview</a></li>
                     </ul>
                 </li>
                 <li class="has-droupdown">
                     <a href="#" class="main">Infrastructure</a>
                     <ul class="submenu mm-collapse">
-                        <li><a class="mobile-menu-link" href="{{ route('academic') }}#campus-tour">Campus Tour</a></li>
-                        <li><a class="mobile-menu-link" href="{{ route('academic') }}#library">Library</a></li>
-                        <li><a class="mobile-menu-link" href="{{ route('academic') }}#computer-lab">Computer Lab</a>
+                        <li><a class="mobile-menu-link" href="{{ route('Infrastructure') }}#campus-tour">Campus Tour</a></li>
+                        <li><a class="mobile-menu-link" href="{{ route('Infrastructure') }}#library">Library</a></li>
+                        <li><a class="mobile-menu-link" href="{{ route('Infrastructure') }}#computer-lab">Computer Lab</a>
                         </li>
-                        <li><a class="mobile-menu-link" href="{{ route('academic') }}#physics-lab">Physics Lab</a>
+                        <li><a class="mobile-menu-link" href="{{ route('Infrastructure') }}#physics-lab">Physics Lab</a>
                         </li>
-                        <li><a class="mobile-menu-link" href="{{ route('academic') }}#chemistry-lab">Chemistry Lab</a>
+                        <li><a class="mobile-menu-link" href="{{ route('Infrastructure') }}#chemistry-lab">Chemistry Lab</a>
                         </li>
-                        <li><a class="mobile-menu-link" href="{{ route('academic') }}#biology-lab">Biology Lab</a></li>
-                        <li><a class="mobile-menu-link" href="{{ route('academic') }}#music-room">Music Room</a></li>
-                        <li><a class="mobile-menu-link" href="{{ route('academic') }}#sports-room">Sports Room</a></li>
+                        <li><a class="mobile-menu-link" href="{{ route('Infrastructure') }}#biology-lab">Biology Lab</a></li>
+                        <li><a class="mobile-menu-link" href="{{ route('Infrastructure') }}#music-room">Music Room</a></li>
+                        <li><a class="mobile-menu-link" href="{{ route('Infrastructure') }}#sports-room">Sports Room</a></li>
                     </ul>
                 </li>
 
@@ -78,7 +78,7 @@
                     <a href="#" class="main">Academics</a>
                     <ul class="submenu mm-collapse">
                         <li><a class="mobile-menu-link" href="{{ route('examinations') }}">Examinations</a></li>
-                        <li><a class="mobile-menu-link" href="{{ route('academic-calender') }}">School Calender</a>
+                        <li><a class="mobile-menu-link" href="{{ route('school-calender') }}">School Calender</a>
                         </li>
                         <li><a class="mobile-menu-link" href="{{ route('faculty') }}">Faculty</a></li>
                     </ul>

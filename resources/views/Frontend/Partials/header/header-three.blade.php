@@ -21,30 +21,30 @@
                 <a href="{{ route('about') }}" class="navigation__menu--item__link">About Us</a>
                 <ul class="submenu sub__style">
                     <li><a href="{{ route('about') }}">Vision/Mission</a></li>
-                    <li><a href="{{ route('faculty-details') }}">Manager's Desk</a></li>
+                    <li><a href="{{ route('manager-desk') }}">Manager's Desk</a></li>
                     <li><a href="{{ route('principal-desk') }}">Principal's Desk</a></li>
-                    <li><a href="{{ route('campus-life') }}">School Overview</a></li>
+                    <li><a href="{{ route('school-overview') }}">School Overview</a></li>
                 </ul>
             </li>
             <li class="navigation__menu--item has-child">
                 <a href="#" class="navigation__menu--item__link">Infrastructure</a>
                 <ul class="submenu sub__style">
-                    <li><a href="{{ route('academic') }}#campus-tour">Campus Tour</a></li>
-                    <li><a href="{{ route('academic') }}#library">Library</a></li>
-                    <li><a href="{{ route('academic') }}#computer-lab">Computer Lab</a></li>
-                    <li><a href="{{ route('academic') }}#physics-lab">Physics Lab</a></li>
-                    <li><a href="{{ route('academic') }}#chemistry-lab">Chemistry Lab</a>
+                    <li><a href="{{ route('Infrastructure') }}#campus-tour">Campus Tour</a></li>
+                    <li><a href="{{ route('Infrastructure') }}#library">Library</a></li>
+                    <li><a href="{{ route('Infrastructure') }}#computer-lab">Computer Lab</a></li>
+                    <li><a href="{{ route('Infrastructure') }}#physics-lab">Physics Lab</a></li>
+                    <li><a href="{{ route('Infrastructure') }}#chemistry-lab">Chemistry Lab</a>
                     </li>
-                    <li><a href="{{ route('academic') }}#biology-lab">Biology Lab</a></li>
-                    <li><a href="{{ route('academic') }}#music-room">Music Room</a></li>
-                    <li><a href="{{ route('academic') }}#sports-room">Sports Room</a></li>
+                    <li><a href="{{ route('Infrastructure') }}#biology-lab">Biology Lab</a></li>
+                    <li><a href="{{ route('Infrastructure') }}#music-room">Music Room</a></li>
+                    <li><a href="{{ route('Infrastructure') }}#sports-room">Sports Room</a></li>
                 </ul>
             </li>
             <li class="navigation__menu--item has-child">
                 <a href="#" class="navigation__menu--item__link">Academics</a>
                 <ul class="submenu sub__style">
                     <li><a href="{{ route('examinations') }}">Examinations</a></li>
-                    <li><a href="{{ route('academic-calender') }}">School Calendar</a></li>
+                    <li><a href="{{ route('school-calender') }}">School Calendar</a></li>
                     <li><a href="{{ route('faculty') }}">Faculty</a></li>
                 </ul>
             </li>

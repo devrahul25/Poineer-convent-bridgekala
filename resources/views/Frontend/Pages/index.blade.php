@@ -106,7 +106,7 @@
                         <div class="campus__vector">
                             <img src="{{ asset('assets/images/campus/campus__vector.svg') }}" alt="">
                         </div>
-                        <a href="{{ route('academic') }}" class="rts-theme-btn btn-arrow">View All Program
+                        <a href="{{ route('Infrastructure') }}" class="rts-theme-btn btn-arrow">View All Program
                             <span><i class="fa-regular fa-arrow-right"></i></span>
                         </a>
                     </div>
@@ -229,42 +229,42 @@
                         </a>
                     </div>
                 </div>
-               <div class="col-lg-4 col-md-6 col-sm-10">
-    <div class="tution__single--box v__1" style="height: 700px">
-        <h5 class="tution__single--box--title">Class-Wise Fee Structure</h5>
-        <h6 class="tution__single--box--faculty">Pre-Primary & Primary School (Class Pre-I to V)</h6>
-        <ul class="tution__single--box--feature">
-            <li>Admission Fee (one-time): ₹200</li>
-            <li>Monthly Tuition Fee: ₹5,570 (Pre-Primary), ₹4,380–5,240 (Class I to V)</li>
-            <li>Annual Activity & Development Fee: ₹11,190 – ₹13,525</li>
-        </ul>
-        <h6 class="tution__single--box--faculty">Middle & Secondary School (Class VI to X)</h6>
-        <ul class="tution__single--box--feature">
-            <li>Admission Fee (one-time): ₹200</li>
-            <li>Monthly Tuition Fee: ₹5,240 (Class VI–VIII), ₹6,030 (Class IX), ₹6,630 (Class X)</li>
-            <li>Annual Activity & Development Fee: ₹15,890</li>
-        </ul>
-    </div>
-</div>
+                <div class="col-lg-4 col-md-6 col-sm-10">
+                    <div class="tution__single--box v__1" style="height: 700px">
+                        <h5 class="tution__single--box--title">Class-Wise Fee Structure</h5>
+                        <h6 class="tution__single--box--faculty">Pre-Primary & Primary School (Class Pre-I to V)</h6>
+                        <ul class="tution__single--box--feature">
+                            <li>Admission Fee (one-time): ₹200</li>
+                            <li>Monthly Tuition Fee: ₹5,570 (Pre-Primary), ₹4,380–5,240 (Class I to V)</li>
+                            <li>Annual Activity & Development Fee: ₹11,190 – ₹13,525</li>
+                        </ul>
+                        <h6 class="tution__single--box--faculty">Middle & Secondary School (Class VI to X)</h6>
+                        <ul class="tution__single--box--feature">
+                            <li>Admission Fee (one-time): ₹200</li>
+                            <li>Monthly Tuition Fee: ₹5,240 (Class VI–VIII), ₹6,030 (Class IX), ₹6,630 (Class X)</li>
+                            <li>Annual Activity & Development Fee: ₹15,890</li>
+                        </ul>
+                    </div>
+                </div>
 
-<div class="col-lg-4 col-md-6 col-sm-10">
-    <div class="tution__single--box" style="height: 700px">
-        <h5 class="tution__single--box--title">Extra Charges & Facilities</h5>
-        <h6 class="tution__single--box--faculty">Senior Secondary School (Class XI & XII)</h6>
-        <ul class="tution__single--box--feature">
-            <li>Science Stream: ₹7,370 per month</li>
-            <li>Commerce Stream: ₹7,370 per month</li>
-            <li>Humanities Stream: ₹7,370 per month</li>
-            <li>Laboratory & Practical Fees (Science): Included in 15% development charges</li>
-        </ul>
-        <h6 class="tution__single--box--faculty">Additional Fees</h6>
-        <ul class="tution__single--box--feature">
-            <li>Transport (Optional): Based on Route</li>
-            <li>Uniform & Books: As per actuals</li>
-            <li>Extracurricular Clubs & Activities: Nominal charges</li>
-        </ul>
-    </div>
-</div>
+                <div class="col-lg-4 col-md-6 col-sm-10">
+                    <div class="tution__single--box" style="height: 700px">
+                        <h5 class="tution__single--box--title">Extra Charges & Facilities</h5>
+                        <h6 class="tution__single--box--faculty">Senior Secondary School (Class XI & XII)</h6>
+                        <ul class="tution__single--box--feature">
+                            <li>Science Stream: ₹7,370 per month</li>
+                            <li>Commerce Stream: ₹7,370 per month</li>
+                            <li>Humanities Stream: ₹7,370 per month</li>
+                            <li>Laboratory & Practical Fees (Science): Included in 15% development charges</li>
+                        </ul>
+                        <h6 class="tution__single--box--faculty">Additional Fees</h6>
+                        <ul class="tution__single--box--feature">
+                            <li>Transport (Optional): Based on Route</li>
+                            <li>Uniform & Books: As per actuals</li>
+                            <li>Extracurricular Clubs & Activities: Nominal charges</li>
+                        </ul>
+                    </div>
+                </div>
 
             </div>
         </div>

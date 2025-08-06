@@ -32,7 +32,7 @@ Route::controller(PageController::class)->group(function () {
     Route::get('middle-school', 'middleSchool')->name('middle-school');
     Route::get('about', 'about')->name('about');
     Route::get('academic-area', 'academicArea')->name('academic-area');
-    Route::get('academic', 'academic')->name('academic');
+    Route::get('Infrastructure', 'infrastructure')->name('Infrastructure');
     Route::get('admission', 'admission')->name('admission');
     Route::get('alumni', 'alumni')->name('alumni');
     Route::get('athletics', 'athletics')->name('athletics');
@@ -44,12 +44,12 @@ Route::controller(PageController::class)->group(function () {
     Route::get('research', 'research')->name('research');
     Route::get('program-single', 'programSingle')->name('program-single');
     Route::get('notice-details', 'noticeDetails')->name('notice-details');
-    Route::get('campus-life', 'campusLife')->name('campus-life');
+    Route::get('school-overview', 'schoolOverview')->name('school-overview');
     Route::get('contact', 'contact')->name('contact');
     Route::get('department-details', 'departmentDetails')->name('department-details');
     Route::get('event-details', 'eventDetails')->name('event-details');
     Route::get('event', 'event')->name('event');
-    Route::get('faculty-details', 'facultyDetails')->name('faculty-details');
+    Route::get('manager-desk', 'managerDesk')->name('manager-desk');
     Route::get('principal-desk', 'principalDesk')->name('principal-desk');
     Route::get('faculty-sub-details', 'facultySubDetails')->name('faculty-sub-details');
     Route::get('faculty-sub', 'facultySub')->name('faculty-sub');
@@ -58,7 +58,7 @@ Route::controller(PageController::class)->group(function () {
     Route::get('campus-life-sc', 'campusLife')->name('campus-life-sc');
     Route::get('co-curricular', 'coCurricular')->name('co-curricular');
     Route::get('examinations', 'Examinations')->name('examinations');
-    Route::get('academic-calender', 'Academicc')->name('academic-calender');
+    Route::get('school-calender', 'schoolCalender')->name('school-calender');
     Route::get('image-gallery', 'Gallery')->name('image-gallery');
     Route::get('video-gallery', 'Video')->name('video-gallery');
-});
+}); 

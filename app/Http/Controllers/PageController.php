@@ -145,10 +145,10 @@ class PageController extends BaseController
     }
 
     // academic page
-    public function academic()
+    public function Infrastructure()
     {
-        return $this->view('academic', [
-            'page_title' => 'Academic Page Template'
+        return $this->view('infrastructure', [
+            'page_title' => 'Infrastructure Page Template'
         ]);
     }
 
@@ -233,10 +233,10 @@ class PageController extends BaseController
     }
 
     // campus life
-    public function campusLife()
+    public function schoolOverview()
     {
-        return $this->view('campus-life', [
-            'page_title' => 'Campus Life Page Template'
+        return $this->view('school-overview', [
+            'page_title' => 'school overview Page Template'
         ]);
     }
 
@@ -273,10 +273,10 @@ class PageController extends BaseController
     }
 
     // faculty details
-    public function facultyDetails()
+    public function managerDesk()
     {
-        return $this->view('faculty-details', [
-            'page_title' => 'Faculty Details Page Template'
+        return $this->view('manager-desk', [
+            'page_title' => 'manager-desk Page Template'
         ]);
     }
 
@@ -329,10 +329,10 @@ class PageController extends BaseController
         ]);
     }
     // academic-calender
-    public function Academicc()
+    public function schoolCalender()
     {
-        return $this->view('academic-calender', [
-            'page_title' => 'academic-calender Page Template'
+        return $this->view('school-calender', [
+            'page_title' => 'school calender Page Template'
         ]);
     }
     // image gallery
