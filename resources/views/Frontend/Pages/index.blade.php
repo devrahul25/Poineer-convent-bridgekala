@@ -277,7 +277,7 @@
                 <div class="row">
                     <div class="col-lg-6">
                         <div class="campus__link">
-                            <a href="{{ route('campus-life') }}" class="campus__link--btn">
+                            <a href="{{ route('school-overview') }}" class="campus__link--btn">
                                 Campus Life
                             </a>
                         </div>
