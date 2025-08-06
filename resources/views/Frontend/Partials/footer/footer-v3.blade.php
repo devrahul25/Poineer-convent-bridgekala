@@ -15,7 +15,7 @@
                     <div class="rts-contact-link">
                         <a href="mailto:contact@reacthemes.com"><i class="fa-sharp fa-light fa-location-dot"></i>
                             Lok Nayak Puram, Bakkarwala, Delhi, 110041 </a>
-                        <a href="callto:121"><i class="fa-thin fa-phone"></i> 09555589555</a>
+                        <a href="callto:121"><i class="fa-thin fa-phone"></i> 7838039084</a>
                     </div>
                 </div>
             </div>
