@@ -45,6 +45,27 @@
                         </ul>
                     </div>
                 </div>
+                <br>
+                <div class="rts-footer-widget ml--30 mt-3">
+                    <h6 class="rt-semi">Follow Us</h6>
+                    <div class="rts-footer-menu">
+                        <ul class="d-flex justify-content-center gap-3">
+                            <li>
+                                <a href="https://www.facebook.com/share/19VvqrUdGs/?mibextid=wwXIfr" target="_blank">
+                                    <img style="height: 30px" src="{{ asset('assets/images/social/facebook.svg') }}"
+                                        alt="Facebook">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.instagram.com/pioneer_convent_loknayakpuram/profilecard/?igsh=ZnU5eHY3OTF0b3Ju"
+                                    target="_blank">
+                                    <img style="height: 30px" src="{{ asset('assets/images/social/instagram.svg') }}"
+                                        alt="Instagram">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </div>
             {{-- <div class="col-lg-4 col-md-6 col-sm-8">
                 <div class="rts-footer-widget ml--30">

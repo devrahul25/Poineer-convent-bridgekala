@@ -4,7 +4,7 @@
     <!-- inner menu area desktop start -->
     <div class="inner-main-wrapper-desk">
         <div class="thumbnail">
-            <img style="height: 100px; width:100px" src="{{ asset('assets/images/logo/logo.png') }}"
+            <img style="height: 100px; width:100px" src="{{ asset('assets/images/logo/logowbg.png') }}"
                 alt="Unipix-university">
         </div>
         <div class="inner-content">
@@ -21,7 +21,7 @@
             </div>
             <div class="offcanvase__info">
                 <div class="offcanvase__info--content">
-                    <a href="callto:+61485826710"><span><i class="fa-sharp fa-light fa-phone"></i></span>09555589555</a>
+                    <a href="callto:+61485826710"><span><i class="fa-sharp fa-light fa-phone"></i></span>7838039084</a>
                     <a href="#"><span><i class="fa-sharp fa-light fa-location-dot"></i></span>Lok Nayak Puram,
                         Bakkarwala, Delhi, 110041</a>
                     <div class="offcanvase__info--content--social">
