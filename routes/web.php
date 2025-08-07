@@ -16,23 +16,9 @@ use App\Http\Controllers\PageController;
 
 Route::controller(PageController::class)->group(function () {
     Route::get('/', 'index')->name('index');
-    Route::get('index-two', 'indexTwo')->name('index-two');
-    Route::get('index-three', 'indexThree')->name('index-three');
-    Route::get('index-four', 'indexFour')->name('index-four');
-    Route::get('index-five', 'indexFive')->name('index-five');
-    Route::get('index-sc', 'indexSc')->name('index-sc');
-    Route::get('about-sc', 'aboutSc')->name('about-sc');
-    Route::get('admission-sc', 'admissionSc')->name('admission-sc');
-    Route::get('campus-life-sc', 'campusLifeSc')->name('campuslife-sc');
-    Route::get('tution-fee-sc', 'tutionFeeSc')->name('tutionfee-sc');
-    Route::get('six-form', 'sixFormSc')->name('six-form');
-    Route::get('single-resource', 'singleResourceSc')->name('single-resource');
-    Route::get('senior-school', 'seniorSchool')->name('senior-school');
-    Route::get('primary-school', 'primarySchool')->name('primary-school');
-    Route::get('middle-school', 'middleSchool')->name('middle-school');
     Route::get('about', 'about')->name('about');
     Route::get('academic-area', 'academicArea')->name('academic-area');
-    Route::get('Infrastructure', 'infrastructure')->name('Infrastructure');
+    Route::get('Infrastructure', 'Infrastructure')->name('Infrastructure');
     Route::get('admission', 'admission')->name('admission');
     Route::get('alumni', 'alumni')->name('alumni');
     Route::get('athletics', 'athletics')->name('athletics');
@@ -58,7 +44,7 @@ Route::controller(PageController::class)->group(function () {
     Route::get('campus-life-sc', 'campusLife')->name('campus-life-sc');
     Route::get('co-curricular', 'coCurricular')->name('co-curricular');
     Route::get('examinations', 'Examinations')->name('examinations');
-    Route::get('school-calender', 'schoolCalender')->name('school-calender');
+    Route::get('school-calendar', 'schoolCalender')->name('school-calendar');
     Route::get('image-gallery', 'Gallery')->name('image-gallery');
     Route::get('video-gallery', 'Video')->name('video-gallery');
-}); 
+});
