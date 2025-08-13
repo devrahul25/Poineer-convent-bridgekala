@@ -101,7 +101,7 @@
                     <a href="#" class="main">Admission</a>
                     <ul class="submenu mm-collapse">
                         <li><a class="mobile-menu-link" href="{{ route('admission') }}">Adm. Information</a></li>
-                        <li><a class="mobile-menu-link" href="{{ route('tution-fee') }}">Fee Structure</a></li>
+                        <li><a class="mobile-menu-link" href="{{ route('fee-structure') }}">Fee Structure</a></li>
                     </ul>
                 </li>
                 <li class="has-droupdown">
