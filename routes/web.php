@@ -40,7 +40,7 @@ Route::controller(PageController::class)->group(function () {
     Route::get('faculty-sub-details', 'facultySubDetails')->name('faculty-sub-details');
     Route::get('faculty-sub', 'facultySub')->name('faculty-sub');
     Route::get('faculty', 'faculty')->name('faculty');
-    Route::get('tution-fee', 'tutionFee')->name('tution-fee');
+    Route::get('fee-structure', 'feeStructure')->name('fee-structure');
     Route::get('campus-life-sc', 'campusLife')->name('campus-life-sc');
     Route::get('co-curricular', 'coCurricular')->name('co-curricular');
     Route::get('examinations', 'Examinations')->name('examinations');

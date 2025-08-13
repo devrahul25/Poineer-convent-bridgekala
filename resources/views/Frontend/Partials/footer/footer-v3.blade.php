@@ -41,7 +41,7 @@
                     <div class="rts-footer-menu">
                         <ul>
                             <li><a href="{{ route('admission') }}">Admission Information </a></li>
-                            <li><a href="{{ route('tution-fee') }}">Fee Structure</a></li>
+                            <li><a href="{{ route('fee-structure') }}">Fee Structure</a></li>
                         </ul>
                     </div>
                 </div>

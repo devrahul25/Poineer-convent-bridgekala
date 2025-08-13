@@ -314,10 +314,10 @@ class PageController extends BaseController
 
 
     // tution fee
-    public function tutionFee()
+    public function feeStructure()
     {
-        return $this->view('tution-fee', [
-            'page_title' => 'Tution Fee Page Template'
+        return $this->view('fee-structure', [
+            'page_title' => 'fee Structure Page Template'
         ]);
     }
 }
