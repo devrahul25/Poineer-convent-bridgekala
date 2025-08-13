@@ -161,10 +161,10 @@ class PageController extends BaseController
     }
 
     // blog standard
-    public function blog()
+    public function publicDisclosure()
     {
-        return $this->view('blog', [
-            'page_title' => 'Blog Standard Page Template'
+        return $this->view('mandatory-public-disclosure', [
+            'page_title' => 'Public Disclosure Standard Page Template'
         ]);
     }
     // scholarship

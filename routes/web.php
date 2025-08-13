@@ -25,7 +25,7 @@ Route::controller(PageController::class)->group(function () {
     Route::get('blog-details', 'blogDetails')->name('blog-details');
     Route::get('blog-grid', 'blogGrid')->name('blog-grid');
     Route::get('blog-list', 'blogList')->name('blog-list');
-    Route::get('blog', 'blog')->name('blog');
+    Route::get('mandatory-public-disclosure', 'mandatoryPublicDisclosure')->name('mandatory-public-disclosure');
     Route::get('scholarship', 'scholarship')->name('scholarship');
     Route::get('research', 'research')->name('research');
     Route::get('program-single', 'programSingle')->name('program-single');
