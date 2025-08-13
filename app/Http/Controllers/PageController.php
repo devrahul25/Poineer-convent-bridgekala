@@ -161,10 +161,10 @@ class PageController extends BaseController
     }
 
     // blog standard
-    public function publicDisclosure()
+    public function mandatoryPublicDisclosure()
     {
         return $this->view('mandatory-public-disclosure', [
-            'page_title' => 'Public Disclosure Standard Page Template'
+            'page_title' => 'mandatoryPublicDisclosure Standard Page Template'
         ]);
     }
     // scholarship
