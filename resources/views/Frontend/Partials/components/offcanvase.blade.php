@@ -107,7 +107,7 @@
                 <li class="has-droupdown">
                     <a href="#" class="main">Disclosure</a>
                     <ul class="submenu mm-collapse">
-                        <li><a class="mobile-menu-link" href="{{ route('blog') }}">Mandatory Public Disclosure</a>
+                        <li><a class="mobile-menu-link" href="{{ route('mandatory-public-disclosure') }}">Mandatory Public Disclosure</a>
                         </li>
                         <li><a class="mobile-menu-link" href="{{ route('blog-grid') }}">SARAS-Mandatory
                                 Disclosure</a></li>
