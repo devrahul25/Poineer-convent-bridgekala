@@ -107,7 +107,7 @@ class PageController extends BaseController
     // academic page
     public function infrastructure()
     {
-        return $this->view('infrastructure', [
+        return $this->view('Infrastructure', [
             'page_title' => 'Infrastructure Page Template'
         ]);
     }
