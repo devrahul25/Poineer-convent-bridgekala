@@ -30,7 +30,7 @@
                             <li><a href="examinations">Academics</a></li>
                             <li><a href="{{ route('athletics') }}">Activities</a></li>
                             <li><a href="{{ route('admission') }}">Admission</a></li>
-                            <li><a href="{{ route('blog') }}">Disclosure</a></li>
+                            <li><a href="{{ route('mandatory-public-disclosure') }}">Disclosure</a></li>
                         </ul>
                     </div>
                 </div>
