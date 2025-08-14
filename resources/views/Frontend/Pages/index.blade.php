@@ -224,7 +224,7 @@
                             affordable cost. Our fee structure is designed to remain transparent and accessible, ensuring
                             every child can benefit from holistic learning.
                         </p>
-                        <a href="{{ route('tution-fee') }}" class="rts-theme-btn btn-arrow">Plan Details
+                        <a href="{{ route('fee-structure') }}" class="rts-theme-btn btn-arrow">Plan Details
                             <span><i class="fa-regular fa-arrow-right"></i></span>
                         </a>
                     </div>
