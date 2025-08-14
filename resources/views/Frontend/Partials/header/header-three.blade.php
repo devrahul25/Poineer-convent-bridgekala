@@ -98,7 +98,7 @@
                                             <a href="#" class="navigation__menu--item__link">Disclosure</a>
                                             <ul class="submenu sub__style">
                                                 <li><a href="{{ route('mandatory-public-disclosure') }}">Mandatory Public Disclosure</a></li>
-                                                <li><a href="{{ route('blog-grid') }}">SARAS-Mandatory Disclosure</a>
+                                                <li><a href="{{ route('saras-mandatory-disclosure') }}">SARAS-Mandatory Disclosure</a>
                                                 </li>
                                             </ul>
                                         </li>

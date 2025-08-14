@@ -145,10 +145,10 @@ class PageController extends BaseController
     }
 
     // blog grid
-    public function blogGrid()
+    public function sarasMandatoryDisclosure()
     {
-        return $this->view('blog-grid', [
-            'page_title' => 'Blog Grid Page Template'
+        return $this->view('saras-mandatory-disclosure', [
+            'page_title' => 'saras Mandatory Disclosure Page Template'
         ]);
     }
 

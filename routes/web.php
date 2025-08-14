@@ -23,7 +23,7 @@ Route::controller(PageController::class)->group(function () {
     Route::get('alumni', 'alumni')->name('alumni');
     Route::get('athletics', 'athletics')->name('athletics');
     Route::get('blog-details', 'blogDetails')->name('blog-details');
-    Route::get('blog-grid', 'blogGrid')->name('blog-grid');
+    Route::get('saras-mandatory-disclosure', 'sarasMandatoryDisclosure')->name('saras-mandatory-disclosure');
     Route::get('blog-list', 'blogList')->name('blog-list');
     Route::get('mandatory-public-disclosure', 'mandatoryPublicDisclosure')->name('mandatory-public-disclosure');
     Route::get('scholarship', 'scholarship')->name('scholarship');

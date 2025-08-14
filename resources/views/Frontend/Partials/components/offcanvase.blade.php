@@ -109,7 +109,7 @@
                     <ul class="submenu mm-collapse">
                         <li><a class="mobile-menu-link" href="{{ route('mandatory-public-disclosure') }}">Mandatory Public Disclosure</a>
                         </li>
-                        <li><a class="mobile-menu-link" href="{{ route('blog-grid') }}">SARAS-Mandatory
+                        <li><a class="mobile-menu-link" href="{{ route('saras-mandatory-disclosure') }}">SARAS-Mandatory
                                 Disclosure</a></li>
                     </ul>
                 </li>
