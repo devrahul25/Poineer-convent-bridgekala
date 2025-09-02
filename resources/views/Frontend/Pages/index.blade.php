@@ -313,7 +313,7 @@
                     <div class="rts__section--wrapper v__9">
                         <h2 class="rts__section--title">Apply for Admission</h2>
                         <p class="rts__section--description">Welcome to the gateway of possibilities your admission to
-                            Unipix University. At Unipix, we understand.</p>
+                            Pioneer COnvent. At Pioneer Convent, we understand.</p>
                     </div>
                 </div>
             </div>
