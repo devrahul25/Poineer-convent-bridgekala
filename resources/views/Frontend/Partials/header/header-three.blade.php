@@ -93,7 +93,7 @@
                                                 <li><a href="{{ route('admission') }}">Adm. Information</a></li>
                                                 <li><a href="{{ route('fee-structure') }}">Fee Structure</a></li>
                                             </ul>
-                                        </li>
+                                        </li> 
                                         <li class="navigation__menu--item has-child">
                                             <a href="#" class="navigation__menu--item__link">Disclosure</a>
                                             <ul class="submenu sub__style">

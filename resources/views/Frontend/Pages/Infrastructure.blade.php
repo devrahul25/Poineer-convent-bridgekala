@@ -19,7 +19,7 @@
                     <div class="rts-multi-row-image">
                         <img src="{{ asset('assets/images/feature/library.jpg') }}" alt="undergraduate education">
                     </div>
-                </div>
+                </div> 
                 <div class="col-lg-5 col-md-11">
                     <div class="rts-multi-row-content">
                         <h4 class="row-title">Library</h4>
